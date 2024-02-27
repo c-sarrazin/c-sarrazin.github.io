@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" root="false"><frontmatter> <anchor>926</anchor>  <taxon>Preuve</taxon> <addr>cs-0012p</addr>  <route>cs-0012p.xml</route> <date><year>2024</year> <month>2</month> <day>25</day></date>   </frontmatter> <mainmatter><p>D'après le <link href="todo.xml" type="local" title="À faire">théorème de Bézout</link>, on a bien <tex>n \Z  + m \Z  =  \Z</tex> donc le théorème s'applique.</p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" root="false"><frontmatter> <anchor>927</anchor>  <taxon>Corollaire</taxon> <addr>cs-0012</addr>  <route>cs-0012.xml</route> <date><year>2024</year> <month>2</month> <day>25</day></date>  <title>Théorème chinois</title> </frontmatter> <mainmatter><p>Soit <tex>n</tex> et <tex>m</tex> deux entiers premiers entre eux. Alors <tex>\Z  /nm \Z   \cong   \Z  /n \Z   \times   \Z  /m \Z</tex>.</p>
+
+
+
+</mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" root="false"><frontmatter> <anchor>928</anchor>  <taxon>Meta</taxon> <addr>todo</addr>  <route>todo.xml</route> <date><year>2024</year> <month>2</month> <day>21</day></date>  <title>À faire</title> </frontmatter> <mainmatter/> </tree></related> <backlinks/> <references/></backmatter></tree>
