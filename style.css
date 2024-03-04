@@ -405,7 +405,7 @@ nav#toc ul {
   filter: invert(1);
 }
 
-span.external > a {
+span.external>a {
   text-decoration: underline;
 }
 
@@ -414,7 +414,7 @@ a.toc {
   text-decoration: none;
 }
 
-span.local > a,
+span.local>a,
 a.slug {
   box-shadow: none;
   text-decoration: underline;
@@ -628,7 +628,7 @@ td:first-child {
   border-left: 0;
 }
 
-span.local > a[href="todo.xml"] {
+span.local>a[href="todo.xml"] {
   text-decoration-color: palevioletred;
   text-decoration-style: wavy;
 }
@@ -643,10 +643,60 @@ a.slug[href="index.xml"] {
   display: none;
 }
 
-body:has(p.startpage:not(footer p))>*>nav[id="toc"], body:has(p.startpage:not(footer p)) > * > * > footer, body:has(p.startpage:not(footer p)) > header > nav {
+body:has(p.startpage:not(footer p))>*>nav[id="toc"],
+body:has(p.startpage:not(footer p))>*>*>footer,
+body:has(p.startpage:not(footer p))>header>nav {
   display: none;
 }
 
 nav#toc a.bullet {
   display: none;
+}
+
+.tree-content:has(p.journal) .taxon,
+.tree-content:has(p.journal) a.slug {
+  font-size: 0pt;
+  text-decoration: none;
+}
+
+.tree-content:has(p.journal) .metadata ul li:first-child {
+  display: none
+}
+
+.tree-content:has(p.journal)>.block>.tree-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.tree-content:has(p.journal) a.slug::after {
+  content: ">>";
+  font-size: 12pt;
+  position: absolute;
+  bottom: -1pt;
+  text-decoration: none;
+  right: -2pt;
+  padding: 2px 10px;
+  border-radius: 5px 0;
+}
+
+.tree-content:has(p.journal)>.block>.tree-content>.block {
+  background: #db70931f;
+  position: relative;
+  overflow: hidden;
+}
+
+.tree-content:has(p.journal)>.block:hover,
+.block:has(p.journal):hover {
+  background: none !important
+}
+
+.tree-content:has(p.journal) a.slug:hover::after {
+  background: #db70931f;
+}
+
+@media only screen and (min-width: 1000px) {
+  #grid-wrapper:has(p.journal:not(footer p)) {
+    display: block !important;
+  }
 }
