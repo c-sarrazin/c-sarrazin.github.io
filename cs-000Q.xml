@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>544</anchor>  <taxon>Exemple</taxon> <addr>cs-000Q</addr>  <route>cs-000Q.xml</route> <date><year>2024</year> <month>2</month> <day>24</day></date>  <title>Exemples d'idéaux</title>  </frontmatter> <mainmatter><ul><li><tex>n \Z</tex> est un idéal de <tex>\Z</tex>.</li>
+  <li>Si <tex>\varphi</tex> est un morphisme, <tex>\mathrm {ker}  \,   \varphi</tex> est un idéal.</li></ul></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>545</anchor>  <taxon>Définition</taxon> <addr>cs-000N</addr>  <route>cs-000N.xml</route> <date><year>2024</year> <month>2</month> <day>24</day></date> <authors><author><link href="claude.xml" type="local" claude="addr">Claude</link></author> </authors> <title>Idéal</title>  </frontmatter> <mainmatter><p>Un idéal <tex>I</tex> de <tex>A</tex> est un sous-groupe de <tex>(A, +)</tex> tel que pour tout <tex>(a, i)  \in  A  \times  I</tex>, on a <tex>ai  \in  I</tex>.</p>
+
+
+
+<tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>546</anchor>  <taxon>Exemples</taxon> <addr>cs-000Q</addr>  <route>cs-000Q.xml</route> <date><year>2024</year> <month>2</month> <day>24</day></date>  <title/>  </frontmatter> <mainmatter><ul><li><tex>n \Z</tex> est un idéal de <tex>\Z</tex>.</li>
+  <li>Si <tex>\varphi</tex> est un morphisme, <tex>\mathrm {ker}  \,   \varphi</tex> est un idéal.</li></ul></mainmatter> </tree>
+</mainmatter> </tree></context> <related/> <backlinks/> <references/></backmatter></tree>
