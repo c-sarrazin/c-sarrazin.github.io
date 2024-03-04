@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" root="false"><frontmatter> <anchor>318</anchor>  <taxon>Définition</taxon> <addr>cs-0002</addr>  <route>cs-0002.xml</route> <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="claude.xml" type="local">Claude</link></author> </authors> <title>Catégorie</title> </frontmatter> <mainmatter><p> Une <em>catégorie</em> <tex>\mathscr {C}</tex> est la donnée de :</p><ol><li>une collection d'objets <tex>\mathrm {Ob}( \mathscr {C})</tex>,</li>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>896</anchor>  <taxon>Définition</taxon> <addr>cs-0002</addr>  <route>cs-0002.xml</route> <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="claude.xml" type="local" claude="addr">Claude</link></author> </authors> <title>Catégorie</title>  </frontmatter> <mainmatter><p> Une <em>catégorie</em> <tex>\mathscr {C}</tex> est la donnée de :</p><ol><li>une collection d'objets <tex>\mathrm {Ob}( \mathscr {C})</tex>,</li>
   <li>pour toute paire d'objets <tex>x, y  \in   \mathrm {Ob}( \mathscr {C})</tex>, une collection de morphismes <tex>\mathrm {Hom}_{ \mathscr {C}}(x,y)</tex>,</li></ol><p>telle que :</p><ol><li>pour tout objet <tex>x  \in   \mathrm {Ob}( \mathscr {C})</tex>, on ait un morphisme <tex>\mathrm {Id}_x  \in   \mathrm {Hom}_{ \mathscr {C}}(x,x)</tex>,</li>
-  <li>pour tous morphismes <tex>f  \in   \mathrm {Hom}_{ \mathscr {C}}(x,y)</tex> et <tex>g  \in   \mathrm {Hom}_{ \mathscr {C}}(y,z)</tex>, on ait un morphisme <tex>g  \circ  f  \in   \mathrm {Hom}_{ \mathscr {C}}(x,z)</tex></li></ol><p>tels que le diagramme suivant commute :</p><img src="resources/edf4ab32dfe506bb45fd43b17d0f9a15-web.svg"/><p>Autrement dit, la composition est associative, et composer par un morphisme identité n'a aucun effet.</p>
+  <li>pour tous morphismes <tex>f  \in   \mathrm {Hom}_{ \mathscr {C}}(x,y)</tex> et <tex>g  \in   \mathrm {Hom}_{ \mathscr {C}}(y,z)</tex>, on ait un morphisme <tex>g  \circ  f  \in   \mathrm {Hom}_{ \mathscr {C}}(x,z)</tex></li></ol><p>tels que le diagramme suivant commute :</p>
+ <embedded-tex hash="3ff8e05116b4e159509dfb442821e0a3"><embedded-tex-preamble>
+   \usepackage {preamble}
+   \usepackage {quiver}
+ </embedded-tex-preamble> <embedded-tex-body>
+ \begin {tikzcd}
+w  \arrow [r, &quot;f&quot;]  \arrow [rr, &quot;g  \circ  f&quot;, bend left=49]  \arrow [&quot; \mathrm {Id}_w&quot;', loop, distance=2em, in=305, out=235] &amp; x  \arrow [r, &quot;g&quot;]  \arrow [rr, &quot;h  \circ  g&quot;, bend right=49] &amp; y  \arrow [r, &quot;h&quot;] &amp; z  \arrow [&quot; \mathrm {Id}_z&quot;', loop, distance=2em, in=125, out=55]
+ \end {tikzcd}
+</embedded-tex-body></embedded-tex>
+<p>Autrement dit, la composition est associative, et composer par un morphisme identité n'a aucun effet.</p>
 
 
 
-<tree expanded="true" show-heading="true" show-metadata="false" toc="true" root="false"><frontmatter> <anchor>319</anchor>  <taxon>Exemples</taxon> <addr>cs-0003</addr>  <route>cs-0003.xml</route> <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="claude.xml" type="local">Claude</link></author> </authors> <title/> </frontmatter> <mainmatter>
+<tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>897</anchor>  <taxon>Exemples</taxon> <addr>cs-0003</addr>  <route>cs-0003.xml</route> <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="claude.xml" type="local" claude="addr">Claude</link></author> </authors> <title/>  </frontmatter> <mainmatter>
   <table>
   
   <tr>
@@ -30,13 +39,13 @@
   <td><p><tex>\mathsf {Set}</tex></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire">ensembles</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">ensembles</link></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire">fonctions</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">fonctions</link></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire">composition de fonctions</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">composition de fonctions</link></p></td>
 
   </tr>
 
@@ -46,13 +55,13 @@
   <td><p><tex>\mathsf {Grp}</tex></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire">groupes</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">groupes</link></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire">morphismes de groupes</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">morphismes de groupes</link></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire">composition de fonctions</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">composition de fonctions</link></p></td>
 
   </tr>
 
@@ -62,13 +71,13 @@
   <td><p><tex>\mathsf {Ring}</tex></p></td>
 
     
-  <td><p><link href="cs-000M.xml" type="local" title="Anneau">anneaux</link></p></td>
+  <td><p><link href="cs-000M.xml" type="local" addr="cs-000M" title="Anneau">anneaux</link></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire">morphismes d'anneaux</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">morphismes d'anneaux</link></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire">composition de fonctions</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">composition de fonctions</link></p></td>
 
   </tr>
 
@@ -94,13 +103,13 @@
   <td><p><tex>\mathsf {Top}</tex></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire">espaces topologiques</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">espaces topologiques</link></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire">fonctions continues</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">fonctions continues</link></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire">composition de fonctions</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">composition de fonctions</link></p></td>
 
   </tr>
 
@@ -110,13 +119,13 @@
   <td><p><tex>h \mathsf {Top}</tex></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire">espaces topologiques</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">espaces topologiques</link></p></td>
 
     
-  <td><p>classes d'<link href="todo.xml" type="local" title="À faire">homotopie</link> des <link href="todo.xml" type="local" title="À faire">fonctions continues</link></p></td>
+  <td><p>classes d'<link href="todo.xml" type="local" addr="todo" title="À faire">homotopie</link> des <link href="todo.xml" type="local" addr="todo" title="À faire">fonctions continues</link></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire">composition de fonctions</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">composition de fonctions</link></p></td>
 
   </tr>
 
@@ -126,13 +135,13 @@
   <td><p><tex>\mathsf {Vect}_k</tex></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire"><tex>k</tex>-espaces vectoriels</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire"><tex>k</tex>-espaces vectoriels</link></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire">applications <tex>k</tex>-linéaires</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">applications <tex>k</tex>-linéaires</link></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire">composition de fonctions</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">composition de fonctions</link></p></td>
 
   </tr>
 
@@ -142,20 +151,183 @@
   <td><p><tex>G \mathsf {Set}</tex></p></td>
 
     
-  <td><p>ensemble muni d'une <link href="todo.xml" type="local" title="À faire">action</link> d'un groupe <tex>G</tex></p></td>
+  <td><p>ensemble muni d'une <link href="todo.xml" type="local" addr="todo" title="À faire">action</link> d'un groupe <tex>G</tex></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire">applications <tex>G</tex>-équivariantes</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">applications <tex>G</tex>-équivariantes</link></p></td>
 
     
-  <td><p><link href="todo.xml" type="local" title="À faire">composition de fonctions</link></p></td>
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">composition de fonctions</link></p></td>
 
   </tr>
   
 </table>
 <p>et bien d'autres...</p></mainmatter> </tree>
-</mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" root="false"><frontmatter> <anchor>320</anchor>   <addr>cs-0004</addr>  <route>cs-0004.xml</route> <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="claude.xml" type="local">Claude</link></author> </authors> <title>Catégories, foncteurs, jolis diagrammes</title> </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" root="false"><frontmatter><trail><crumb>2</crumb></trail> <anchor>321</anchor>  <taxon>Définition</taxon> <addr>cs-000L</addr>  <route>cs-000L.xml</route> <date><year>2024</year> <month>2</month> <day>24</day></date> <authors><author><link href="claude.xml" type="local">Claude</link></author> </authors> <title>Foncteur</title> </frontmatter> <mainmatter><p>Soient <tex>\mathscr {C}</tex> et <tex>\mathscr {D}</tex> deux <link href="cs-0002.xml" type="local" title="Catégorie">catégories</link>. Un <em>foncteur</em> (covariant) <tex>\mathcal {F}</tex> de <tex>\mathscr {C}</tex> vers <tex>\mathscr {D}</tex> associe :</p><ul><li>à tout objet <tex>x  \in   \mathrm {Ob}( \mathscr {C})</tex> un objet <tex>\mathcal {F}(x)  \in   \mathrm {Ob}( \mathscr {D})</tex>,</li>
+</mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>898</anchor>   <addr>cs-0004</addr>  <route>cs-0004.xml</route> <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="claude.xml" type="local" claude="addr">Claude</link></author> </authors> <title>Catégories, foncteurs, jolis diagrammes</title>  </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>899</anchor>  <taxon>Définition</taxon> <addr>cs-0002</addr>  <route>cs-0002.xml</route> <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="claude.xml" type="local" claude="addr">Claude</link></author> </authors> <title>Catégorie</title>  </frontmatter> <mainmatter><p> Une <em>catégorie</em> <tex>\mathscr {C}</tex> est la donnée de :</p><ol><li>une collection d'objets <tex>\mathrm {Ob}( \mathscr {C})</tex>,</li>
+  <li>pour toute paire d'objets <tex>x, y  \in   \mathrm {Ob}( \mathscr {C})</tex>, une collection de morphismes <tex>\mathrm {Hom}_{ \mathscr {C}}(x,y)</tex>,</li></ol><p>telle que :</p><ol><li>pour tout objet <tex>x  \in   \mathrm {Ob}( \mathscr {C})</tex>, on ait un morphisme <tex>\mathrm {Id}_x  \in   \mathrm {Hom}_{ \mathscr {C}}(x,x)</tex>,</li>
+  <li>pour tous morphismes <tex>f  \in   \mathrm {Hom}_{ \mathscr {C}}(x,y)</tex> et <tex>g  \in   \mathrm {Hom}_{ \mathscr {C}}(y,z)</tex>, on ait un morphisme <tex>g  \circ  f  \in   \mathrm {Hom}_{ \mathscr {C}}(x,z)</tex></li></ol><p>tels que le diagramme suivant commute :</p>
+ <embedded-tex hash="3ff8e05116b4e159509dfb442821e0a3"><embedded-tex-preamble>
+   \usepackage {preamble}
+   \usepackage {quiver}
+ </embedded-tex-preamble> <embedded-tex-body>
+ \begin {tikzcd}
+w  \arrow [r, &quot;f&quot;]  \arrow [rr, &quot;g  \circ  f&quot;, bend left=49]  \arrow [&quot; \mathrm {Id}_w&quot;', loop, distance=2em, in=305, out=235] &amp; x  \arrow [r, &quot;g&quot;]  \arrow [rr, &quot;h  \circ  g&quot;, bend right=49] &amp; y  \arrow [r, &quot;h&quot;] &amp; z  \arrow [&quot; \mathrm {Id}_z&quot;', loop, distance=2em, in=125, out=55]
+ \end {tikzcd}
+</embedded-tex-body></embedded-tex>
+<p>Autrement dit, la composition est associative, et composer par un morphisme identité n'a aucun effet.</p>
+
+
+
+<tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>900</anchor>  <taxon>Exemples</taxon> <addr>cs-0003</addr>  <route>cs-0003.xml</route> <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="claude.xml" type="local" claude="addr">Claude</link></author> </authors> <title/>  </frontmatter> <mainmatter>
+  <table>
+  
+  <tr>
+    
+  <th><p>Catégorie</p></th>
+
+    
+  <th><p>Objets</p></th>
+
+    
+  <th><p>Morphismes</p></th>
+
+    
+  <th><p>Composition</p></th>
+
+  </tr>
+
+  
+  <tr>
+    
+  <td><p><tex>\mathsf {Set}</tex></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">ensembles</link></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">fonctions</link></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">composition de fonctions</link></p></td>
+
+  </tr>
+
+  
+  <tr>
+    
+  <td><p><tex>\mathsf {Grp}</tex></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">groupes</link></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">morphismes de groupes</link></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">composition de fonctions</link></p></td>
+
+  </tr>
+
+  
+  <tr>
+    
+  <td><p><tex>\mathsf {Ring}</tex></p></td>
+
+    
+  <td><p><link href="cs-000M.xml" type="local" addr="cs-000M" title="Anneau">anneaux</link></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">morphismes d'anneaux</link></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">composition de fonctions</link></p></td>
+
+  </tr>
+
+  
+  <tr>
+    
+  <td><p><tex>\mathscr {C}_M</tex></p></td>
+
+    
+  <td><p>un seul objet <tex>\cdot</tex></p></td>
+
+    
+  <td><p>éléments d'un monoïde <tex>M</tex></p></td>
+
+    
+  <td><p>multiplication</p></td>
+
+  </tr>
+
+  
+  <tr>
+    
+  <td><p><tex>\mathsf {Top}</tex></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">espaces topologiques</link></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">fonctions continues</link></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">composition de fonctions</link></p></td>
+
+  </tr>
+
+  
+  <tr>
+    
+  <td><p><tex>h \mathsf {Top}</tex></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">espaces topologiques</link></p></td>
+
+    
+  <td><p>classes d'<link href="todo.xml" type="local" addr="todo" title="À faire">homotopie</link> des <link href="todo.xml" type="local" addr="todo" title="À faire">fonctions continues</link></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">composition de fonctions</link></p></td>
+
+  </tr>
+
+  
+  <tr>
+    
+  <td><p><tex>\mathsf {Vect}_k</tex></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire"><tex>k</tex>-espaces vectoriels</link></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">applications <tex>k</tex>-linéaires</link></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">composition de fonctions</link></p></td>
+
+  </tr>
+
+  
+  <tr>
+    
+  <td><p><tex>G \mathsf {Set}</tex></p></td>
+
+    
+  <td><p>ensemble muni d'une <link href="todo.xml" type="local" addr="todo" title="À faire">action</link> d'un groupe <tex>G</tex></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">applications <tex>G</tex>-équivariantes</link></p></td>
+
+    
+  <td><p><link href="todo.xml" type="local" addr="todo" title="À faire">composition de fonctions</link></p></td>
+
+  </tr>
+  
+</table>
+<p>et bien d'autres...</p></mainmatter> </tree>
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>901</anchor>  <taxon>Définition</taxon> <addr>cs-000L</addr>  <route>cs-000L.xml</route> <date><year>2024</year> <month>2</month> <day>24</day></date> <authors><author><link href="claude.xml" type="local" claude="addr">Claude</link></author> </authors> <title>Foncteur</title>  </frontmatter> <mainmatter><p>Soient <tex>\mathscr {C}</tex> et <tex>\mathscr {D}</tex> deux <link href="cs-0002.xml" type="local" addr="cs-0002" title="Catégorie">catégories</link>. Un <em>foncteur</em> (covariant) <tex>\mathcal {F}</tex> de <tex>\mathscr {C}</tex> vers <tex>\mathscr {D}</tex> associe :</p><ul><li>à tout objet <tex>x  \in   \mathrm {Ob}( \mathscr {C})</tex> un objet <tex>\mathcal {F}(x)  \in   \mathrm {Ob}( \mathscr {D})</tex>,</li>
   <li>à tout morphisme <tex>f  \in   \mathrm {Hom}_{ \mathscr {C}}(x, y)</tex> un morphisme <tex>\mathcal {F}(f)  \in   \mathrm {Hom}_{ \mathscr {D}}( \mathcal {F}(x),  \mathcal {F}(y))</tex>,</li></ul><p>tel que :</p><ul><li><tex>\mathcal {F}( \mathrm {Id}_x) =  \mathrm {Id}_{ \mathcal {F}(x)}</tex>,</li>
-  <li>pour <tex>f  \in   \mathrm {Hom}_{ \mathscr {C}}(x,y)</tex> et <tex>g  \in   \mathrm {Hom}_{ \mathscr {C}}(y,z)</tex>, <tex>\mathcal {F}(g  \circ  f) =  \mathcal {F}(g)  \circ   \mathcal {F}(f)</tex>.</li></ul></mainmatter> </tree></mainmatter> </tree></context> <related/> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" root="false"><frontmatter> <anchor>322</anchor>  <taxon>Définition</taxon> <addr>cs-000L</addr>  <route>cs-000L.xml</route> <date><year>2024</year> <month>2</month> <day>24</day></date> <authors><author><link href="claude.xml" type="local">Claude</link></author> </authors> <title>Foncteur</title> </frontmatter> <mainmatter><p>Soient <tex>\mathscr {C}</tex> et <tex>\mathscr {D}</tex> deux <link href="cs-0002.xml" type="local" title="Catégorie">catégories</link>. Un <em>foncteur</em> (covariant) <tex>\mathcal {F}</tex> de <tex>\mathscr {C}</tex> vers <tex>\mathscr {D}</tex> associe :</p><ul><li>à tout objet <tex>x  \in   \mathrm {Ob}( \mathscr {C})</tex> un objet <tex>\mathcal {F}(x)  \in   \mathrm {Ob}( \mathscr {D})</tex>,</li>
+  <li>pour <tex>f  \in   \mathrm {Hom}_{ \mathscr {C}}(x,y)</tex> et <tex>g  \in   \mathrm {Hom}_{ \mathscr {C}}(y,z)</tex>, <tex>\mathcal {F}(g  \circ  f) =  \mathcal {F}(g)  \circ   \mathcal {F}(f)</tex>.</li></ul></mainmatter> </tree></mainmatter> </tree></context> <related/> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>902</anchor>  <taxon>Définition</taxon> <addr>cs-000L</addr>  <route>cs-000L.xml</route> <date><year>2024</year> <month>2</month> <day>24</day></date> <authors><author><link href="claude.xml" type="local" claude="addr">Claude</link></author> </authors> <title>Foncteur</title>  </frontmatter> <mainmatter><p>Soient <tex>\mathscr {C}</tex> et <tex>\mathscr {D}</tex> deux <link href="cs-0002.xml" type="local" addr="cs-0002" title="Catégorie">catégories</link>. Un <em>foncteur</em> (covariant) <tex>\mathcal {F}</tex> de <tex>\mathscr {C}</tex> vers <tex>\mathscr {D}</tex> associe :</p><ul><li>à tout objet <tex>x  \in   \mathrm {Ob}( \mathscr {C})</tex> un objet <tex>\mathcal {F}(x)  \in   \mathrm {Ob}( \mathscr {D})</tex>,</li>
   <li>à tout morphisme <tex>f  \in   \mathrm {Hom}_{ \mathscr {C}}(x, y)</tex> un morphisme <tex>\mathcal {F}(f)  \in   \mathrm {Hom}_{ \mathscr {D}}( \mathcal {F}(x),  \mathcal {F}(y))</tex>,</li></ul><p>tel que :</p><ul><li><tex>\mathcal {F}( \mathrm {Id}_x) =  \mathrm {Id}_{ \mathcal {F}(x)}</tex>,</li>
   <li>pour <tex>f  \in   \mathrm {Hom}_{ \mathscr {C}}(x,y)</tex> et <tex>g  \in   \mathrm {Hom}_{ \mathscr {C}}(y,z)</tex>, <tex>\mathcal {F}(g  \circ  f) =  \mathcal {F}(g)  \circ   \mathcal {F}(f)</tex>.</li></ul></mainmatter> </tree></backlinks> <references/></backmatter></tree>

@@ -405,7 +405,7 @@ nav#toc ul {
   filter: invert(1);
 }
 
-a.external {
+span.external > a {
   text-decoration: underline;
 }
 
@@ -414,7 +414,7 @@ a.toc {
   text-decoration: none;
 }
 
-a.local,
+span.local > a,
 a.slug {
   box-shadow: none;
   text-decoration: underline;
@@ -599,10 +599,6 @@ body {
   background: url('bg.png');
 }
 
-section[data-taxon="Preuve"] a.slug {
-  display: none;
-}
-
 table {
   padding: 5px;
 }
@@ -632,7 +628,7 @@ td:first-child {
   border-left: 0;
 }
 
-a.local[href="todo.xml"] {
+span.local > a[href="todo.xml"] {
   text-decoration-color: palevioletred;
   text-decoration-style: wavy;
 }
@@ -647,6 +643,10 @@ a.slug[href="index.xml"] {
   display: none;
 }
 
-body:has(p.startpage:not(footer p))>*>nav[id="toc"] {
+body:has(p.startpage:not(footer p))>*>nav[id="toc"], body:has(p.startpage:not(footer p)) > * > * > footer, body:has(p.startpage:not(footer p)) > header > nav {
+  display: none;
+}
+
+nav#toc a.bullet {
   display: none;
 }
