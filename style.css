@@ -703,3 +703,16 @@ nav#toc a.bullet {
     display: block !important;
   }
 }
+
+
+.link-list:has(a.slug[href="nodisplay_backlinks.xml"]) {
+  display: none;
+}
+
+.link-list:has(a.slug[href="nodisplay_references.xml"]) {
+  display: none;
+}
+
+.link-list:has(a.slug[href="nodisplay_related.xml"]) {
+  display: none;
+}
