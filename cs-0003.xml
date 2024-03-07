@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1000</anchor>  <taxon>Exemple</taxon> <addr>cs-0003</addr>  <route>cs-0003.xml</route> <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="claude.xml" type="local" claude="addr">Claude</link></author> </authors> <title>Exemples de catégories</title>  </frontmatter> <mainmatter>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1011</anchor>  <taxon>Exemple</taxon> <addr>cs-0003</addr>  <route>cs-0003.xml</route> <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="claude.xml" type="local" claude="addr">Claude</link></author> </authors> <title>Exemples de catégories</title>  </frontmatter> <mainmatter>
   <table>
   
   <tr>
@@ -147,7 +147,7 @@
   </tr>
   
 </table>
-<p>et bien d'autres...</p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1001</anchor>  <taxon>Définition</taxon> <addr>cs-0002</addr>  <route>cs-0002.xml</route> <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="claude.xml" type="local" claude="addr">Claude</link></author> </authors> <title>Catégorie</title>  </frontmatter> <mainmatter><p> Une <em>catégorie</em> <tex>\mathscr {C}</tex> est la donnée de :</p><ol><li>une collection d'objets <tex>\mathrm {Ob}( \mathscr {C})</tex>,</li>
+<p>et bien d'autres...</p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1012</anchor>  <taxon>Définition</taxon> <addr>cs-0002</addr>  <route>cs-0002.xml</route> <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="claude.xml" type="local" claude="addr">Claude</link></author> </authors> <title>Catégorie</title>  </frontmatter> <mainmatter><p> Une <em>catégorie</em> <tex>\mathscr {C}</tex> est la donnée de :</p><ol><li>une collection d'objets <tex>\mathrm {Ob}( \mathscr {C})</tex>,</li>
   <li>pour toute paire d'objets <tex>x, y  \in   \mathrm {Ob}( \mathscr {C})</tex>, une collection de morphismes <tex>\mathrm {Hom}_{ \mathscr {C}}(x,y)</tex>,</li></ol><p>telle que :</p><ol><li>pour tout objet <tex>x  \in   \mathrm {Ob}( \mathscr {C})</tex>, on ait un morphisme <tex>\mathrm {Id}_x  \in   \mathrm {Hom}_{ \mathscr {C}}(x,x)</tex>,</li>
   <li>pour tous morphismes <tex>f  \in   \mathrm {Hom}_{ \mathscr {C}}(x,y)</tex> et <tex>g  \in   \mathrm {Hom}_{ \mathscr {C}}(y,z)</tex>, on ait un morphisme <tex>g  \circ  f  \in   \mathrm {Hom}_{ \mathscr {C}}(x,z)</tex></li></ol><p>tels que le diagramme suivant commute :</p>
  <embedded-tex hash="3ff8e05116b4e159509dfb442821e0a3"><embedded-tex-preamble>
@@ -162,7 +162,7 @@ w  \arrow [r, &quot;f&quot;]  \arrow [rr, &quot;g  \circ  f&quot;, bend left=49]
 
 
 
-<tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1002</anchor>  <taxon>Exemples</taxon> <addr>cs-0003</addr>  <route>cs-0003.xml</route> <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="claude.xml" type="local" claude="addr">Claude</link></author> </authors> <title/>  </frontmatter> <mainmatter>
+<tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>1013</anchor>  <taxon>Exemples</taxon> <addr>cs-0003</addr>  <route>cs-0003.xml</route> <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="claude.xml" type="local" claude="addr">Claude</link></author> </authors> <title/>  </frontmatter> <mainmatter>
   <table>
   
   <tr>
@@ -310,6 +310,6 @@ w  \arrow [r, &quot;f&quot;]  \arrow [rr, &quot;g  \circ  f&quot;, bend left=49]
   
 </table>
 <p>et bien d'autres...</p></mainmatter> </tree>
-</mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1003</anchor>  <taxon>Définition</taxon> <addr>cs-000M</addr>  <route>cs-000M.xml</route> <date><year>2024</year> <month>2</month> <day>24</day></date> <authors><author><link href="claude.xml" type="local" claude="addr">Claude</link></author> </authors> <title>Anneau</title>  </frontmatter> <mainmatter><p>Un anneau <tex>A</tex> est un <link href="todo.xml" type="local" addr="todo" title="À faire">ensemble</link> muni de deux lois <tex>+</tex> et <tex>\cdot</tex> telles que</p><ol><li><tex>(A, +)</tex> soit un groupe abélien,</li>
+</mainmatter> </tree></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1014</anchor>  <taxon>Définition</taxon> <addr>cs-000M</addr>  <route>cs-000M.xml</route> <date><year>2024</year> <month>2</month> <day>24</day></date> <authors><author><link href="claude.xml" type="local" claude="addr">Claude</link></author> </authors> <title>Anneau</title>  </frontmatter> <mainmatter><p>Un anneau <tex>A</tex> est un <link href="todo.xml" type="local" addr="todo" title="À faire">ensemble</link> muni de deux lois <tex>+</tex> et <tex>\cdot</tex> telles que</p><ol><li><tex>(A, +)</tex> soit un groupe abélien,</li>
   <li><tex>(A,  \cdot )</tex> soit un monoïde,</li>
-  <li><tex>\cdot</tex> soit distributive par rapport à <tex>+</tex>.</li></ol></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1004</anchor>  <taxon>Meta</taxon> <addr>todo</addr>  <route>todo.xml</route> <date><year>2024</year> <month>2</month> <day>21</day></date>  <title>À faire</title>  </frontmatter> <mainmatter/> </tree></related> <backlinks/> <references/></backmatter></tree>
+  <li><tex>\cdot</tex> soit distributive par rapport à <tex>+</tex>.</li></ol></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>1015</anchor>  <taxon>Meta</taxon> <addr>todo</addr>  <route>todo.xml</route> <date><year>2024</year> <month>2</month> <day>21</day></date>  <title>À faire</title>  </frontmatter> <mainmatter/> </tree></related> <backlinks/> <references/></backmatter></tree>
