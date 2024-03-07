@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>165</anchor>  <taxon>Définition</taxon> <addr>cs-001Q</addr>  <route>cs-001Q.xml</route> <date href="2024-03-07.xml"><year>2024</year> <month>3</month> <day>7</day></date>  <title>Produit tensoriel de <tex>A</tex>-modules</title>  </frontmatter> <mainmatter><p>Soient <tex>M</tex> et <tex>M'</tex> deux <tex>A</tex>-modules. On note <tex>M  \otimes  M'</tex> un <tex>A</tex>-module muni de <tex>\pi  : M  \times  M'  \to  M  \otimes  M'</tex> qui a la propriété universelle suivante :</p><p>Pour toute application <tex>A</tex>-bilinéaire <tex>f : M  \times  M'  \to  N</tex>, il existe une unique application <tex>\tilde {f}</tex> <tex>A</tex>-linéaire telle que le diagramme suivant commute :</p>
+ <embedded-tex hash="76514736154ec0c7daa2eaea104973a9"><embedded-tex-preamble>
+   \usepackage {preamble}
+   \usepackage {quiver}
+ </embedded-tex-preamble> <embedded-tex-body>
+ \begin {tikzcd}[sep=3em]
+M  \times  M'  \arrow [d, &quot; \pi &quot;]  \arrow [rd, &quot;f&quot;]  &amp;    \\ 
+M  \otimes  M'  \arrow [r, &quot; \tilde {f}&quot;, dashed] &amp; N
+ \end {tikzcd}
+</embedded-tex-body></embedded-tex>
+
+  
+    
+    
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>166</anchor>  <taxon>Construction</taxon>    <date href="2024-03-07.xml"><year>2024</year> <month>3</month> <day>7</day></date>    </frontmatter> <mainmatter>
+  <p>On quotiente le module libre engendré par les éléments <tex>m  \otimes  n</tex> par le sous-module engendré par les éléments de la forme</p> 
+  <ul><li><tex>(m_1 +m_2)  \otimes  n - m_1  \otimes  n - m_2  \otimes  n</tex></li>
+    <li><tex>m  \otimes  (n_1+n_2) - m  \otimes  n_1 - m  \otimes  n_2</tex></li>
+    <li><tex>a(m \otimes  n) - (am)  \otimes  n</tex></li>
+    <li><tex>a(m \otimes  n) - m  \otimes  (an)</tex></li></ul>
+</mainmatter> </tree>
+  
+</mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>167</anchor>   <addr>cs-001P</addr>  <route>cs-001P.xml</route> <date href="2024-03-07.xml"><year>2024</year> <month>3</month> <day>7</day></date>  <title>Sur les produits tensoriels</title>  </frontmatter> <mainmatter><p>Soit <tex>A</tex> un anneau commutatif.</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>168</anchor>  <taxon>Définition</taxon> <addr>cs-001Q</addr>  <route>cs-001Q.xml</route> <date href="2024-03-07.xml"><year>2024</year> <month>3</month> <day>7</day></date>  <title>Produit tensoriel de <tex>A</tex>-modules</title>  </frontmatter> <mainmatter><p>Soient <tex>M</tex> et <tex>M'</tex> deux <tex>A</tex>-modules. On note <tex>M  \otimes  M'</tex> un <tex>A</tex>-module muni de <tex>\pi  : M  \times  M'  \to  M  \otimes  M'</tex> qui a la propriété universelle suivante :</p><p>Pour toute application <tex>A</tex>-bilinéaire <tex>f : M  \times  M'  \to  N</tex>, il existe une unique application <tex>\tilde {f}</tex> <tex>A</tex>-linéaire telle que le diagramme suivant commute :</p>
+ <embedded-tex hash="76514736154ec0c7daa2eaea104973a9"><embedded-tex-preamble>
+   \usepackage {preamble}
+   \usepackage {quiver}
+ </embedded-tex-preamble> <embedded-tex-body>
+ \begin {tikzcd}[sep=3em]
+M  \times  M'  \arrow [d, &quot; \pi &quot;]  \arrow [rd, &quot;f&quot;]  &amp;    \\ 
+M  \otimes  M'  \arrow [r, &quot; \tilde {f}&quot;, dashed] &amp; N
+ \end {tikzcd}
+</embedded-tex-body></embedded-tex>
+
+  
+    
+    
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>169</anchor>  <taxon>Construction</taxon>    <date href="2024-03-07.xml"><year>2024</year> <month>3</month> <day>7</day></date>    </frontmatter> <mainmatter>
+  <p>On quotiente le module libre engendré par les éléments <tex>m  \otimes  n</tex> par le sous-module engendré par les éléments de la forme</p> 
+  <ul><li><tex>(m_1 +m_2)  \otimes  n - m_1  \otimes  n - m_2  \otimes  n</tex></li>
+    <li><tex>m  \otimes  (n_1+n_2) - m  \otimes  n_1 - m  \otimes  n_2</tex></li>
+    <li><tex>a(m \otimes  n) - (am)  \otimes  n</tex></li>
+    <li><tex>a(m \otimes  n) - m  \otimes  (an)</tex></li></ul>
+</mainmatter> </tree>
+  
+</mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>170</anchor>  <taxon>Proposition</taxon> <addr>cs-001R</addr>  <route>cs-001R.xml</route> <date href="2024-03-07.xml"><year>2024</year> <month>3</month> <day>7</day></date>  <title>Le produit tensoriel est exact à droite</title>  </frontmatter> <mainmatter><p>Soit <tex>N</tex> un <tex>A</tex>-module. On a un foncteur covariant <tex display="block">-  \otimes  N: M  \mapsto  M  \otimes  N </tex>
+Ce foncteur est exact à droite, i.e. transforme une suite exacte <tex display="block">M'  \to  M  \to  M''  \to  0</tex> en une suite exacte <tex display="block">M'  \otimes  N  \to  M  \otimes  N  \to  M''  \otimes  N  \to  0</tex></p></mainmatter> </tree></mainmatter> </tree></context> <related/> <backlinks/> <references/></backmatter></tree>
