@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>298</anchor> <taxon>Exemple</taxon> <addr>cs-0020</addr><route>cs-0020.xml</route>  <date><year>2024</year> <month>3</month> <day>8</day></date>  <title>Exemples de faisceaux (quasi-)cohérents</title>   </frontmatter> <mainmatter><ul><li>Le faisceau structural de tout schéma est cohérent.</li>
+  <li>Tout faisceau localement libre est un faisceau cohérent, avec <tex>M_i</tex> un module libre.</li>
+  <li>En particulier, un faisceau localement libre de rang 1 (un fibré de droites, en fait) est un faisceau cohérent. On parle de faisceau inversible (mais vraiment c'est un fibré de droites).</li></ul></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>299</anchor> <taxon>Définition</taxon> <addr>cs-0021</addr><route>cs-0021.xml</route>  <date><year>2024</year> <month>3</month> <day>8</day></date>  <title>Faisceau cohérent</title>   </frontmatter> <mainmatter><p>Un faisceau cohérent sur un schéma <tex>X</tex> est un <link href="cs-001Y.xml" type="local" addr="cs-001Y" title="Faisceau quasi-cohérents">faisceau quasi-cohérent</link> tels que les <tex>M_i</tex> de la définition soient finiment engendrés.</p>
+
+
+
+<tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="false" root="false"><frontmatter><anchor>300</anchor> <taxon>Exemples</taxon> <addr>cs-0020</addr><route>cs-0020.xml</route>  <date><year>2024</year> <month>3</month> <day>8</day></date>  <title/>   </frontmatter> <mainmatter><ul><li>Le faisceau structural de tout schéma est cohérent.</li>
+  <li>Tout faisceau localement libre est un faisceau cohérent, avec <tex>M_i</tex> un module libre.</li>
+  <li>En particulier, un faisceau localement libre de rang 1 (un fibré de droites, en fait) est un faisceau cohérent. On parle de faisceau inversible (mais vraiment c'est un fibré de droites).</li></ul></mainmatter> </tree>
+</mainmatter> </tree></context> <related/> <backlinks/> <references/></backmatter></tree>

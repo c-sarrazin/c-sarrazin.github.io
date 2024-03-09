@@ -716,3 +716,33 @@ nav#toc a.bullet {
 .link-list:has(a.slug[href="nodisplay_related.xml"]) {
   display: none;
 }
+
+ol.ad-list {
+  list-style-type: none;
+}
+
+ol.ad-list>li {
+  list-style: none;
+  counter-increment: num;
+  counter-increment: letter;
+}
+
+ol.ad-list>li:before {
+  content: "(AD" counter(letter, arabic) ") ";
+  font-style: italic
+}
+
+ol.ab-list {
+  list-style-type: none;
+}
+
+ol.ab-list>li {
+  list-style: none;
+  counter-increment: num;
+  counter-increment: letter;
+}
+
+ol.ab-list>li:before {
+  content: "(AB" counter(letter, arabic) ") ";
+  font-style: italic
+}

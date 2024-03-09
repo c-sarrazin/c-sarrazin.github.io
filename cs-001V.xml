@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>375</anchor> <taxon>Définition</taxon> <addr>cs-001V</addr><route>cs-001V.xml</route>  <date><year>2024</year> <month>3</month> <day>8</day></date>  <title>Noyau (catégorique)</title>   </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>376</anchor> <taxon>Définition</taxon>   <date><year>2024</year> <month>3</month> <day>8</day></date>     </frontmatter> <mainmatter><p>Dans une catégorie possédant un objet nul, on a des morphismes nuls <tex>0  \in   \mathrm {Mor}(A, B)</tex> donnés par la composition (unique) <tex>A  \to  0  \to  B</tex>.</p></mainmatter> </tree><p>Soit <tex>\mathscr {C}</tex> une catégorie munie d'un objet nul noté <tex>0</tex>. Soit <tex>f : B  \to  C</tex> un morphisme. Le noyau de <tex>f</tex> est une paire <tex>(A,i)</tex> (un objet et un morphisme) telle que <tex>i : A \to  B</tex> et <tex>f  \circ  i</tex> soit le morphisme nul, de façon universelle :</p><p>Pour tout autre tel <tex>(A', i')</tex>, il existe un unique morphisme <tex>g : A'  \to  A</tex> faisant commuter le diagramme</p>
+ <embedded-tex hash="d302a971fdc1df92ba11e5576b4bbf7b"><embedded-tex-preamble>
+   \usepackage {preamble}
+   \usepackage {quiver}
+ </embedded-tex-preamble> <embedded-tex-body>
+ \begin {tikzcd}[sep=4em]
+A'  \arrow [rd, &quot;i'&quot;]  \arrow [rrd, &quot;0&quot;]  \arrow [d, &quot;g&quot;, dashed] &amp;                  &amp;    \\ 
+A  \arrow [r, &quot;i&quot;]  \arrow [rr, &quot;0&quot;', bend right]               &amp; B  \arrow [r, &quot;f&quot;] &amp; C
+ \end {tikzcd}
+</embedded-tex-body></embedded-tex>
+<p>Comme d'habitude, dès qu'il existe, il est unique à unique isomorphisme près.</p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>377</anchor> <taxon>Définition</taxon> <addr>cs-001U</addr><route>cs-001U.xml</route>  <date><year>2024</year> <month>3</month> <day>8</day></date>  <title>Catégorie additive</title>   </frontmatter> <mainmatter><p>Une catégorie <tex>  \mathscr {C} </tex> est dite additive quand elle satisfait les conditions suivantes :</p><ol class="ad-list">
+  <li>Pour toute paire d'objets <tex>A, B  \in   \mathscr {C}</tex>, <tex>\mathrm {Mor}(A, B)</tex> a une structure de groupe abélien, tel que la composition soit distributive par rapport à l'addition.</li>
+  <li><tex>\mathscr {C}</tex> a un objet nul, i.e. à la fois initial et final.</li>
+  <li>Les produits finis existent.</li>
+</ol><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>378</anchor> <taxon>Propriété</taxon> <addr>cs-001W</addr><route>cs-001W.xml</route>  <date><year>2024</year> <month>3</month> <day>8</day></date>     </frontmatter> <mainmatter><p>Dans une catégorie additive, comme dans <tex>\mathsf {Ab}</tex>, produits et coproduits coïncident.</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>379</anchor> <taxon>Définition</taxon> <addr>cs-001V</addr><route>cs-001V.xml</route>  <date><year>2024</year> <month>3</month> <day>8</day></date>  <title>Noyau (catégorique)</title>   </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>380</anchor> <taxon>Définition</taxon>   <date><year>2024</year> <month>3</month> <day>8</day></date>     </frontmatter> <mainmatter><p>Dans une catégorie possédant un objet nul, on a des morphismes nuls <tex>0  \in   \mathrm {Mor}(A, B)</tex> donnés par la composition (unique) <tex>A  \to  0  \to  B</tex>.</p></mainmatter> </tree><p>Soit <tex>\mathscr {C}</tex> une catégorie munie d'un objet nul noté <tex>0</tex>. Soit <tex>f : B  \to  C</tex> un morphisme. Le noyau de <tex>f</tex> est une paire <tex>(A,i)</tex> (un objet et un morphisme) telle que <tex>i : A \to  B</tex> et <tex>f  \circ  i</tex> soit le morphisme nul, de façon universelle :</p><p>Pour tout autre tel <tex>(A', i')</tex>, il existe un unique morphisme <tex>g : A'  \to  A</tex> faisant commuter le diagramme</p>
+ <embedded-tex hash="d302a971fdc1df92ba11e5576b4bbf7b"><embedded-tex-preamble>
+   \usepackage {preamble}
+   \usepackage {quiver}
+ </embedded-tex-preamble> <embedded-tex-body>
+ \begin {tikzcd}[sep=4em]
+A'  \arrow [rd, &quot;i'&quot;]  \arrow [rrd, &quot;0&quot;]  \arrow [d, &quot;g&quot;, dashed] &amp;                  &amp;    \\ 
+A  \arrow [r, &quot;i&quot;]  \arrow [rr, &quot;0&quot;', bend right]               &amp; B  \arrow [r, &quot;f&quot;] &amp; C
+ \end {tikzcd}
+</embedded-tex-body></embedded-tex>
+<p>Comme d'habitude, dès qu'il existe, il est unique à unique isomorphisme près.</p></mainmatter> </tree></mainmatter> </tree></context> <related/> <backlinks/> <references/></backmatter></tree>
