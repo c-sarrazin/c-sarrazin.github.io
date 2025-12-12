@@ -8,7 +8,7 @@
       <fr:month>12</fr:month>
       <fr:day>12</fr:day>
     </fr:date>
-    <fr:uri>https://www.my-great-forest.net/0005/</fr:uri>
+    <fr:uri>https://c-sarrazin.github.io/0005/</fr:uri>
     <fr:display-uri>0005</fr:display-uri>
     <fr:route>/0005/</fr:route>
     <fr:title text="Système intégrable">Système intégrable</fr:title>
@@ -35,7 +35,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="/cs/" title="Constance" uri="https://www.my-great-forest.net/cs/" display-uri="cs" type="local">Constance</fr:link>
+                <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
               </fr:author>
             </fr:authors>
             <fr:date href="/2025-12-12/">
@@ -43,7 +43,7 @@
               <fr:month>12</fr:month>
               <fr:day>12</fr:day>
             </fr:date>
-            <fr:uri>https://www.my-great-forest.net/0003/</fr:uri>
+            <fr:uri>https://c-sarrazin.github.io/0003/</fr:uri>
             <fr:display-uri>0003</fr:display-uri>
             <fr:route>/0003/</fr:route>
             <fr:title text="Systèmes intégrables, toriques, semi-toriques">Systèmes intégrables, toriques, semi-toriques</fr:title>
@@ -58,7 +58,7 @@
                   <fr:month>12</fr:month>
                   <fr:day>12</fr:day>
                 </fr:date>
-                <fr:uri>https://www.my-great-forest.net/0005/</fr:uri>
+                <fr:uri>https://c-sarrazin.github.io/0005/</fr:uri>
                 <fr:display-uri>0005</fr:display-uri>
                 <fr:route>/0005/</fr:route>
                 <fr:title text="Système intégrable">Système intégrable</fr:title>
@@ -76,7 +76,7 @@
                   <fr:month>12</fr:month>
                   <fr:day>12</fr:day>
                 </fr:date>
-                <fr:uri>https://www.my-great-forest.net/0004/</fr:uri>
+                <fr:uri>https://c-sarrazin.github.io/0004/</fr:uri>
                 <fr:display-uri>0004</fr:display-uri>
                 <fr:route>/0004/</fr:route>
                 <fr:title text="Théorème de Liouville-Arnold">Théorème de Liouville-Arnold</fr:title>

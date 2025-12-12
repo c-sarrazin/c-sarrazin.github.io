@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <author>
     <name>Constance</name>
-    <uri>https://www.my-great-forest.net/cs/</uri>
+    <uri>https://c-sarrazin.github.io/cs/</uri>
   </author>
   <updated>2025-12-12T17:07:53Z</updated>
   <title>Aujourd'hui j'ai appris...</title>
-  <id>https://www.my-great-forest.net/aja/</id>
-  <link rel="alternate" href="https://www.my-great-forest.net/aja/" />
-  <link rel="self" href="https://www.my-great-forest.net/aja/atom.xml" />
+  <id>https://c-sarrazin.github.io/aja/</id>
+  <link rel="alternate" href="https://c-sarrazin.github.io/aja/" />
+  <link rel="self" href="https://c-sarrazin.github.io/aja/atom.xml" />
   <entry>
     <title>12 décembre</title>
-    <link rel="alternate" type="text/html" href="https://www.my-great-forest.net/2025-12-12/" />
-    <id>https://www.my-great-forest.net/2025-12-12/</id>
+    <link rel="alternate" type="text/html" href="https://c-sarrazin.github.io/2025-12-12/" />
+    <id>https://c-sarrazin.github.io/2025-12-12/</id>
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
         <p>Coucou</p>

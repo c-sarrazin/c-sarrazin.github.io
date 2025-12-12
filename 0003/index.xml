@@ -4,7 +4,7 @@
   <fr:frontmatter>
     <fr:authors>
       <fr:author>
-        <fr:link href="/cs/" title="Constance" uri="https://www.my-great-forest.net/cs/" display-uri="cs" type="local">Constance</fr:link>
+        <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
       </fr:author>
     </fr:authors>
     <fr:date href="/2025-12-12/">
@@ -12,7 +12,7 @@
       <fr:month>12</fr:month>
       <fr:day>12</fr:day>
     </fr:date>
-    <fr:uri>https://www.my-great-forest.net/0003/</fr:uri>
+    <fr:uri>https://c-sarrazin.github.io/0003/</fr:uri>
     <fr:display-uri>0003</fr:display-uri>
     <fr:route>/0003/</fr:route>
     <fr:title text="Systèmes intégrables, toriques, semi-toriques">Systèmes intégrables, toriques, semi-toriques</fr:title>
@@ -27,7 +27,7 @@
           <fr:month>12</fr:month>
           <fr:day>12</fr:day>
         </fr:date>
-        <fr:uri>https://www.my-great-forest.net/0005/</fr:uri>
+        <fr:uri>https://c-sarrazin.github.io/0005/</fr:uri>
         <fr:display-uri>0005</fr:display-uri>
         <fr:route>/0005/</fr:route>
         <fr:title text="Système intégrable">Système intégrable</fr:title>
@@ -45,7 +45,7 @@
           <fr:month>12</fr:month>
           <fr:day>12</fr:day>
         </fr:date>
-        <fr:uri>https://www.my-great-forest.net/0004/</fr:uri>
+        <fr:uri>https://c-sarrazin.github.io/0004/</fr:uri>
         <fr:display-uri>0004</fr:display-uri>
         <fr:route>/0004/</fr:route>
         <fr:title text="Théorème de Liouville-Arnold">Théorème de Liouville-Arnold</fr:title>
@@ -74,7 +74,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="/cs/" title="Constance" uri="https://www.my-great-forest.net/cs/" display-uri="cs" type="local">Constance</fr:link>
+                <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
               </fr:author>
             </fr:authors>
             <fr:date href="/2025-12-12/">
@@ -82,7 +82,7 @@
               <fr:month>12</fr:month>
               <fr:day>12</fr:day>
             </fr:date>
-            <fr:uri>https://www.my-great-forest.net/0001/</fr:uri>
+            <fr:uri>https://c-sarrazin.github.io/0001/</fr:uri>
             <fr:display-uri>0001</fr:display-uri>
             <fr:route>/0001/</fr:route>
             <fr:title text="M½ : édition 2026">M½ : édition 2026</fr:title>
@@ -93,7 +93,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/cs/" title="Constance" uri="https://www.my-great-forest.net/cs/" display-uri="cs" type="local">Constance</fr:link>
+                    <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date href="/2025-12-12/">
@@ -101,7 +101,7 @@
                   <fr:month>12</fr:month>
                   <fr:day>12</fr:day>
                 </fr:date>
-                <fr:uri>https://www.my-great-forest.net/0002/</fr:uri>
+                <fr:uri>https://c-sarrazin.github.io/0002/</fr:uri>
                 <fr:display-uri>0002</fr:display-uri>
                 <fr:route>/0002/</fr:route>
                 <fr:title text="Le spectre des opérateurs de Schrödinger">Le spectre des opérateurs de Schrödinger</fr:title>
@@ -112,7 +112,7 @@
                 <html:p>J'ai besoin de quelques rappels d'analyse fonctionnelle et de théorie spectrale, et après je veux m'intéresser d'abord au spectre du laplacien (autrement dit, le cas d'une particule libre). Sur un domaine borné de <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex>, ou sur une variété riemannienne compacte, ce spectre est discret, et son comportement encode des informations géométriques. On peut citer comme premier exemple la loi de Weyl : <fr:tex display="block"><![CDATA[N(\lambda ) := \#\{ j \in  \mathbb {N} \mid  \lambda _{j} \leqslant  \lambda \} \sim  \frac {\omega _{d}}{(2\pi )^d} \mathrm {vol}(M) \lambda ^{n/2}]]></fr:tex>qui relie volume et croissance asymptotique des valeurs propres. Il existe une démonstration "élémentaire" de ce théorème pour des domaines bornés, suivant [Cha].</html:p>
                 <html:p>On peut parler aussi du "trou spectral" <fr:tex display="inline"><![CDATA[\lambda _{1}]]></fr:tex>, la première valeur propre après avoir exclu la valeur propre triviale <fr:tex display="inline"><![CDATA[\lambda _{0} = 0]]></fr:tex>. L'inégalité de Faber-Krahn, conséquence de l'inégalité isopérimétrique, dit que <fr:tex display="inline"><![CDATA[\lambda _{1}(\Omega )]]></fr:tex> est maximal quand, et uniquement quand, <fr:tex display="inline"><![CDATA[\Omega  \subset  \mathbb {R}^n]]></fr:tex> est une boule. On peut la démontrer par des méthodes variationnelles, suivant [BF17].</html:p>
                 <html:p>La valeur de <fr:tex display="inline"><![CDATA[\lambda _{1}]]></fr:tex> peut se comprendre comme quantifiant la connexité de <fr:tex display="inline"><![CDATA[\Omega ]]></fr:tex>. Cette intuition est justifiée par la comparaison avec la constante de Cheeger <fr:tex display="block"><![CDATA[h(\Omega ) := \inf _{A} \frac {\mathrm {vol}_{n-1}(A)}{\min (\mathrm {vol}_{n}(\Omega _{1}), \mathrm {vol}_{n}(\Omega _{2}))}]]></fr:tex> où la borne inférieure est prise sur les hypersurfaces lisses <fr:tex display="inline"><![CDATA[A]]></fr:tex> qui partagent <fr:tex display="inline"><![CDATA[\Omega ]]></fr:tex> en deux parties disjointes <fr:tex display="inline"><![CDATA[\Omega _{1}]]></fr:tex> et <fr:tex display="inline"><![CDATA[\Omega _{2}]]></fr:tex>. Cette comparaison se fait par l'inégalité de Cheeger d'une part <fr:tex display="block"><![CDATA[\frac {h(\Omega )^2}{4} \leqslant  \lambda _{1}(\Omega )]]></fr:tex> et d'autre part pour une variété riemannienne compacte sans bord <fr:tex display="inline"><![CDATA[M]]></fr:tex> de dimension<fr:tex display="inline"><![CDATA[n]]></fr:tex>, l'inégalité de Buser <fr:tex display="block"><![CDATA[\lambda _{1}(M) \leqslant  2a(n-1)h(M) + 10h(M)^2]]></fr:tex>Des versions de l'inégalité de Buser, classique pour des variétés fermées, sont aussi vraies pour des (bonnes) régions de <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex>, et sont démontrées par exemple dans [Boz25, BB24].</html:p>
-                <html:p>Passons aux opérateurs de Schrödinger. La théorie spectrale pour ces opérateurs est rendue possible par le théorème de Kato-Rellich <fr:link href="/hislopsegal/" title="Introduction to spectral theory : with applications to Schrödinger operators" uri="https://www.my-great-forest.net/hislopsegal/" display-uri="hislopsegal" type="local">[His] </fr:link> On se concentrera sur des études de cas :</html:p>
+                <html:p>Passons aux opérateurs de Schrödinger. La théorie spectrale pour ces opérateurs est rendue possible par le théorème de Kato-Rellich <fr:link href="/hislopsegal/" title="Introduction to spectral theory : with applications to Schrödinger operators" uri="https://c-sarrazin.github.io/hislopsegal/" display-uri="hislopsegal" type="local">[His] </fr:link> On se concentrera sur des études de cas :</html:p>
                 <html:ul><html:li>le cas de l'oscillateur harmonique, et plus généralement d'un potentiel coercif, qui fait apparaître un spectre discret,</html:li>
   <html:li>le cas d'un potentiel de Coulomb, ou plus généralement d'un potentiel qui tend vers 0 en l'infini, qui fait apparaître un spectre continu,</html:li>
   <html:li>le cas de potentiels 'puits double' symétriques, qui mettent en évidence l'effet tunnel,</html:li>
@@ -123,7 +123,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/cs/" title="Constance" uri="https://www.my-great-forest.net/cs/" display-uri="cs" type="local">Constance</fr:link>
+                    <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date href="/2025-12-12/">
@@ -131,7 +131,7 @@
                   <fr:month>12</fr:month>
                   <fr:day>12</fr:day>
                 </fr:date>
-                <fr:uri>https://www.my-great-forest.net/0003/</fr:uri>
+                <fr:uri>https://c-sarrazin.github.io/0003/</fr:uri>
                 <fr:display-uri>0003</fr:display-uri>
                 <fr:route>/0003/</fr:route>
                 <fr:title text="Systèmes intégrables, toriques, semi-toriques">Systèmes intégrables, toriques, semi-toriques</fr:title>
@@ -146,7 +146,7 @@
                       <fr:month>12</fr:month>
                       <fr:day>12</fr:day>
                     </fr:date>
-                    <fr:uri>https://www.my-great-forest.net/0005/</fr:uri>
+                    <fr:uri>https://c-sarrazin.github.io/0005/</fr:uri>
                     <fr:display-uri>0005</fr:display-uri>
                     <fr:route>/0005/</fr:route>
                     <fr:title text="Système intégrable">Système intégrable</fr:title>
@@ -164,7 +164,7 @@
                       <fr:month>12</fr:month>
                       <fr:day>12</fr:day>
                     </fr:date>
-                    <fr:uri>https://www.my-great-forest.net/0004/</fr:uri>
+                    <fr:uri>https://c-sarrazin.github.io/0004/</fr:uri>
                     <fr:display-uri>0004</fr:display-uri>
                     <fr:route>/0004/</fr:route>
                     <fr:title text="Théorème de Liouville-Arnold">Théorème de Liouville-Arnold</fr:title>

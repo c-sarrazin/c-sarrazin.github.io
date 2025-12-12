@@ -4,7 +4,7 @@
   <fr:frontmatter>
     <fr:authors>
       <fr:author>
-        <fr:link href="/cs/" title="Constance" uri="https://www.my-great-forest.net/cs/" display-uri="cs" type="local">Constance</fr:link>
+        <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
       </fr:author>
     </fr:authors>
     <fr:date href="/2025-12-12/">
@@ -12,7 +12,7 @@
       <fr:month>12</fr:month>
       <fr:day>12</fr:day>
     </fr:date>
-    <fr:uri>https://www.my-great-forest.net/aja/</fr:uri>
+    <fr:uri>https://c-sarrazin.github.io/aja/</fr:uri>
     <fr:display-uri>aja</fr:display-uri>
     <fr:route>/aja/</fr:route>
     <fr:title text="Aujourd'hui j'ai appris...">Aujourd'hui j'ai appris...</fr:title>
@@ -22,7 +22,7 @@
     <fr:tree show-metadata="false" numbered="false">
       <fr:frontmatter>
         <fr:authors />
-        <fr:uri>https://www.my-great-forest.net/2025-12-12/</fr:uri>
+        <fr:uri>https://c-sarrazin.github.io/2025-12-12/</fr:uri>
         <fr:display-uri>2025-12-12</fr:display-uri>
         <fr:route>/2025-12-12/</fr:route>
         <fr:title text="12 décembre">12 décembre</fr:title>
@@ -50,10 +50,10 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="/cs/" title="Constance" uri="https://www.my-great-forest.net/cs/" display-uri="cs" type="local">Constance</fr:link>
+                <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
               </fr:author>
             </fr:authors>
-            <fr:uri>https://www.my-great-forest.net/index/</fr:uri>
+            <fr:uri>https://c-sarrazin.github.io/index/</fr:uri>
             <fr:display-uri>index</fr:display-uri>
             <fr:route>/index/</fr:route>
             <fr:title text="Bonjour :3">Bonjour <html:code>:3</html:code></fr:title>
@@ -65,20 +65,20 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/cs/" title="Constance" uri="https://www.my-great-forest.net/cs/" display-uri="cs" type="local">Constance</fr:link>
+                    <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:title text="Notes du M½">Notes du M½</fr:title>
               </fr:frontmatter>
               <fr:mainmatter>
-                <html:p>Voir le <fr:link href="/0001/" title="M½ : édition 2026" uri="https://www.my-great-forest.net/0001/" display-uri="0001" type="local">programme 2026</fr:link>.</html:p>
+                <html:p>Voir le <fr:link href="/0001/" title="M½ : édition 2026" uri="https://c-sarrazin.github.io/0001/" display-uri="0001" type="local">programme 2026</fr:link>.</html:p>
               </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/cs/" title="Constance" uri="https://www.my-great-forest.net/cs/" display-uri="cs" type="local">Constance</fr:link>
+                    <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:title text="Carte des environs">Carte des environs</fr:title>
@@ -96,7 +96,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/cs/" title="Constance" uri="https://www.my-great-forest.net/cs/" display-uri="cs" type="local">Constance</fr:link>
+                    <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date href="/2025-12-12/">
@@ -104,7 +104,7 @@
                   <fr:month>12</fr:month>
                   <fr:day>12</fr:day>
                 </fr:date>
-                <fr:uri>https://www.my-great-forest.net/aja/</fr:uri>
+                <fr:uri>https://c-sarrazin.github.io/aja/</fr:uri>
                 <fr:display-uri>aja</fr:display-uri>
                 <fr:route>/aja/</fr:route>
                 <fr:title text="Aujourd'hui j'ai appris...">Aujourd'hui j'ai appris...</fr:title>
@@ -114,7 +114,7 @@
                 <fr:tree show-metadata="false" numbered="false">
                   <fr:frontmatter>
                     <fr:authors />
-                    <fr:uri>https://www.my-great-forest.net/2025-12-12/</fr:uri>
+                    <fr:uri>https://c-sarrazin.github.io/2025-12-12/</fr:uri>
                     <fr:display-uri>2025-12-12</fr:display-uri>
                     <fr:route>/2025-12-12/</fr:route>
                     <fr:title text="12 décembre">12 décembre</fr:title>

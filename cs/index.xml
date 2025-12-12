@@ -3,7 +3,7 @@
 <fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
     <fr:authors />
-    <fr:uri>https://www.my-great-forest.net/cs/</fr:uri>
+    <fr:uri>https://c-sarrazin.github.io/cs/</fr:uri>
     <fr:display-uri>cs</fr:display-uri>
     <fr:route>/cs/</fr:route>
     <fr:title text="Constance">Constance</fr:title>
