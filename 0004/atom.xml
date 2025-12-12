@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <updated>2025-12-12T17:07:53Z</updated>
+  <title>Aujourd'hui j'ai appris...</title>
+  <id>https://www.my-great-forest.net/0004/</id>
+  <link rel="alternate" href="https://www.my-great-forest.net/0004/" />
+  <link rel="self" href="https://www.my-great-forest.net/0004/atom.xml" />
+  <entry>
+    <title>12 décembre</title>
+    <link rel="alternate" type="text/html" href="https://www.my-great-forest.net/2025-12-12/" />
+    <id>https://www.my-great-forest.net/2025-12-12/</id>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Coucou</p>
+      </div>
+    </content>
+  </entry>
+</feed>
