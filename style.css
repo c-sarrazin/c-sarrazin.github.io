@@ -204,12 +204,14 @@ footer h2 {
 @media only screen and (min-width: 1000px) {
   body {
     transition: ease all .2s;
-    margin: 2em auto
+    margin: 2em auto;
+    width: fit-content;
   }
 
   #grid-wrapper {
     display: grid;
     grid-template-columns: 90ex;
+    width: fit-content;
   }
 }
 
