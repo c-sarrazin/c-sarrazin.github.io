@@ -649,6 +649,11 @@ ol li ol li ol {
   padding-right: 5px;
   margin: 8px 0;
 }
+
+.block[data-taxon="Définition"]>details[open], .block[data-taxon="Definition"]>details[open], .block[data-taxon="Théorème"]>details[open], .block[data-taxon="Theorem"]>details[open]  {
+  margin-bottom: 0em;
+}
+
 .block[data-taxon="Définition"] summary::after, .block[data-taxon="Definition"] summary::after {
   content: " ";
   background: transparent;
@@ -686,4 +691,11 @@ article > section > details > summary > header > h1 > .taxon {
 article > section > details > summary > header > h1 {
 	font-weight: 600;
 	font-family: 'Alegreya';
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+ul:last-child {
+  margin-bottom: 0;
 }

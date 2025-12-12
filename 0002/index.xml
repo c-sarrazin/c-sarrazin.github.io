@@ -132,44 +132,7 @@
                 <fr:title text="Systèmes intégrables, toriques, semi-toriques">Systèmes intégrables, toriques, semi-toriques</fr:title>
                 <fr:taxon>Sujet</fr:taxon>
               </fr:frontmatter>
-              <fr:mainmatter>
-                <fr:tree show-metadata="false">
-                  <fr:frontmatter>
-                    <fr:authors />
-                    <fr:date href="/2025-12-12/">
-                      <fr:year>2025</fr:year>
-                      <fr:month>12</fr:month>
-                      <fr:day>12</fr:day>
-                    </fr:date>
-                    <fr:uri>https://c-sarrazin.github.io/0005/</fr:uri>
-                    <fr:display-uri>0005</fr:display-uri>
-                    <fr:route>/0005/</fr:route>
-                    <fr:title text="Système intégrable">Système intégrable</fr:title>
-                    <fr:taxon>Définition</fr:taxon>
-                  </fr:frontmatter>
-                  <fr:mainmatter>
-                    <html:p>Coucou</html:p>
-                  </fr:mainmatter>
-                </fr:tree>
-                <fr:tree show-metadata="false">
-                  <fr:frontmatter>
-                    <fr:authors />
-                    <fr:date href="/2025-12-12/">
-                      <fr:year>2025</fr:year>
-                      <fr:month>12</fr:month>
-                      <fr:day>12</fr:day>
-                    </fr:date>
-                    <fr:uri>https://c-sarrazin.github.io/0004/</fr:uri>
-                    <fr:display-uri>0004</fr:display-uri>
-                    <fr:route>/0004/</fr:route>
-                    <fr:title text="Théorème de Liouville-Arnold">Théorème de Liouville-Arnold</fr:title>
-                    <fr:taxon>Théorème</fr:taxon>
-                  </fr:frontmatter>
-                  <fr:mainmatter>
-                    <html:p>Lorem ipsum dolor sit amet...</html:p>
-                  </fr:mainmatter>
-                </fr:tree>
-              </fr:mainmatter>
+              <fr:mainmatter />
             </fr:tree>
           </fr:mainmatter>
         </fr:tree>

@@ -2,14 +2,63 @@
 <?xml-stylesheet type="text/xsl" href="/default.xsl"?>
 <fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
-    <fr:authors />
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+      </fr:author>
+    </fr:authors>
     <fr:uri>https://c-sarrazin.github.io/2025-12-12/</fr:uri>
     <fr:display-uri>2025-12-12</fr:display-uri>
     <fr:route>/2025-12-12/</fr:route>
     <fr:title text="12 décembre">12 décembre</fr:title>
   </fr:frontmatter>
   <fr:mainmatter>
-    <html:p>Coucou</html:p>
+    <html:p>Aujourd'hui j'ai démontré le théorème d'Arnold-Liouville.</html:p>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date href="/2025-12-12/">
+          <fr:year>2025</fr:year>
+          <fr:month>12</fr:month>
+          <fr:day>12</fr:day>
+        </fr:date>
+        <fr:uri>https://c-sarrazin.github.io/0005/</fr:uri>
+        <fr:display-uri>0005</fr:display-uri>
+        <fr:route>/0005/</fr:route>
+        <fr:title text="Système intégrable">Système intégrable</fr:title>
+        <fr:taxon>Définition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>Soit <fr:tex display="inline"><![CDATA[(M, \omega , f_1)]]></fr:tex> un système hamiltonien. On dit qu'il est intégrable quand il existe <fr:tex display="inline"><![CDATA[n-1]]></fr:tex> intégrales premières (en plus du hamiltonien) <fr:tex display="inline"><![CDATA[(f_2, f_n)]]></fr:tex> telles que :</html:p>
+        <html:ul><html:li>La famille <fr:tex display="inline"><![CDATA[(\mathrm {d}f_1, \mathrm {d}f_2, \dots , \mathrm {d}f_n)]]></fr:tex> est libre presque partout;</html:li>
+  <html:li>Pour tout <fr:tex display="inline"><![CDATA[i\neq  j]]></fr:tex>, le crochet de Poisson <fr:tex display="inline"><![CDATA[\{f_i, f_j\}]]></fr:tex> est nul.</html:li></html:ul>
+      </fr:mainmatter>
+    </fr:tree>
+    <html:p>Les systèmes intégrables s'appellent ainsi car il est en principe à peu près possible de les intégrer, c'est à dire d'écrire des solutions explicites au système (dans de bonnes coordonnées.) Cela est précisé par le théorème suivant.</html:p>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date href="/2025-12-12/">
+          <fr:year>2025</fr:year>
+          <fr:month>12</fr:month>
+          <fr:day>12</fr:day>
+        </fr:date>
+        <fr:uri>https://c-sarrazin.github.io/0004/</fr:uri>
+        <fr:display-uri>0004</fr:display-uri>
+        <fr:route>/0004/</fr:route>
+        <fr:title text="Théorème de Liouville-Arnold">Théorème de Liouville-Arnold</fr:title>
+        <fr:taxon>Théorème</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>Soit <fr:tex display="inline"><![CDATA[(M, \omega )]]></fr:tex> un système hamiltonien intégrable d'application moment <fr:tex display="inline"><![CDATA[F = (f_1, \dots , f_n) : M \to  \mathbb {R}^n]]></fr:tex>. Soit <fr:tex display="inline"><![CDATA[c\in  \mathbb {R}^n]]></fr:tex> une valeur régulière du système. Alors la surface d'énergie <fr:tex display="inline"><![CDATA[F^{-1}(c)]]></fr:tex> est une sous-variété lagrangienne invariante par le flot.</html:p>
+        <html:p>Supposons de plus que <fr:tex display="inline"><![CDATA[F^{-1}(c)]]></fr:tex> soit compact et connexe. Alors <fr:tex display="inline"><![CDATA[F^{-1}(c)]]></fr:tex> est un <fr:tex display="inline"><![CDATA[n]]></fr:tex>-tore. Plus globalement, il existe <fr:tex display="inline"><![CDATA[\varepsilon  > 0]]></fr:tex> tel qu'on ait un symplectomorphisme entre <fr:tex display="inline"><![CDATA[F^{-1}(\mathscr {B}(c, \varepsilon ))]]></fr:tex> (voisinage tubulaire de <fr:tex display="inline"><![CDATA[F^{-1}(c)]]></fr:tex>) et un voisinage de la section nulle dans <fr:tex display="inline"><![CDATA[T^* \mathbb {T}^n]]></fr:tex> muni de la forme de Liouville.</html:p>
+        <html:p>On calcule de plus que sur ces tores invariants, le flot est linéaire. Cela montre qu'un tel système intégrable est résoluble par quadratures.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -46,14 +95,63 @@
             <html:p>Je continue mon thread ici. Il est possible de s'abonner au <fr:link href="/aja/atom.xml" type="external">flux Atom</fr:link> associé!</html:p>
             <fr:tree show-metadata="false" numbered="false">
               <fr:frontmatter>
-                <fr:authors />
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+                  </fr:author>
+                </fr:authors>
                 <fr:uri>https://c-sarrazin.github.io/2025-12-12/</fr:uri>
                 <fr:display-uri>2025-12-12</fr:display-uri>
                 <fr:route>/2025-12-12/</fr:route>
                 <fr:title text="12 décembre">12 décembre</fr:title>
               </fr:frontmatter>
               <fr:mainmatter>
-                <html:p>Coucou</html:p>
+                <html:p>Aujourd'hui j'ai démontré le théorème d'Arnold-Liouville.</html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date href="/2025-12-12/">
+                      <fr:year>2025</fr:year>
+                      <fr:month>12</fr:month>
+                      <fr:day>12</fr:day>
+                    </fr:date>
+                    <fr:uri>https://c-sarrazin.github.io/0005/</fr:uri>
+                    <fr:display-uri>0005</fr:display-uri>
+                    <fr:route>/0005/</fr:route>
+                    <fr:title text="Système intégrable">Système intégrable</fr:title>
+                    <fr:taxon>Définition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>Soit <fr:tex display="inline"><![CDATA[(M, \omega , f_1)]]></fr:tex> un système hamiltonien. On dit qu'il est intégrable quand il existe <fr:tex display="inline"><![CDATA[n-1]]></fr:tex> intégrales premières (en plus du hamiltonien) <fr:tex display="inline"><![CDATA[(f_2, f_n)]]></fr:tex> telles que :</html:p>
+                    <html:ul><html:li>La famille <fr:tex display="inline"><![CDATA[(\mathrm {d}f_1, \mathrm {d}f_2, \dots , \mathrm {d}f_n)]]></fr:tex> est libre presque partout;</html:li>
+  <html:li>Pour tout <fr:tex display="inline"><![CDATA[i\neq  j]]></fr:tex>, le crochet de Poisson <fr:tex display="inline"><![CDATA[\{f_i, f_j\}]]></fr:tex> est nul.</html:li></html:ul>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:p>Les systèmes intégrables s'appellent ainsi car il est en principe à peu près possible de les intégrer, c'est à dire d'écrire des solutions explicites au système (dans de bonnes coordonnées.) Cela est précisé par le théorème suivant.</html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date href="/2025-12-12/">
+                      <fr:year>2025</fr:year>
+                      <fr:month>12</fr:month>
+                      <fr:day>12</fr:day>
+                    </fr:date>
+                    <fr:uri>https://c-sarrazin.github.io/0004/</fr:uri>
+                    <fr:display-uri>0004</fr:display-uri>
+                    <fr:route>/0004/</fr:route>
+                    <fr:title text="Théorème de Liouville-Arnold">Théorème de Liouville-Arnold</fr:title>
+                    <fr:taxon>Théorème</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>Soit <fr:tex display="inline"><![CDATA[(M, \omega )]]></fr:tex> un système hamiltonien intégrable d'application moment <fr:tex display="inline"><![CDATA[F = (f_1, \dots , f_n) : M \to  \mathbb {R}^n]]></fr:tex>. Soit <fr:tex display="inline"><![CDATA[c\in  \mathbb {R}^n]]></fr:tex> une valeur régulière du système. Alors la surface d'énergie <fr:tex display="inline"><![CDATA[F^{-1}(c)]]></fr:tex> est une sous-variété lagrangienne invariante par le flot.</html:p>
+                    <html:p>Supposons de plus que <fr:tex display="inline"><![CDATA[F^{-1}(c)]]></fr:tex> soit compact et connexe. Alors <fr:tex display="inline"><![CDATA[F^{-1}(c)]]></fr:tex> est un <fr:tex display="inline"><![CDATA[n]]></fr:tex>-tore. Plus globalement, il existe <fr:tex display="inline"><![CDATA[\varepsilon  > 0]]></fr:tex> tel qu'on ait un symplectomorphisme entre <fr:tex display="inline"><![CDATA[F^{-1}(\mathscr {B}(c, \varepsilon ))]]></fr:tex> (voisinage tubulaire de <fr:tex display="inline"><![CDATA[F^{-1}(c)]]></fr:tex>) et un voisinage de la section nulle dans <fr:tex display="inline"><![CDATA[T^* \mathbb {T}^n]]></fr:tex> muni de la forme de Liouville.</html:p>
+                    <html:p>On calcule de plus que sur ces tores invariants, le flot est linéaire. Cela montre qu'un tel système intégrable est résoluble par quadratures.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
               </fr:mainmatter>
             </fr:tree>
           </fr:mainmatter>
