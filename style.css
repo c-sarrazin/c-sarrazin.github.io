@@ -223,6 +223,7 @@ body>header {
   max-width: 90ex;
   margin-right: auto;
   grid-column: 1;
+  width: 100%
 }
 
 #grid-wrapper>nav {
@@ -703,9 +704,6 @@ ul:last-child {
 a.slug {
   color: black;
   font-weight: 300;
-  position: absolute;
-  right: 0;
-  padding-top: 2px;
   text-decoration: none;
 }
 details > summary {
