@@ -70,6 +70,12 @@
   <html:li>le cas d'un potentiel de Coulomb, ou plus généralement d'un potentiel qui tend vers 0 en l'infini, qui fait apparaître un spectre continu,</html:li>
   <html:li>le cas de potentiels 'puits double' symétriques, qui mettent en évidence l'effet tunnel,</html:li>
   <html:li>le cas de potentiels aléatoires (modèle d'Anderson).</html:li></html:ul>
+            <html:span style="display: none;">
+              <fr:link href="/Kir08/" title="An invitation to random Schrödinger operators" uri="https://c-sarrazin.github.io/Kir08/" display-uri="Kir08" type="local">An invitation to random Schrödinger operators</fr:link>
+            </html:span>
+            <html:span style="display: none;">
+              <fr:link href="/Cyc+87/" title="Schrödinger operators, with application to quantum mechanics and global geometry" uri="https://c-sarrazin.github.io/Cyc+87/" display-uri="Cyc+87" type="local">Schrödinger operators, with application to quantum mechanics and global geometry</fr:link>
+            </html:span>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

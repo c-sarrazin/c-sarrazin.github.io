@@ -4,19 +4,22 @@
   <fr:frontmatter>
     <fr:authors>
       <fr:author>
-        <fr:link href="https://c-sarrazin.github.io/Bozzola/" type="external">Bozzola</fr:link>
+        <fr:link href="https://c-sarrazin.github.io/Kirsch/" type="external">Kirsch</fr:link>
       </fr:author>
     </fr:authors>
     <fr:date>
-      <fr:year>2025</fr:year>
+      <fr:year>2008</fr:year>
     </fr:date>
-    <fr:uri>https://c-sarrazin.github.io/Boz25/</fr:uri>
-    <fr:display-uri>Boz25</fr:display-uri>
-    <fr:route>/Boz25/</fr:route>
-    <fr:title text="Topological and capacitary methods for Poincaré-Sobolev inequalities">Topological and capacitary methods for Poincaré-Sobolev inequalities</fr:title>
+    <fr:uri>https://c-sarrazin.github.io/Kir08/</fr:uri>
+    <fr:display-uri>Kir08</fr:display-uri>
+    <fr:route>/Kir08/</fr:route>
+    <fr:title text="An invitation to random Schrödinger operators">An invitation to random Schrödinger operators</fr:title>
     <fr:taxon>Reference</fr:taxon>
+    <fr:meta name="venue">Société Mathématique de France</fr:meta>
   </fr:frontmatter>
-  <fr:mainmatter />
+  <fr:mainmatter>
+    <html:p>In : Random Schrödinger Operators, Panoramas et Synthèses, pp. 1-119.</html:p>
+  </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>

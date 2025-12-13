@@ -28,6 +28,12 @@
   <html:li>le cas d'un potentiel de Coulomb, ou plus généralement d'un potentiel qui tend vers 0 en l'infini, qui fait apparaître un spectre continu,</html:li>
   <html:li>le cas de potentiels 'puits double' symétriques, qui mettent en évidence l'effet tunnel,</html:li>
   <html:li>le cas de potentiels aléatoires (modèle d'Anderson).</html:li></html:ul>
+    <html:span style="display: none;">
+      <fr:link href="/Kir08/" title="An invitation to random Schrödinger operators" uri="https://c-sarrazin.github.io/Kir08/" display-uri="Kir08" type="local">An invitation to random Schrödinger operators</fr:link>
+    </html:span>
+    <html:span style="display: none;">
+      <fr:link href="/Cyc+87/" title="Schrödinger operators, with application to quantum mechanics and global geometry" uri="https://c-sarrazin.github.io/Cyc+87/" display-uri="Cyc+87" type="local">Schrödinger operators, with application to quantum mechanics and global geometry</fr:link>
+    </html:span>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -101,6 +107,27 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
+                <fr:link href="https://c-sarrazin.github.io/Kirsch/" type="external">Kirsch</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2008</fr:year>
+            </fr:date>
+            <fr:uri>https://c-sarrazin.github.io/Kir08/</fr:uri>
+            <fr:display-uri>Kir08</fr:display-uri>
+            <fr:route>/Kir08/</fr:route>
+            <fr:title text="An invitation to random Schrödinger operators">An invitation to random Schrödinger operators</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="venue">Société Mathématique de France</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>In : Random Schrödinger Operators, Panoramas et Synthèses, pp. 1-119.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
                 <fr:link href="https://c-sarrazin.github.io/Hislop/" type="external">Hislop</fr:link>
               </fr:author>
               <fr:author>
@@ -115,6 +142,34 @@
             <fr:route>/HS96/</fr:route>
             <fr:title text="Introduction to spectral theory : with applications to Schrödinger operators">Introduction to spectral theory : with applications to Schrödinger operators</fr:title>
             <fr:taxon>Reference</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="https://c-sarrazin.github.io/Cycon,%20H.%20L." type="external">Cycon, H. L.</fr:link>
+              </fr:author>
+              <fr:author>
+                <fr:link href="https://c-sarrazin.github.io/Froese,%20R.%20G." type="external">Froese, R. G.</fr:link>
+              </fr:author>
+              <fr:author>
+                <fr:link href="https://c-sarrazin.github.io/Kirsch,%20W." type="external">Kirsch, W.</fr:link>
+              </fr:author>
+              <fr:author>
+                <fr:link href="https://c-sarrazin.github.io/Simon,%20B." type="external">Simon, B.</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>1987</fr:year>
+            </fr:date>
+            <fr:uri>https://c-sarrazin.github.io/Cyc+87/</fr:uri>
+            <fr:display-uri>Cyc+87</fr:display-uri>
+            <fr:route>/Cyc+87/</fr:route>
+            <fr:title text="Schrödinger operators, with application to quantum mechanics and global geometry">Schrödinger operators, with application to quantum mechanics and global geometry</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="venue">Springer</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter />
         </fr:tree>
@@ -191,6 +246,12 @@
   <html:li>le cas d'un potentiel de Coulomb, ou plus généralement d'un potentiel qui tend vers 0 en l'infini, qui fait apparaître un spectre continu,</html:li>
   <html:li>le cas de potentiels 'puits double' symétriques, qui mettent en évidence l'effet tunnel,</html:li>
   <html:li>le cas de potentiels aléatoires (modèle d'Anderson).</html:li></html:ul>
+                <html:span style="display: none;">
+                  <fr:link href="/Kir08/" title="An invitation to random Schrödinger operators" uri="https://c-sarrazin.github.io/Kir08/" display-uri="Kir08" type="local">An invitation to random Schrödinger operators</fr:link>
+                </html:span>
+                <html:span style="display: none;">
+                  <fr:link href="/Cyc+87/" title="Schrödinger operators, with application to quantum mechanics and global geometry" uri="https://c-sarrazin.github.io/Cyc+87/" display-uri="Cyc+87" type="local">Schrödinger operators, with application to quantum mechanics and global geometry</fr:link>
+                </html:span>
               </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">
@@ -211,7 +272,19 @@
                 <fr:title text="Systèmes intégrables, toriques, semi-toriques">Systèmes intégrables, toriques, semi-toriques</fr:title>
                 <fr:taxon>Sujet</fr:taxon>
               </fr:frontmatter>
-              <fr:mainmatter />
+              <fr:mainmatter>
+                <html:p>En mécanique classique, un système physique est décrit par un hamiltonien, qui est l'énergie totale du système : c'est une fonction réelle définie sur l'espace de phases, qui est (localement) décrit par les coordonnées position et moment. Ce hamiltonien détermine les équations d'évolution du système.</html:p>
+                <html:p>En mathématiques, un espace de phase est une variété symplectique <fr:tex display="inline"><![CDATA[M]]></fr:tex> de dimension <fr:tex display="inline"><![CDATA[2n]]></fr:tex>, sur laquelle on peut considérer un champ de vecteurs hamiltonien, dont le flot modélise l'évolution du système <fr:link href="/AM78/" title="Foundations of mechanics" uri="https://c-sarrazin.github.io/AM78/" display-uri="AM78" type="local">⟦AM78⟧</fr:link> <fr:link href="/MR99/" title="Introduction to Mechanics and Symmetry : A Basic Exposition of Classical Mechanical Systems" uri="https://c-sarrazin.github.io/MR99/" display-uri="MR99" type="local">⟦MR99⟧</fr:link>. Le hamiltonien <fr:tex display="inline"><![CDATA[H = f_{1}]]></fr:tex> est constant le long d'orbites du flot (autrement dit, l'énergie totale est conservée). On dit que le hamiltonien est une intégrale première du mouvement. Quand il existe <fr:tex display="inline"><![CDATA[n-1]]></fr:tex> autres intégrales premières <fr:tex display="inline"><![CDATA[(f_2, \dots , f_n)]]></fr:tex> "indépendantes", on dit que le système est <fr:link href="/0005/" title="Système intégrable" uri="https://c-sarrazin.github.io/0005/" display-uri="0005" type="local">intégrable</fr:link>. On appelle <fr:tex display="block"><![CDATA[F = (f_{1}, \dots , f_{n}) : M \to  \mathbb {R}^n]]></fr:tex>l'application moment du système, et on dit que ses points singuliers (ceux où la différentielle n'est pas inversible) sont les points singuliers du système.</html:p>
+                <html:p>Les systèmes intégrables ont de bonnes propriétés, ils sont en quelque sorte à l'antipode des systèmes chaotiques. En particulier, on peut décrire à l'aide du <fr:link href="/0004/" title="Théorème de Liouville-Arnold" uri="https://c-sarrazin.github.io/0004/" display-uri="0004" type="local">théprème d'Arnold-Liouville</fr:link> <fr:link href="/Aud01/" title="Les systèmes hamiltoniens et leur intégrabilité" uri="https://c-sarrazin.github.io/Aud01/" display-uri="Aud01" type="local">⟦Aud01⟧</fr:link> les surfaces d'énergie, les fibres de l'application moment : si <fr:tex display="inline"><![CDATA[F^{-1}(c)]]></fr:tex> ne contient aucun point singulier, alors il s'agit d'une sous variété lagrangienne invariante par le flot. Si elle est de plus compacte et connexe, elle est difféomorphe à un <fr:tex display="inline"><![CDATA[n]]></fr:tex>-tore. En fait, un voisinage tubulaire de <fr:tex display="inline"><![CDATA[F^{-1}(c)]]></fr:tex> est alors symplectomorphe à <fr:tex display="inline"><![CDATA[T^{*}\mathbb {T}^n]]></fr:tex> muni de la forme de Liouville. En particulier, comme <fr:tex display="inline"><![CDATA[T^{*}\mathbb {T}^n \cong  \mathbb {R}^n \times  \mathbb {T}^n]]></fr:tex>, il existe des coordonnées lisses dites "action-angle" <fr:tex display="inline"><![CDATA[(\alpha _{1}, \dots , \alpha _{n}, \theta _{1}, ..., \theta _{n})]]></fr:tex> qui paramètrent ce voisinage de <fr:tex display="inline"><![CDATA[F^{-1}(c)]]></fr:tex>. Enfin, dans ces coordonnées action angle, <fr:tex display="inline"><![CDATA[\frac {\mathrm {d}\theta }{\mathrm {d}t}]]></fr:tex> ne dépend que de <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex>. Au final, on a dit que <fr:tex display="inline"><![CDATA[M]]></fr:tex> était feuilletée par des tores invariants sur lesquels le mouvement est un flot linéaire. On comprend donc complétement la dynamique au voisinage d'un niveau régulier.</html:p>
+                <html:p>Un cas particulier très intéressant de système intégrable est le cas des variétés toriques <fr:link href="/Can08/" title="Lectures on symplectic geometry" uri="https://c-sarrazin.github.io/Can08/" display-uri="Can08" type="local">⟦Can08⟧</fr:link>. C'est le cas si <fr:tex display="inline"><![CDATA[M]]></fr:tex> est compacte (pour simplifier) et si toutes les intégrales premières qu'on s'est données sont <fr:tex display="inline"><![CDATA[2\pi ]]></fr:tex>-périodiques : cela revient à dire que le système a une symétrie circulaire dans chaque degré de liberté. Le système est ainsi muni d'une action hamiltonienne du tore <fr:tex display="inline"><![CDATA[\mathbb {T}^n]]></fr:tex>. Dans ces cas-là, le théorème d'Atiyah-Guillemin-Sternberg affirme que :</html:p>
+                <html:ul><html:li>Les fibres de <fr:tex display="inline"><![CDATA[F]]></fr:tex> sont connexes, de telle sorte que le théorème précédent s'applique : ces fibres sont des tores ;</html:li>
+  <html:li>L'image de <fr:tex display="inline"><![CDATA[F]]></fr:tex> est l'enveloppe convexe de l'image des points fixes pour l'action de <fr:tex display="inline"><![CDATA[\mathbb {T}^n]]></fr:tex>.</html:li></html:ul>
+                <html:p>Ce théorème est valable quand on a une action hamiltonienne d'un tore de toute dimension. Ici, en utilisant le fait que ce tore est de dimension maximale, on peut dire encore plus sur l'image de l'application moment : il s'agit d'un polytope <fr:tex display="inline"><![CDATA[\Delta  \subset  \mathbb {R}^n]]></fr:tex>, qui vérifie les propriétés suivantes :</html:p>
+                <html:ul><html:li><fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> est simple : en tout sommet se rencontrent exactement <fr:tex display="inline"><![CDATA[n]]></fr:tex> arêtes ;</html:li>
+  <html:li><fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> est rationnel : pour tout sommet <fr:tex display="inline"><![CDATA[p\in  \mathbb {R}^n]]></fr:tex>, les arêtes partant de <fr:tex display="inline"><![CDATA[p]]></fr:tex> sont de la forme <fr:tex display="inline"><![CDATA[p+tu_i]]></fr:tex> avec <fr:tex display="inline"><![CDATA[u_i \in  \mathbb {Z}^n]]></fr:tex>.</html:li>
+  <html:li><fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> est non dégénéré : en tout somment, on peut choisir comme <fr:tex display="inline"><![CDATA[(u_1, \dots , u_n)]]></fr:tex> une <fr:tex display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>-base de <fr:tex display="inline"><![CDATA[\mathbb {Z}^d]]></fr:tex>.</html:li></html:ul>
+                <html:p>Un tel polytope est dit polytope de Deleuze (ou quelque chose comme ça). En fait, la donnée de ce polytope est assez pour reconstruire la variété torique avec son application moment ! C'est le théorème de Danza-Kuduro. Les variétés toriques sont donc extrêmement rigides : cela permet d'en faire une étude très complète. Mais la plupart des systèmes intégrables qui apparaissent réellement ne sont pas toriques. Dans le cas d'un système à deux degrés de liberté, c'est à dire une variété symplectique de dimension 4, une direction naturelle dans laquelle généraliser la situation précédente est de ne demander plus qu'une direction d'invariance circulaire. On arrive ainsi aux variétés semi-toriques <fr:link href="/Pal25/" title="Integrable Systems with Symmetries : Toric, Semitoric, and Beyond" uri="https://c-sarrazin.github.io/Pal25/" display-uri="Pal25" type="local">⟦Pal25⟧</fr:link>, qu'il est aussi possible de classifier, mais avec une liste d'invariants plus compliquée. Les variétés semi-toriques incluent certains exemples physiquement intéressants, comme le système des moments angulaires couplés.</html:p>
+              </fr:mainmatter>
             </fr:tree>
           </fr:mainmatter>
         </fr:tree>

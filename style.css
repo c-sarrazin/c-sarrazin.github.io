@@ -732,3 +732,12 @@ details > summary {
 .block[data-taxon="Proof"] summary::after, .block[data-taxon="Preuve"] summary::after {
   display: none;
 }
+
+footer .block[data-taxon="Définition"], footer .block[data-taxon="Definition"], footer .block[data-taxon="Théorème"], footer .block[data-taxon="Theorem"] {
+  background: none;
+  padding: 0;
+}
+
+footer .block[data-taxon="Définition"] summary::after, footer .block[data-taxon="Definition"] summary::after, footer .block[data-taxon="Theorem"] summary::after, footer .block[data-taxon="Théorème"] summary::after {
+  display: none;
+}
