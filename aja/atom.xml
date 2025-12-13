@@ -24,7 +24,7 @@
           <header>
             <h2>Système intégrable</h2>
           </header>
-          <p>Soit <code>(M, \omega , f_1)</code> un système hamiltonien. On dit qu'il est intégrable quand il existe <code>n-1</code> intégrales premières (en plus du hamiltonien) <code>(f_2, f_n)</code> telles que :</p>
+          <p>Soit <code>(M, \omega , f_1)</code> un système hamiltonien. On dit qu'il est intégrable quand il existe <code>n-1</code> intégrales premières (en plus du hamiltonien) <code>(f_2, \dots , f_n)</code> telles que :</p>
           <ul><li>La famille <code>(\mathrm {d}f_1, \mathrm {d}f_2, \dots , \mathrm {d}f_n)</code> est libre presque partout;</li>
   <li>Pour tout <code>i\neq  j</code>, le crochet de Poisson <code>\{f_i, f_j\}</code> est nul.</li></ul>
         </section>

@@ -33,7 +33,7 @@
         <fr:taxon>Définition</fr:taxon>
       </fr:frontmatter>
       <fr:mainmatter>
-        <html:p>Soit <fr:tex display="inline"><![CDATA[(M, \omega , f_1)]]></fr:tex> un système hamiltonien. On dit qu'il est intégrable quand il existe <fr:tex display="inline"><![CDATA[n-1]]></fr:tex> intégrales premières (en plus du hamiltonien) <fr:tex display="inline"><![CDATA[(f_2, f_n)]]></fr:tex> telles que :</html:p>
+        <html:p>Soit <fr:tex display="inline"><![CDATA[(M, \omega , f_1)]]></fr:tex> un système hamiltonien. On dit qu'il est intégrable quand il existe <fr:tex display="inline"><![CDATA[n-1]]></fr:tex> intégrales premières (en plus du hamiltonien) <fr:tex display="inline"><![CDATA[(f_2, \dots , f_n)]]></fr:tex> telles que :</html:p>
         <html:ul><html:li>La famille <fr:tex display="inline"><![CDATA[(\mathrm {d}f_1, \mathrm {d}f_2, \dots , \mathrm {d}f_n)]]></fr:tex> est libre presque partout;</html:li>
   <html:li>Pour tout <fr:tex display="inline"><![CDATA[i\neq  j]]></fr:tex>, le crochet de Poisson <fr:tex display="inline"><![CDATA[\{f_i, f_j\}]]></fr:tex> est nul.</html:li></html:ul>
       </fr:mainmatter>
@@ -126,7 +126,7 @@
                     <fr:taxon>Définition</fr:taxon>
                   </fr:frontmatter>
                   <fr:mainmatter>
-                    <html:p>Soit <fr:tex display="inline"><![CDATA[(M, \omega , f_1)]]></fr:tex> un système hamiltonien. On dit qu'il est intégrable quand il existe <fr:tex display="inline"><![CDATA[n-1]]></fr:tex> intégrales premières (en plus du hamiltonien) <fr:tex display="inline"><![CDATA[(f_2, f_n)]]></fr:tex> telles que :</html:p>
+                    <html:p>Soit <fr:tex display="inline"><![CDATA[(M, \omega , f_1)]]></fr:tex> un système hamiltonien. On dit qu'il est intégrable quand il existe <fr:tex display="inline"><![CDATA[n-1]]></fr:tex> intégrales premières (en plus du hamiltonien) <fr:tex display="inline"><![CDATA[(f_2, \dots , f_n)]]></fr:tex> telles que :</html:p>
                     <html:ul><html:li>La famille <fr:tex display="inline"><![CDATA[(\mathrm {d}f_1, \mathrm {d}f_2, \dots , \mathrm {d}f_n)]]></fr:tex> est libre presque partout;</html:li>
   <html:li>Pour tout <fr:tex display="inline"><![CDATA[i\neq  j]]></fr:tex>, le crochet de Poisson <fr:tex display="inline"><![CDATA[\{f_i, f_j\}]]></fr:tex> est nul.</html:li></html:ul>
                   </fr:mainmatter>
