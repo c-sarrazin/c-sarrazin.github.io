@@ -3,12 +3,8 @@
 <fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
     <fr:authors>
-      <fr:author>
-        <fr:link href="https://c-sarrazin.github.io/Bozzola/" type="external">Bozzola</fr:link>
-      </fr:author>
-      <fr:author>
-        <fr:link href="https://c-sarrazin.github.io/Brasco/" type="external">Brasco</fr:link>
-      </fr:author>
+      <fr:author>Bozzola</fr:author>
+      <fr:author>Brasco</fr:author>
     </fr:authors>
     <fr:date>
       <fr:year>2024</fr:year>

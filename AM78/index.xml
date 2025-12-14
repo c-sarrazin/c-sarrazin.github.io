@@ -3,12 +3,8 @@
 <fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
     <fr:authors>
-      <fr:author>
-        <fr:link href="https://c-sarrazin.github.io/Abraham,%20R." type="external">Abraham, R.</fr:link>
-      </fr:author>
-      <fr:author>
-        <fr:link href="https://c-sarrazin.github.io/Marsden,%20J.%20E." type="external">Marsden, J. E.</fr:link>
-      </fr:author>
+      <fr:author>Abraham, R.</fr:author>
+      <fr:author>Marsden, J. E.</fr:author>
     </fr:authors>
     <fr:date>
       <fr:year>1978</fr:year>

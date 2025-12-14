@@ -3,9 +3,7 @@
 <fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
     <fr:authors>
-      <fr:author>
-        <fr:link href="https://c-sarrazin.github.io/Palmer,%20J/" type="external">Palmer, J</fr:link>
-      </fr:author>
+      <fr:author>Palmer, J.</fr:author>
     </fr:authors>
     <fr:date>
       <fr:year>2025</fr:year>

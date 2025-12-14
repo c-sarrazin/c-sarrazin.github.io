@@ -3,18 +3,10 @@
 <fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
     <fr:authors>
-      <fr:author>
-        <fr:link href="https://c-sarrazin.github.io/Cycon,%20H.%20L." type="external">Cycon, H. L.</fr:link>
-      </fr:author>
-      <fr:author>
-        <fr:link href="https://c-sarrazin.github.io/Froese,%20R.%20G." type="external">Froese, R. G.</fr:link>
-      </fr:author>
-      <fr:author>
-        <fr:link href="https://c-sarrazin.github.io/Kirsch,%20W." type="external">Kirsch, W.</fr:link>
-      </fr:author>
-      <fr:author>
-        <fr:link href="https://c-sarrazin.github.io/Simon,%20B." type="external">Simon, B.</fr:link>
-      </fr:author>
+      <fr:author>Cycon, H. L.</fr:author>
+      <fr:author>Froese, R. G.</fr:author>
+      <fr:author>Kirsch, W.</fr:author>
+      <fr:author>Simon, B.</fr:author>
     </fr:authors>
     <fr:date>
       <fr:year>1987</fr:year>

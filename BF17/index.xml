@@ -3,12 +3,8 @@
 <fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
     <fr:authors>
-      <fr:author>
-        <fr:link href="https://c-sarrazin.github.io/Bucur/" type="external">Bucur</fr:link>
-      </fr:author>
-      <fr:author>
-        <fr:link href="https://c-sarrazin.github.io/Freitas/" type="external">Freitas</fr:link>
-      </fr:author>
+      <fr:author>Bucur</fr:author>
+      <fr:author>Freitas</fr:author>
     </fr:authors>
     <fr:date>
       <fr:year>2017</fr:year>

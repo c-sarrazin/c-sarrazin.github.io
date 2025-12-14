@@ -98,9 +98,7 @@
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Palmer,%20J/" type="external">Palmer, J</fr:link>
-              </fr:author>
+              <fr:author>Palmer, J.</fr:author>
             </fr:authors>
             <fr:date>
               <fr:year>2025</fr:year>
@@ -117,9 +115,7 @@
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Bozzola/" type="external">Bozzola</fr:link>
-              </fr:author>
+              <fr:author>Bozzola</fr:author>
             </fr:authors>
             <fr:date>
               <fr:year>2025</fr:year>
@@ -135,12 +131,8 @@
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Bozzola/" type="external">Bozzola</fr:link>
-              </fr:author>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Brasco/" type="external">Brasco</fr:link>
-              </fr:author>
+              <fr:author>Bozzola</fr:author>
+              <fr:author>Brasco</fr:author>
             </fr:authors>
             <fr:date>
               <fr:year>2024</fr:year>
@@ -157,12 +149,8 @@
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Bucur/" type="external">Bucur</fr:link>
-              </fr:author>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Freitas/" type="external">Freitas</fr:link>
-              </fr:author>
+              <fr:author>Bucur</fr:author>
+              <fr:author>Freitas</fr:author>
             </fr:authors>
             <fr:date>
               <fr:year>2017</fr:year>
@@ -178,9 +166,7 @@
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Kirsch/" type="external">Kirsch</fr:link>
-              </fr:author>
+              <fr:author>Kirsch</fr:author>
             </fr:authors>
             <fr:date>
               <fr:year>2008</fr:year>
@@ -199,9 +185,7 @@
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Cannas%20da%20Silva,%20A." type="external">Cannas da Silva, A.</fr:link>
-              </fr:author>
+              <fr:author>Cannas da Silva, A.</fr:author>
             </fr:authors>
             <fr:date>
               <fr:year>2008</fr:year>
@@ -218,9 +202,7 @@
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Audin,%20M." type="external">Audin, M.</fr:link>
-              </fr:author>
+              <fr:author>Audin, M.</fr:author>
             </fr:authors>
             <fr:date>
               <fr:year>2001</fr:year>
@@ -237,12 +219,8 @@
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Marsden,%20J.%20E." type="external">Marsden, J. E.</fr:link>
-              </fr:author>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Ratiu,%20T.%20S." type="external">Ratiu, T. S.</fr:link>
-              </fr:author>
+              <fr:author>Marsden, J. E.</fr:author>
+              <fr:author>Ratiu, T. S.</fr:author>
             </fr:authors>
             <fr:date>
               <fr:year>1999</fr:year>
@@ -259,12 +237,8 @@
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Hislop/" type="external">Hislop</fr:link>
-              </fr:author>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Segal/" type="external">Segal</fr:link>
-              </fr:author>
+              <fr:author>Hislop</fr:author>
+              <fr:author>Segal</fr:author>
             </fr:authors>
             <fr:date>
               <fr:year>1996</fr:year>
@@ -280,18 +254,10 @@
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Cycon,%20H.%20L." type="external">Cycon, H. L.</fr:link>
-              </fr:author>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Froese,%20R.%20G." type="external">Froese, R. G.</fr:link>
-              </fr:author>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Kirsch,%20W." type="external">Kirsch, W.</fr:link>
-              </fr:author>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Simon,%20B." type="external">Simon, B.</fr:link>
-              </fr:author>
+              <fr:author>Cycon, H. L.</fr:author>
+              <fr:author>Froese, R. G.</fr:author>
+              <fr:author>Kirsch, W.</fr:author>
+              <fr:author>Simon, B.</fr:author>
             </fr:authors>
             <fr:date>
               <fr:year>1987</fr:year>
@@ -308,9 +274,7 @@
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Chavel/" type="external">Chavel</fr:link>
-              </fr:author>
+              <fr:author>Chavel</fr:author>
             </fr:authors>
             <fr:date>
               <fr:year>1984</fr:year>
@@ -326,12 +290,8 @@
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Abraham,%20R." type="external">Abraham, R.</fr:link>
-              </fr:author>
-              <fr:author>
-                <fr:link href="https://c-sarrazin.github.io/Marsden,%20J.%20E." type="external">Marsden, J. E.</fr:link>
-              </fr:author>
+              <fr:author>Abraham, R.</fr:author>
+              <fr:author>Marsden, J. E.</fr:author>
             </fr:authors>
             <fr:date>
               <fr:year>1978</fr:year>
