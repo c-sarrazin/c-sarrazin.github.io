@@ -4,11 +4,82 @@
     <name>Constance</name>
     <uri>https://c-sarrazin.github.io/cs/</uri>
   </author>
-  <updated>2025-12-12T17:07:53Z</updated>
+  <updated>2025-12-14</updated>
   <title>Aujourd'hui j'ai appris...</title>
   <id>https://c-sarrazin.github.io/aja/</id>
   <link rel="alternate" href="https://c-sarrazin.github.io/aja/" />
   <link rel="self" href="https://c-sarrazin.github.io/aja/atom.xml" />
+  <entry>
+    <title>14 décembre</title>
+    <published>2025-12-14T00:00:00Z</published>
+    <updated>2025-12-14T00:00:00Z</updated>
+    <contributor>
+      <name>Constance</name>
+      <uri>https://c-sarrazin.github.io/cs/</uri>
+    </contributor>
+    <link rel="alternate" type="text/html" href="https://c-sarrazin.github.io/2025-12-14/" />
+    <id>https://c-sarrazin.github.io/2025-12-14/</id>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Aujourd'hui je tente d'abord de rattraper un peu de mon cours sur l'équation de Schrödinger.</p>
+        <section>
+          <header>
+            <h2>Équation de Schrödinger linéaire</h2>
+          </header>
+          <p>On considère le problème de Cauchy : <code>\begin {cases}
+        i\partial _t u + \Delta  u = 0 \\
+        u|_{t=0} = u_0
+    \end {cases}</code>
+    Prenons <code>u_0 \in  \mathscr {S}'</code>. Alors la solution est définie en Fourier par <code>\hat {u}_t(\xi ) = e^{-it\xi ^2} \hat {u}_0(\xi ).</code>
+    On obtient ainsi que <code>u \in  \mathscr {C}(\mathbb {R}, \mathscr {S}')</code>. Comme on multiplie ar une phase en Fourier, on a conservation de la norme <code>H^s</code>, et en particulier <code>L^2</code>. Par les calculs usuels on montre que le problème est bien posé dans <code>H^s</code>, au sens où si <code>u_0\in  H^s</code>, alors <code>u\in  \mathscr {C}^0(\mathbb {R}, H^s) \cap  \mathscr {C}^1(\mathbb {R}, H^{s-2})</code></p>
+          <section>
+            <header>
+              <h3>Noyau de convolution et estimée de dispersion</h3>
+            </header>
+            <p>Pour <code>u_0 \in  L^1</code>, on peut écrire la solution comme un noyau de convolution : <code>u(t,x) = \frac {1}{(4\pi  i t)^{d/2}} \int  e^{i \frac {\lvert  x-y\rvert ^2}{4t}} u_0(y) \mathrm {d}y.</code>
+On a en particulier <code>\lVert  u_t \rVert _{L^\infty } \leqslant  \frac {\lVert  u_0 \rVert _{L^1}}{(4\pi  t)^{d/2}},</code>ce qui décrit un "étalement spatial" de <code>u</code>.</p>
+          </section>
+          <p>Par interpolation entre estimée de dispersion et conservation de la norme <code>L^2</code>, on obtient à peu de frais :</p>
+          <section>
+            <header>
+              <h3>Estimée de dispersion</h3>
+            </header>
+            <p>Soit <code>p \in  [1, 2]</code>. Si <code>u_0 \in  L^p</code>, alors pour <code>t\neq  0</code>, <code>u_t \in  L^{p'}</code> et <code>\lVert  u_t \rVert _{L^{p'}} \leqslant  \frac {\lVert  u_0 \rVert _{L^p}}{(4\pi  t)^{d/p - d/2}}.</code></p>
+          </section>
+          <p>Via la méthode <code>TT^*</code>, on obtient les estimées de Strichartz.</p>
+          <section>
+            <header>
+              <h3>Estimée de Strichartz</h3>
+            </header>
+<p>Soit <code>p\in (2, \infty )</code> et <code>q\in   <![CDATA[[]]> 2, \infty <![CDATA[)]]></code>. On dit que <code>(p,q)</code> est un couple admissible si <code>\frac {2}{p} + \frac {d}{q} = \frac {d}{2}.</code>
+Pour un tel couple, on a <code>\lVert  u \rVert _{L^p(\mathbb {R}, L^q(\mathbb {R}^d))} \leqslant  C_{p,q,d} \lVert  u_0 \rVert _{L^2(\mathbb {R}^d)}.</code></p>
+ 
+   
+   
+   <section>
+  <p>On prend <code>f\in  \mathscr {S}(\mathbb {R}^d)</code> et <code>\phi  \in  \mathscr {C}^{\infty }_{c}(\mathbb {R}, \mathscr {S}(\mathbb {R}^d))</code>. On pose <code>Tf = (t \mapsto  S(t)f) \in  \mathscr {C}(\mathbb {R}, \mathscr {S}(\mathbb {R}^d)) \qquad  T^*\phi   = \int _{\mathbb {R}} S(-s)\phi (s) \, \mathrm {d}s \in  \mathscr {S}(\mathbb {R}^d).</code>
+  On a ainsi <code>TT^*\phi  = \int _\mathbb {R} S(t-s)\phi (s)\, \mathrm {d}s.</code>
+  La notation est justfiée par le fait que <code>
+\langle  Tf,\phi \rangle _{t,x}=\int _{\mathbb  R}\langle  U(t)f,\phi (t)\rangle _x\, \mathrm {d}t
+=\Big \langle  f,\int _{\mathbb  R}U(-t)\phi (t)\,\mathrm {d}t\Big \rangle _x
+=\langle  f,T^*\phi \rangle _{x}.
+</code>
+Il suffit ainsi de contrôler la norme de <code>TT^*</code>... on fait apparaître la convolution avec <code>I_\alpha </code> et on applique Hardy-Littlewood-Sobolev...
+</p>
+</section>
+ 
+          </section>
+        </section>
+        <section>
+          <header>
+            <h2>Entendre des systèmes toriques</h2>
+          </header>
+<p>Sinon, je lis <a href="https://c-sarrazin.github.io/Cha+13/">[Cha+13]</a> et j'essaie de comprendre en même temps des trucs sur la quantification de Toeplitz.</p>
+<figure><img src="https://c-sarrazin.github.io/bafkrmidfar36lxxa2ib4oswlhsjydczdvdex5w7lo35gxzfyfwfsvxfgvq.png" />
+<figcaption>Extrait de <a href="https://c-sarrazin.github.io/Cha+13/">[Cha+13]</a>.</figcaption></figure><section><header><h3>Commutation automatique dans le cas torique</h3></header><p>Soit <code>(M, \omega , \mu )</code> une variété torique avec une préquantification <code>(\mathscr {L}, j)</code>. Il existe des opérateurs de Toeplitz <code>T_1, \dots , T_n</code> qui commutent deux à deux et donc les symboles principaux sont les composantes de <code>\mu </code>.</p></section>        </section>
+      </div>
+    </content>
+  </entry>
   <entry>
     <title>12 décembre</title>
     <author>

@@ -628,12 +628,20 @@ ol li ol li ol {
 }
 
 .block[data-taxon="Théorème"], .block[data-taxon="Theorem"] {
-  background: linear-gradient(90deg, #e664b954, #9198e555);
+  background: linear-gradient(90deg, #de76ba54, #9198e555);
   padding-left: 5px;
   padding-right: 5px;
   margin: 8px 0;
 }
-.block[data-taxon="Théorème"] summary::after, .block[data-taxon="Theorem"] summary::after {
+
+.block[data-taxon="Proposition"] {
+  background: #e34cae38;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 8px 0;
+}
+
+.block[data-taxon="Théorème"] summary::after, .block[data-taxon="Theorem"] summary::after, .block[data-taxon="Proposition"] summary::after {
   content: " ";
   background: transparent;
   width: 100%;
@@ -649,7 +657,7 @@ ol li ol li ol {
   margin: 8px 0;
 }
 
-.block[data-taxon="Définition"]>details[open], .block[data-taxon="Definition"]>details[open], .block[data-taxon="Théorème"]>details[open], .block[data-taxon="Theorem"]>details[open]  {
+.block[data-taxon="Définition"]>details[open], .block[data-taxon="Definition"]>details[open], .block[data-taxon="Théorème"]>details[open], .block[data-taxon="Theorem"]>details[open], .block[data-taxon="Proposition"]>details[open]  {
   margin-bottom: 0em;
 }
 
@@ -712,7 +720,7 @@ details > summary {
 }
 
 .block[data-taxon="Proof"], .block[data-taxon="Preuve"] {
-  box-shadow: 0em -0em 0px 1em #fdf6e3;
+  box-shadow: 0em -0em 0px 0.5em #fdf6e3;
   border-radius: 0;
   background: #fdf6e3;
 }

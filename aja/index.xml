@@ -22,6 +22,132 @@
     <fr:tree show-metadata="false" numbered="false">
       <fr:frontmatter>
         <fr:authors>
+          <fr:contributor>
+            <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+          </fr:contributor>
+        </fr:authors>
+        <fr:date href="/2025-12-14/">
+          <fr:year>2025</fr:year>
+          <fr:month>12</fr:month>
+          <fr:day>14</fr:day>
+        </fr:date>
+        <fr:uri>https://c-sarrazin.github.io/2025-12-14/</fr:uri>
+        <fr:display-uri>2025-12-14</fr:display-uri>
+        <fr:route>/2025-12-14/</fr:route>
+        <fr:title text="14 décembre">14 décembre</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>Aujourd'hui je tente d'abord de rattraper un peu de mon cours sur l'équation de Schrödinger.</html:p>
+        <fr:tree show-metadata="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date href="/2025-12-14/">
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>14</fr:day>
+            </fr:date>
+            <fr:title text="Équation de Schrödinger linéaire">Équation de Schrödinger linéaire</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>On considère le problème de Cauchy : <fr:tex display="block"><![CDATA[\begin {cases}
+        i\partial _t u + \Delta  u = 0 \\
+        u|_{t=0} = u_0
+    \end {cases}]]></fr:tex>
+    Prenons <fr:tex display="inline"><![CDATA[u_0 \in  \mathscr {S}']]></fr:tex>. Alors la solution est définie en Fourier par <fr:tex display="block"><![CDATA[\hat {u}_t(\xi ) = e^{-it\xi ^2} \hat {u}_0(\xi ).]]></fr:tex>
+    On obtient ainsi que <fr:tex display="inline"><![CDATA[u \in  \mathscr {C}(\mathbb {R}, \mathscr {S}')]]></fr:tex>. Comme on multiplie ar une phase en Fourier, on a conservation de la norme <fr:tex display="inline"><![CDATA[H^s]]></fr:tex>, et en particulier <fr:tex display="inline"><![CDATA[L^2]]></fr:tex>. Par les calculs usuels on montre que le problème est bien posé dans <fr:tex display="inline"><![CDATA[H^s]]></fr:tex>, au sens où si <fr:tex display="inline"><![CDATA[u_0\in  H^s]]></fr:tex>, alors <fr:tex display="block"><![CDATA[u\in  \mathscr {C}^0(\mathbb {R}, H^s) \cap  \mathscr {C}^1(\mathbb {R}, H^{s-2})]]></fr:tex></html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date href="/2025-12-14/">
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>14</fr:day>
+                </fr:date>
+                <fr:uri>https://c-sarrazin.github.io/cs-0006/</fr:uri>
+                <fr:display-uri>cs-0006</fr:display-uri>
+                <fr:route>/cs-0006/</fr:route>
+                <fr:title text="Noyau de convolution et estimée de dispersion">Noyau de convolution et estimée de dispersion</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Pour <fr:tex display="inline"><![CDATA[u_0 \in  L^1]]></fr:tex>, on peut écrire la solution comme un noyau de convolution : <fr:tex display="block"><![CDATA[u(t,x) = \frac {1}{(4\pi  i t)^{d/2}} \int  e^{i \frac {\lvert  x-y\rvert ^2}{4t}} u_0(y) \mathrm {d}y.]]></fr:tex>
+On a en particulier <fr:tex display="block"><![CDATA[\lVert  u_t \rVert _{L^\infty } \leqslant  \frac {\lVert  u_0 \rVert _{L^1}}{(4\pi  t)^{d/2}},]]></fr:tex>ce qui décrit un "étalement spatial" de <fr:tex display="inline"><![CDATA[u]]></fr:tex>.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>Par interpolation entre estimée de dispersion et conservation de la norme <fr:tex display="inline"><![CDATA[L^2]]></fr:tex>, on obtient à peu de frais :</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date href="/2025-12-14/">
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>14</fr:day>
+                </fr:date>
+                <fr:uri>https://c-sarrazin.github.io/cs-0007/</fr:uri>
+                <fr:display-uri>cs-0007</fr:display-uri>
+                <fr:route>/cs-0007/</fr:route>
+                <fr:title text="Estimée de dispersion">Estimée de dispersion</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Soit <fr:tex display="inline"><![CDATA[p \in  [1, 2]]]></fr:tex>. Si <fr:tex display="inline"><![CDATA[u_0 \in  L^p]]></fr:tex>, alors pour <fr:tex display="inline"><![CDATA[t\neq  0]]></fr:tex>, <fr:tex display="inline"><![CDATA[u_t \in  L^{p'}]]></fr:tex> et <fr:tex display="block"><![CDATA[\lVert  u_t \rVert _{L^{p'}} \leqslant  \frac {\lVert  u_0 \rVert _{L^p}}{(4\pi  t)^{d/p - d/2}}.]]></fr:tex></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>Via la méthode <fr:tex display="inline"><![CDATA[TT^*]]></fr:tex>, on obtient les estimées de Strichartz.</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date href="/2025-12-14/">
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>14</fr:day>
+                </fr:date>
+                <fr:uri>https://c-sarrazin.github.io/cs-0008/</fr:uri>
+                <fr:display-uri>cs-0008</fr:display-uri>
+                <fr:route>/cs-0008/</fr:route>
+                <fr:title text="Estimée de Strichartz">Estimée de Strichartz</fr:title>
+                <fr:taxon>Théorème</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>Soit <fr:tex display="inline"><![CDATA[p\in (2, \infty )]]></fr:tex> et <fr:tex display="inline"><![CDATA[q\in   [ 2, \infty )]]></fr:tex>. On dit que <fr:tex display="inline"><![CDATA[(p,q)]]></fr:tex> est un couple admissible si <fr:tex display="block"><![CDATA[\frac {2}{p} + \frac {d}{q} = \frac {d}{2}.]]></fr:tex>
+Pour un tel couple, on a <fr:tex display="block"><![CDATA[\lVert  u \rVert _{L^p(\mathbb {R}, L^q(\mathbb {R}^d))} \leqslant  C_{p,q,d} \lVert  u_0 \rVert _{L^2(\mathbb {R}^d)}.]]></fr:tex></html:p>
+ 
+   
+   
+   <fr:tree show-metadata="false" expanded="false" toc="false"><fr:frontmatter><fr:authors /><fr:date href="/2025-12-14/"><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:taxon>Preuve</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>On prend <fr:tex display="inline"><![CDATA[f\in  \mathscr {S}(\mathbb {R}^d)]]></fr:tex> et <fr:tex display="inline"><![CDATA[\phi  \in  \mathscr {C}^{\infty }_{c}(\mathbb {R}, \mathscr {S}(\mathbb {R}^d))]]></fr:tex>. On pose <fr:tex display="block"><![CDATA[Tf = (t \mapsto  S(t)f) \in  \mathscr {C}(\mathbb {R}, \mathscr {S}(\mathbb {R}^d)) \qquad  T^*\phi   = \int _{\mathbb {R}} S(-s)\phi (s) \, \mathrm {d}s \in  \mathscr {S}(\mathbb {R}^d).]]></fr:tex>
+  On a ainsi <fr:tex display="block"><![CDATA[TT^*\phi  = \int _\mathbb {R} S(t-s)\phi (s)\, \mathrm {d}s.]]></fr:tex>
+  La notation est justfiée par le fait que <fr:tex display="block"><![CDATA[
+\langle  Tf,\phi \rangle _{t,x}=\int _{\mathbb  R}\langle  U(t)f,\phi (t)\rangle _x\, \mathrm {d}t
+=\Big \langle  f,\int _{\mathbb  R}U(-t)\phi (t)\,\mathrm {d}t\Big \rangle _x
+=\langle  f,T^*\phi \rangle _{x}.
+]]></fr:tex>
+Il suffit ainsi de contrôler la norme de <fr:tex display="inline"><![CDATA[TT^*]]></fr:tex>... on fait apparaître la convolution avec <fr:tex display="inline"><![CDATA[I_\alpha ]]></fr:tex> et on applique Hardy-Littlewood-Sobolev...
+</html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date href="/2025-12-14/">
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>14</fr:day>
+            </fr:date>
+            <fr:title text="Entendre des systèmes toriques">Entendre des systèmes toriques</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Sinon, je lis <fr:link href="/Cha+13/" title="Isospectrality for quantum toric integrable systems" uri="https://c-sarrazin.github.io/Cha+13/" display-uri="Cha+13" type="local">[Cha+13]</fr:link> et j'essaie de comprendre en même temps des trucs sur la quantification de Toeplitz.</html:p>
+<html:figure><html:img src="/bafkrmidfar36lxxa2ib4oswlhsjydczdvdex5w7lo35gxzfyfwfsvxfgvq.png" />
+<html:figcaption>Extrait de <fr:link href="/Cha+13/" title="Isospectrality for quantum toric integrable systems" uri="https://c-sarrazin.github.io/Cha+13/" display-uri="Cha+13" type="local">[Cha+13]</fr:link>.</html:figcaption></html:figure><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link></fr:author></fr:authors><fr:date href="/2025-12-14/"><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:uri>https://c-sarrazin.github.io/cs-0009/</fr:uri><fr:display-uri>cs-0009</fr:display-uri><fr:route>/cs-0009/</fr:route><fr:title text="Commutation automatique dans le cas torique">Commutation automatique dans le cas torique</fr:title><fr:taxon>Proposition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Soit <fr:tex display="inline"><![CDATA[(M, \omega , \mu )]]></fr:tex> une variété torique avec une préquantification <fr:tex display="inline"><![CDATA[(\mathscr {L}, j)]]></fr:tex>. Il existe des opérateurs de Toeplitz <fr:tex display="inline"><![CDATA[T_1, \dots , T_n]]></fr:tex> qui commutent deux à deux et donc les symboles principaux sont les composantes de <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex>.</html:p></fr:mainmatter></fr:tree></fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" numbered="false">
+      <fr:frontmatter>
+        <fr:authors>
           <fr:author>
             <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
           </fr:author>
@@ -45,9 +171,9 @@
               <fr:month>12</fr:month>
               <fr:day>12</fr:day>
             </fr:date>
-            <fr:uri>https://c-sarrazin.github.io/0005/</fr:uri>
-            <fr:display-uri>0005</fr:display-uri>
-            <fr:route>/0005/</fr:route>
+            <fr:uri>https://c-sarrazin.github.io/cs-0005/</fr:uri>
+            <fr:display-uri>cs-0005</fr:display-uri>
+            <fr:route>/cs-0005/</fr:route>
             <fr:title text="Système intégrable">Système intégrable</fr:title>
             <fr:taxon>Définition</fr:taxon>
           </fr:frontmatter>
@@ -66,9 +192,9 @@
               <fr:month>12</fr:month>
               <fr:day>12</fr:day>
             </fr:date>
-            <fr:uri>https://c-sarrazin.github.io/0004/</fr:uri>
-            <fr:display-uri>0004</fr:display-uri>
-            <fr:route>/0004/</fr:route>
+            <fr:uri>https://c-sarrazin.github.io/cs-0004/</fr:uri>
+            <fr:display-uri>cs-0004</fr:display-uri>
+            <fr:route>/cs-0004/</fr:route>
             <fr:title text="Théorème de Liouville-Arnold">Théorème de Liouville-Arnold</fr:title>
             <fr:taxon>Théorème</fr:taxon>
           </fr:frontmatter>
@@ -87,7 +213,28 @@
         <fr:authors />
         <fr:title text="References">References</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>Charles, L.</fr:author>
+              <fr:author>Pelayo, A.</fr:author>
+              <fr:author>Vũ Ngọc, S.</fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2013</fr:year>
+            </fr:date>
+            <fr:uri>https://c-sarrazin.github.io/Cha+13/</fr:uri>
+            <fr:display-uri>Cha+13</fr:display-uri>
+            <fr:route>/Cha+13/</fr:route>
+            <fr:title text="Isospectrality for quantum toric integrable systems">Isospectrality for quantum toric integrable systems</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="doi">10.24033/asens.2202</fr:meta>
+            <fr:meta name="venue">Ann. Sci. Éc. Norm. Supér.</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
@@ -105,7 +252,7 @@
             <fr:uri>https://c-sarrazin.github.io/index/</fr:uri>
             <fr:display-uri>index</fr:display-uri>
             <fr:route>/index/</fr:route>
-            <fr:title text="Bonjour :3">Bonjour <html:code>:3</html:code></fr:title>
+            <fr:title text="Bonjour :-)">Bonjour :-<![CDATA[)]]></fr:title>
             <fr:meta name="author">false</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
@@ -120,7 +267,7 @@
                 <fr:title text="Notes du M½">Notes du M½</fr:title>
               </fr:frontmatter>
               <fr:mainmatter>
-                <html:p>Voir le <fr:link href="/0001/" title="M½ : édition 2026" uri="https://c-sarrazin.github.io/0001/" display-uri="0001" type="local">programme 2026</fr:link>.</html:p>
+                <html:p>Voir le <fr:link href="/cs-0001/" title="M½ : édition 2026" uri="https://c-sarrazin.github.io/cs-0001/" display-uri="cs-0001" type="local">programme 2026</fr:link>.</html:p>
               </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">
@@ -163,6 +310,132 @@
                 <fr:tree show-metadata="false" numbered="false">
                   <fr:frontmatter>
                     <fr:authors>
+                      <fr:contributor>
+                        <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+                      </fr:contributor>
+                    </fr:authors>
+                    <fr:date href="/2025-12-14/">
+                      <fr:year>2025</fr:year>
+                      <fr:month>12</fr:month>
+                      <fr:day>14</fr:day>
+                    </fr:date>
+                    <fr:uri>https://c-sarrazin.github.io/2025-12-14/</fr:uri>
+                    <fr:display-uri>2025-12-14</fr:display-uri>
+                    <fr:route>/2025-12-14/</fr:route>
+                    <fr:title text="14 décembre">14 décembre</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>Aujourd'hui je tente d'abord de rattraper un peu de mon cours sur l'équation de Schrödinger.</html:p>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date href="/2025-12-14/">
+                          <fr:year>2025</fr:year>
+                          <fr:month>12</fr:month>
+                          <fr:day>14</fr:day>
+                        </fr:date>
+                        <fr:title text="Équation de Schrödinger linéaire">Équation de Schrödinger linéaire</fr:title>
+                      </fr:frontmatter>
+                      <fr:mainmatter>
+                        <html:p>On considère le problème de Cauchy : <fr:tex display="block"><![CDATA[\begin {cases}
+        i\partial _t u + \Delta  u = 0 \\
+        u|_{t=0} = u_0
+    \end {cases}]]></fr:tex>
+    Prenons <fr:tex display="inline"><![CDATA[u_0 \in  \mathscr {S}']]></fr:tex>. Alors la solution est définie en Fourier par <fr:tex display="block"><![CDATA[\hat {u}_t(\xi ) = e^{-it\xi ^2} \hat {u}_0(\xi ).]]></fr:tex>
+    On obtient ainsi que <fr:tex display="inline"><![CDATA[u \in  \mathscr {C}(\mathbb {R}, \mathscr {S}')]]></fr:tex>. Comme on multiplie ar une phase en Fourier, on a conservation de la norme <fr:tex display="inline"><![CDATA[H^s]]></fr:tex>, et en particulier <fr:tex display="inline"><![CDATA[L^2]]></fr:tex>. Par les calculs usuels on montre que le problème est bien posé dans <fr:tex display="inline"><![CDATA[H^s]]></fr:tex>, au sens où si <fr:tex display="inline"><![CDATA[u_0\in  H^s]]></fr:tex>, alors <fr:tex display="block"><![CDATA[u\in  \mathscr {C}^0(\mathbb {R}, H^s) \cap  \mathscr {C}^1(\mathbb {R}, H^{s-2})]]></fr:tex></html:p>
+                        <fr:tree show-metadata="false">
+                          <fr:frontmatter>
+                            <fr:authors />
+                            <fr:date href="/2025-12-14/">
+                              <fr:year>2025</fr:year>
+                              <fr:month>12</fr:month>
+                              <fr:day>14</fr:day>
+                            </fr:date>
+                            <fr:uri>https://c-sarrazin.github.io/cs-0006/</fr:uri>
+                            <fr:display-uri>cs-0006</fr:display-uri>
+                            <fr:route>/cs-0006/</fr:route>
+                            <fr:title text="Noyau de convolution et estimée de dispersion">Noyau de convolution et estimée de dispersion</fr:title>
+                            <fr:taxon>Proposition</fr:taxon>
+                          </fr:frontmatter>
+                          <fr:mainmatter>
+                            <html:p>Pour <fr:tex display="inline"><![CDATA[u_0 \in  L^1]]></fr:tex>, on peut écrire la solution comme un noyau de convolution : <fr:tex display="block"><![CDATA[u(t,x) = \frac {1}{(4\pi  i t)^{d/2}} \int  e^{i \frac {\lvert  x-y\rvert ^2}{4t}} u_0(y) \mathrm {d}y.]]></fr:tex>
+On a en particulier <fr:tex display="block"><![CDATA[\lVert  u_t \rVert _{L^\infty } \leqslant  \frac {\lVert  u_0 \rVert _{L^1}}{(4\pi  t)^{d/2}},]]></fr:tex>ce qui décrit un "étalement spatial" de <fr:tex display="inline"><![CDATA[u]]></fr:tex>.</html:p>
+                          </fr:mainmatter>
+                        </fr:tree>
+                        <html:p>Par interpolation entre estimée de dispersion et conservation de la norme <fr:tex display="inline"><![CDATA[L^2]]></fr:tex>, on obtient à peu de frais :</html:p>
+                        <fr:tree show-metadata="false">
+                          <fr:frontmatter>
+                            <fr:authors />
+                            <fr:date href="/2025-12-14/">
+                              <fr:year>2025</fr:year>
+                              <fr:month>12</fr:month>
+                              <fr:day>14</fr:day>
+                            </fr:date>
+                            <fr:uri>https://c-sarrazin.github.io/cs-0007/</fr:uri>
+                            <fr:display-uri>cs-0007</fr:display-uri>
+                            <fr:route>/cs-0007/</fr:route>
+                            <fr:title text="Estimée de dispersion">Estimée de dispersion</fr:title>
+                            <fr:taxon>Proposition</fr:taxon>
+                          </fr:frontmatter>
+                          <fr:mainmatter>
+                            <html:p>Soit <fr:tex display="inline"><![CDATA[p \in  [1, 2]]]></fr:tex>. Si <fr:tex display="inline"><![CDATA[u_0 \in  L^p]]></fr:tex>, alors pour <fr:tex display="inline"><![CDATA[t\neq  0]]></fr:tex>, <fr:tex display="inline"><![CDATA[u_t \in  L^{p'}]]></fr:tex> et <fr:tex display="block"><![CDATA[\lVert  u_t \rVert _{L^{p'}} \leqslant  \frac {\lVert  u_0 \rVert _{L^p}}{(4\pi  t)^{d/p - d/2}}.]]></fr:tex></html:p>
+                          </fr:mainmatter>
+                        </fr:tree>
+                        <html:p>Via la méthode <fr:tex display="inline"><![CDATA[TT^*]]></fr:tex>, on obtient les estimées de Strichartz.</html:p>
+                        <fr:tree show-metadata="false">
+                          <fr:frontmatter>
+                            <fr:authors />
+                            <fr:date href="/2025-12-14/">
+                              <fr:year>2025</fr:year>
+                              <fr:month>12</fr:month>
+                              <fr:day>14</fr:day>
+                            </fr:date>
+                            <fr:uri>https://c-sarrazin.github.io/cs-0008/</fr:uri>
+                            <fr:display-uri>cs-0008</fr:display-uri>
+                            <fr:route>/cs-0008/</fr:route>
+                            <fr:title text="Estimée de Strichartz">Estimée de Strichartz</fr:title>
+                            <fr:taxon>Théorème</fr:taxon>
+                          </fr:frontmatter>
+                          <fr:mainmatter><html:p>Soit <fr:tex display="inline"><![CDATA[p\in (2, \infty )]]></fr:tex> et <fr:tex display="inline"><![CDATA[q\in   [ 2, \infty )]]></fr:tex>. On dit que <fr:tex display="inline"><![CDATA[(p,q)]]></fr:tex> est un couple admissible si <fr:tex display="block"><![CDATA[\frac {2}{p} + \frac {d}{q} = \frac {d}{2}.]]></fr:tex>
+Pour un tel couple, on a <fr:tex display="block"><![CDATA[\lVert  u \rVert _{L^p(\mathbb {R}, L^q(\mathbb {R}^d))} \leqslant  C_{p,q,d} \lVert  u_0 \rVert _{L^2(\mathbb {R}^d)}.]]></fr:tex></html:p>
+ 
+   
+   
+   <fr:tree show-metadata="false" expanded="false" toc="false"><fr:frontmatter><fr:authors /><fr:date href="/2025-12-14/"><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:taxon>Preuve</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>On prend <fr:tex display="inline"><![CDATA[f\in  \mathscr {S}(\mathbb {R}^d)]]></fr:tex> et <fr:tex display="inline"><![CDATA[\phi  \in  \mathscr {C}^{\infty }_{c}(\mathbb {R}, \mathscr {S}(\mathbb {R}^d))]]></fr:tex>. On pose <fr:tex display="block"><![CDATA[Tf = (t \mapsto  S(t)f) \in  \mathscr {C}(\mathbb {R}, \mathscr {S}(\mathbb {R}^d)) \qquad  T^*\phi   = \int _{\mathbb {R}} S(-s)\phi (s) \, \mathrm {d}s \in  \mathscr {S}(\mathbb {R}^d).]]></fr:tex>
+  On a ainsi <fr:tex display="block"><![CDATA[TT^*\phi  = \int _\mathbb {R} S(t-s)\phi (s)\, \mathrm {d}s.]]></fr:tex>
+  La notation est justfiée par le fait que <fr:tex display="block"><![CDATA[
+\langle  Tf,\phi \rangle _{t,x}=\int _{\mathbb  R}\langle  U(t)f,\phi (t)\rangle _x\, \mathrm {d}t
+=\Big \langle  f,\int _{\mathbb  R}U(-t)\phi (t)\,\mathrm {d}t\Big \rangle _x
+=\langle  f,T^*\phi \rangle _{x}.
+]]></fr:tex>
+Il suffit ainsi de contrôler la norme de <fr:tex display="inline"><![CDATA[TT^*]]></fr:tex>... on fait apparaître la convolution avec <fr:tex display="inline"><![CDATA[I_\alpha ]]></fr:tex> et on applique Hardy-Littlewood-Sobolev...
+</html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                        </fr:tree>
+                      </fr:mainmatter>
+                    </fr:tree>
+                    <fr:tree show-metadata="false">
+                      <fr:frontmatter>
+                        <fr:authors />
+                        <fr:date href="/2025-12-14/">
+                          <fr:year>2025</fr:year>
+                          <fr:month>12</fr:month>
+                          <fr:day>14</fr:day>
+                        </fr:date>
+                        <fr:title text="Entendre des systèmes toriques">Entendre des systèmes toriques</fr:title>
+                      </fr:frontmatter>
+                      <fr:mainmatter><html:p>Sinon, je lis <fr:link href="/Cha+13/" title="Isospectrality for quantum toric integrable systems" uri="https://c-sarrazin.github.io/Cha+13/" display-uri="Cha+13" type="local">[Cha+13]</fr:link> et j'essaie de comprendre en même temps des trucs sur la quantification de Toeplitz.</html:p>
+<html:figure><html:img src="/bafkrmidfar36lxxa2ib4oswlhsjydczdvdex5w7lo35gxzfyfwfsvxfgvq.png" />
+<html:figcaption>Extrait de <fr:link href="/Cha+13/" title="Isospectrality for quantum toric integrable systems" uri="https://c-sarrazin.github.io/Cha+13/" display-uri="Cha+13" type="local">[Cha+13]</fr:link>.</html:figcaption></html:figure><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link></fr:author></fr:authors><fr:date href="/2025-12-14/"><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:uri>https://c-sarrazin.github.io/cs-0009/</fr:uri><fr:display-uri>cs-0009</fr:display-uri><fr:route>/cs-0009/</fr:route><fr:title text="Commutation automatique dans le cas torique">Commutation automatique dans le cas torique</fr:title><fr:taxon>Proposition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Soit <fr:tex display="inline"><![CDATA[(M, \omega , \mu )]]></fr:tex> une variété torique avec une préquantification <fr:tex display="inline"><![CDATA[(\mathscr {L}, j)]]></fr:tex>. Il existe des opérateurs de Toeplitz <fr:tex display="inline"><![CDATA[T_1, \dots , T_n]]></fr:tex> qui commutent deux à deux et donc les symboles principaux sont les composantes de <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex>.</html:p></fr:mainmatter></fr:tree></fr:mainmatter>
+                    </fr:tree>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
                       <fr:author>
                         <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
                       </fr:author>
@@ -186,9 +459,9 @@
                           <fr:month>12</fr:month>
                           <fr:day>12</fr:day>
                         </fr:date>
-                        <fr:uri>https://c-sarrazin.github.io/0005/</fr:uri>
-                        <fr:display-uri>0005</fr:display-uri>
-                        <fr:route>/0005/</fr:route>
+                        <fr:uri>https://c-sarrazin.github.io/cs-0005/</fr:uri>
+                        <fr:display-uri>cs-0005</fr:display-uri>
+                        <fr:route>/cs-0005/</fr:route>
                         <fr:title text="Système intégrable">Système intégrable</fr:title>
                         <fr:taxon>Définition</fr:taxon>
                       </fr:frontmatter>
@@ -207,9 +480,9 @@
                           <fr:month>12</fr:month>
                           <fr:day>12</fr:day>
                         </fr:date>
-                        <fr:uri>https://c-sarrazin.github.io/0004/</fr:uri>
-                        <fr:display-uri>0004</fr:display-uri>
-                        <fr:route>/0004/</fr:route>
+                        <fr:uri>https://c-sarrazin.github.io/cs-0004/</fr:uri>
+                        <fr:display-uri>cs-0004</fr:display-uri>
+                        <fr:route>/cs-0004/</fr:route>
                         <fr:title text="Théorème de Liouville-Arnold">Théorème de Liouville-Arnold</fr:title>
                         <fr:taxon>Théorème</fr:taxon>
                       </fr:frontmatter>

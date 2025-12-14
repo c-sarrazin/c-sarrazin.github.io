@@ -6,6 +6,7 @@
     <fr:uri>https://c-sarrazin.github.io/basic/</fr:uri>
     <fr:display-uri>basic</fr:display-uri>
     <fr:route>/basic/</fr:route>
+    <fr:title text="My macros">My macros</fr:title>
   </fr:frontmatter>
   <fr:mainmatter />
   <fr:backmatter>
