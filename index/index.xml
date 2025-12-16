@@ -15,6 +15,7 @@
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>Se trouvent ici toutes les notes de mathématiques que j'ai prises depuis quatre ans, y compris <fr:link href="/aja/" title="Aujourd'hui j'ai appris..." uri="https://c-sarrazin.github.io/aja/" display-uri="aja" type="local">mon journal mathématique</fr:link> (anciennement "thread AJA") et les <fr:link href="/cs-0001/" title="M½ : édition 2026" uri="https://c-sarrazin.github.io/cs-0001/" display-uri="cs-0001" type="local">notes du M½</fr:link>. Ce site est généré par <fr:link href="https://www.forester-notes.org/" type="external">Forester</fr:link>.</html:p>
+    <html:button id="search" onclick="const ninja = document.querySelector('ninja-keys'); ninja.open();" />
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">

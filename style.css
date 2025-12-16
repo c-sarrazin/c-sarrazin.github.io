@@ -144,8 +144,9 @@ mrow:hover {
 }
 
 .logo {
-  font-weight: 1000;
+  font-weight: 500;
   font-size: 24px;
+  font-family: monospace
 }
 
 .logo a {
@@ -187,9 +188,7 @@ footer h2 {
 
 @media only screen and (max-width: 1000px) {
   body {
-    margin-top: 1em;
-    margin-left: .5em;
-    margin-right: .5em;
+    margin: 0;
     transition: ease all .2s;
   }
 
@@ -202,8 +201,7 @@ footer h2 {
 @media only screen and (min-width: 1000px) {
   body {
     transition: ease all .2s;
-    margin: 2em auto;
-    width: fit-content;
+    margin: 0;
   }
 
   #grid-wrapper {
@@ -214,7 +212,12 @@ footer h2 {
 }
 
 body>header {
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+#grid-wrapper {
+	margin: 0 auto;
+	max-width: 97%;
 }
 
 #grid-wrapper>article {
@@ -798,7 +801,7 @@ footer .block[data-taxon="Théorème"] summary::after {
   display: none;
 }
 
-.block:has(a[href="/aja/"]) > details > .block > details > summary {
+.block:has(a[href="/aja/"])>details>.block>details>summary {
   background: #b4b4cc;
   padding-left: 5px;
 }
@@ -807,6 +810,24 @@ footer .block summary {
   background: none !important;
 }
 
-.block:has(a[href="/aja/"]) > details > .block > details > summary .taxon {
+.block:has(a[href="/aja/"])>details>.block>details>summary .taxon {
   display: none
+}
+
+#search {
+	width: 24px;
+	height: 24px;
+	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXNlYXJjaC1pY29uIGx1Y2lkZS1zZWFyY2giPjxwYXRoIGQ9Im0yMSAyMS00LjM0LTQuMzQiLz48Y2lyY2xlIGN4PSIxMSIgY3k9IjExIiByPSI4Ii8+PC9zdmc+);
+	background-size: cover;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 12px;
+}
+
+.nav {
+	position: relative;
+	padding: 5px 0px 5px 20px;
+	background: linear-gradient(90deg, #de76ba88, #9198e566);
 }

@@ -26,17 +26,16 @@
       </head>
       <body>
         <ninja-keys placeholder="Start typing a note title or ID"></ninja-keys>
-        <xsl:if test="not(/f:tree[@root = 'true'])">
           <header class="header">
             <nav class="nav">
               <div class="logo">
                 <a href="{/f:tree/@base-url}index.html" title="Home">
-                  <xsl:text>« Accueil</xsl:text>
+                  <xsl:text>c-sarrazin.github.io</xsl:text>
                 </a>
               </div>
+              <button id="search" onclick="const ninja = document.querySelector('ninja-keys'); ninja.open();"></button>
             </nav>
           </header>
-        </xsl:if>
         <div id="grid-wrapper">
           <article>
             <xsl:apply-templates select="f:tree" />
