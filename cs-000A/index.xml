@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date href="/2025-12-16/">
+      <fr:year>2025</fr:year>
+      <fr:month>12</fr:month>
+      <fr:day>16</fr:day>
+    </fr:date>
+    <fr:uri>https://c-sarrazin.github.io/cs-000A/</fr:uri>
+    <fr:display-uri>cs-000A</fr:display-uri>
+    <fr:route>/cs-000A/</fr:route>
+    <fr:title text="Symplectomorphismes et graphe lagrangien">Symplectomorphismes et graphe lagrangien</fr:title>
+    <fr:taxon>Proposition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>Soit <fr:tex display="inline"><![CDATA[f: (M, \omega _1) \to  (N, \omega _2)]]></fr:tex> un difféomorphisme entre variétés symplectiques. Les enoncés suivants sont équivalents : <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> est un symplectomorphisme,</html:li>
+  <html:li>son graphe <fr:tex display="block"><![CDATA[\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}]]></fr:tex>est une sous-variété lagrangienne de <fr:tex display="inline"><![CDATA[M \times  N]]></fr:tex> muni de la forme symplectique <fr:tex display="inline"><![CDATA[\omega _1 \ominus  \omega _2 = \pi _1^* \omega _1 - \pi _2^* \omega _2]]></fr:tex>,</html:li>
+  <html:li>son graphe <fr:tex display="block"><![CDATA[\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}]]></fr:tex>est une sous-variété symplectique de <fr:tex display="inline"><![CDATA[M \times  N]]></fr:tex> muni de la forme symplectique <fr:tex display="inline"><![CDATA[\omega _1 \oplus  \omega _2 = \pi _1^* \omega _1 + \pi _2^* \omega _2]]></fr:tex>.</html:li></html:ol></html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:uri>https://c-sarrazin.github.io/2025-12-16/</fr:uri>
+            <fr:display-uri>2025-12-16</fr:display-uri>
+            <fr:route>/2025-12-16/</fr:route>
+            <fr:title text="16 décembre">16 décembre</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:div style="display:flex;padding:5px; background:#d2d2e3;margin-bottom:10px">
+    <html:div style="flex:auto;position: relative;">
+      <html:div>So Easy</html:div>
+      <html:div>Röyksopp</html:div>
+      <html:div>Melody A.M.</html:div>
+      <html:div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</html:div>
+    </html:div>
+    <html:div style="width:80px;position:relative;">
+      <html:img src="https://i.scdn.co/image/ab67616d0000b2731e5655cd8db911dc48ea57df" style="height:100%;position:absolute;right:0" />
+    </html:div>
+</html:div>
+            <html:p>Aujourd'hui, j'ai écrit des notes de mécanique hamiltonienne et de géométrie symplectique pour le début du <fr:link href="/cs-0001/" title="M½ : édition 2026" uri="https://c-sarrazin.github.io/cs-0001/" display-uri="cs-0001" type="local">M½</fr:link>. À cette occasion, dans <fr:link href="/AM78/" title="Foundations of mechanics" uri="https://c-sarrazin.github.io/AM78/" display-uri="AM78" type="local">[AM78]</fr:link>, je trouve l'exercice facile mais sympathique suivant.</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date href="/2025-12-16/">
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>16</fr:day>
+                </fr:date>
+                <fr:uri>https://c-sarrazin.github.io/cs-000A/</fr:uri>
+                <fr:display-uri>cs-000A</fr:display-uri>
+                <fr:route>/cs-000A/</fr:route>
+                <fr:title text="Symplectomorphismes et graphe lagrangien">Symplectomorphismes et graphe lagrangien</fr:title>
+                <fr:taxon>Proposition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Soit <fr:tex display="inline"><![CDATA[f: (M, \omega _1) \to  (N, \omega _2)]]></fr:tex> un difféomorphisme entre variétés symplectiques. Les enoncés suivants sont équivalents : <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> est un symplectomorphisme,</html:li>
+  <html:li>son graphe <fr:tex display="block"><![CDATA[\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}]]></fr:tex>est une sous-variété lagrangienne de <fr:tex display="inline"><![CDATA[M \times  N]]></fr:tex> muni de la forme symplectique <fr:tex display="inline"><![CDATA[\omega _1 \ominus  \omega _2 = \pi _1^* \omega _1 - \pi _2^* \omega _2]]></fr:tex>,</html:li>
+  <html:li>son graphe <fr:tex display="block"><![CDATA[\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}]]></fr:tex>est une sous-variété symplectique de <fr:tex display="inline"><![CDATA[M \times  N]]></fr:tex> muni de la forme symplectique <fr:tex display="inline"><![CDATA[\omega _1 \oplus  \omega _2 = \pi _1^* \omega _1 + \pi _2^* \omega _2]]></fr:tex>.</html:li></html:ol></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

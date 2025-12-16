@@ -4,23 +4,74 @@
     <name>Constance</name>
     <uri>https://c-sarrazin.github.io/cs/</uri>
   </author>
-  <updated>2025-12-14</updated>
+  <updated>2025-12-12T17:07:53Z</updated>
   <title>Aujourd'hui j'ai appris...</title>
   <id>https://c-sarrazin.github.io/aja/</id>
   <link rel="alternate" href="https://c-sarrazin.github.io/aja/" />
   <link rel="self" href="https://c-sarrazin.github.io/aja/atom.xml" />
   <entry>
-    <title>14 décembre</title>
-    <published>2025-12-14T00:00:00Z</published>
-    <updated>2025-12-14T00:00:00Z</updated>
-    <contributor>
+    <title>12 décembre</title>
+    <author>
       <name>Constance</name>
       <uri>https://c-sarrazin.github.io/cs/</uri>
-    </contributor>
+    </author>
+    <link rel="alternate" type="text/html" href="https://c-sarrazin.github.io/2025-12-12/" />
+    <id>https://c-sarrazin.github.io/2025-12-12/</id>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <div style="display:flex;padding:5px; background:#d2d2e3;margin-bottom:10px">
+    <div style="flex:auto;position: relative;">
+      <div>Raid (feat. MED)</div>
+      <div>Madvillain, Madlib, MF DOOM, MED</div>
+      <div>Madvillainy</div>
+      <div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</div>
+    </div>
+    <div style="width:80px;position:relative;">
+      <img src="https://i.scdn.co/image/ab67616d0000b2733e3bb917af94bd82074c5d47" style="height:100%;position:absolute;right:0" />
+    </div>
+</div>
+        <p>Aujourd'hui j'ai démontré le théorème d'Arnold-Liouville.</p>
+        <section>
+          <header>
+            <h2>Système intégrable</h2>
+          </header>
+          <p>Soit <code>(M, \omega , f_1)</code> un système hamiltonien. On dit qu'il est intégrable quand il existe <code>n-1</code> intégrales premières (en plus du hamiltonien) <code>(f_2, \dots , f_n)</code> telles que :</p>
+          <ul><li>La famille <code>(\mathrm {d}f_1, \mathrm {d}f_2, \dots , \mathrm {d}f_n)</code> est libre presque partout;</li>
+  <li>Pour tout <code>i\neq  j</code>, le crochet de Poisson <code>\{f_i, f_j\}</code> est nul.</li></ul>
+        </section>
+        <p>Les systèmes intégrables s'appellent ainsi car il est en principe à peu près possible de les intégrer, c'est à dire d'écrire des solutions explicites au système (dans de bonnes coordonnées.) Cela est précisé par le théorème suivant.</p>
+        <section>
+          <header>
+            <h2>Théorème de Liouville-Arnold</h2>
+          </header>
+          <p>Soit <code>(M, \omega )</code> un système hamiltonien intégrable d'application moment <code>F = (f_1, \dots , f_n) : M \to  \mathbb {R}^n</code>. Soit <code>c\in  \mathbb {R}^n</code> une valeur régulière du système. Alors la surface d'énergie <code>F^{-1}(c)</code> est une sous-variété lagrangienne invariante par le flot.</p>
+          <p>Supposons de plus que <code>F^{-1}(c)</code> soit compact et connexe. Alors <code>F^{-1}(c)</code> est un <code>n</code>-tore. Plus globalement, il existe <code>\varepsilon  &gt; 0</code> tel qu'on ait un symplectomorphisme entre <code>F^{-1}(\mathscr {B}(c, \varepsilon ))</code> (voisinage tubulaire de <code>F^{-1}(c)</code>) et un voisinage de la section nulle dans <code>T^* \mathbb {T}^n</code> muni de la forme de Liouville.</p>
+          <p>On calcule de plus que sur ces tores invariants, le flot est linéaire. Cela montre qu'un tel système intégrable est résoluble par quadratures.</p>
+        </section>
+      </div>
+    </content>
+  </entry>
+  <entry>
+    <title>14 décembre</title>
+    <author>
+      <name>Constance</name>
+      <uri>https://c-sarrazin.github.io/cs/</uri>
+    </author>
     <link rel="alternate" type="text/html" href="https://c-sarrazin.github.io/2025-12-14/" />
     <id>https://c-sarrazin.github.io/2025-12-14/</id>
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
+        <div style="display:flex;padding:5px; background:#d2d2e3;margin-bottom:10px">
+    <div style="flex:auto;position: relative;">
+      <div>Take This Waltz - Paris Version</div>
+      <div>Leonard Cohen</div>
+      <div>I'm Your Man</div>
+      <div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</div>
+    </div>
+    <div style="width:80px;position:relative;">
+      <img src="https://i.scdn.co/image/ab67616d0000b2738fc857633a3804cd2786f923" style="height:100%;position:absolute;right:0" />
+    </div>
+</div>
         <p>Aujourd'hui je tente d'abord de rattraper un peu de mon cours sur l'équation de Schrödinger.</p>
         <section>
           <header>
@@ -76,37 +127,39 @@ Il suffit ainsi de contrôler la norme de <code>TT^*</code>... on fait apparaît
           </header>
 <p>Sinon, je lis <a href="https://c-sarrazin.github.io/Cha+13/">[Cha+13]</a> et j'essaie de comprendre en même temps des trucs sur la quantification de Toeplitz.</p>
 <figure><img src="https://c-sarrazin.github.io/bafkrmidfar36lxxa2ib4oswlhsjydczdvdex5w7lo35gxzfyfwfsvxfgvq.png" />
-<figcaption>Extrait de <a href="https://c-sarrazin.github.io/Cha+13/">[Cha+13]</a>.</figcaption></figure><section><header><h3>Commutation automatique dans le cas torique</h3></header><p>Soit <code>(M, \omega , \mu )</code> une variété torique avec une préquantification <code>(\mathscr {L}, j)</code>. Il existe des opérateurs de Toeplitz <code>T_1, \dots , T_n</code> qui commutent deux à deux et donc les symboles principaux sont les composantes de <code>\mu </code>.</p></section>        </section>
+<figcaption>Extrait de <a href="https://c-sarrazin.github.io/Cha+13/">[Cha+13]</a>.</figcaption></figure><section><header><h3>Commutation automatique dans le cas torique</h3></header><p>Soit <code>(M, \omega , \mu )</code> une variété torique avec une préquantification <code>(\mathscr {L}, j)</code>. Il existe des opérateurs de Toeplitz <code>T_1, \dots , T_n</code> qui commutent deux à deux et dont les symboles principaux sont les composantes de <code>\mu </code>.</p></section>        </section>
       </div>
     </content>
   </entry>
   <entry>
-    <title>12 décembre</title>
+    <title>16 décembre</title>
     <author>
       <name>Constance</name>
       <uri>https://c-sarrazin.github.io/cs/</uri>
     </author>
-    <link rel="alternate" type="text/html" href="https://c-sarrazin.github.io/2025-12-12/" />
-    <id>https://c-sarrazin.github.io/2025-12-12/</id>
+    <link rel="alternate" type="text/html" href="https://c-sarrazin.github.io/2025-12-16/" />
+    <id>https://c-sarrazin.github.io/2025-12-16/</id>
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-        <p>Aujourd'hui j'ai démontré le théorème d'Arnold-Liouville.</p>
+        <div style="display:flex;padding:5px; background:#d2d2e3;margin-bottom:10px">
+    <div style="flex:auto;position: relative;">
+      <div>So Easy</div>
+      <div>Röyksopp</div>
+      <div>Melody A.M.</div>
+      <div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</div>
+    </div>
+    <div style="width:80px;position:relative;">
+      <img src="https://i.scdn.co/image/ab67616d0000b2731e5655cd8db911dc48ea57df" style="height:100%;position:absolute;right:0" />
+    </div>
+</div>
+        <p>Aujourd'hui, j'ai écrit des notes de mécanique hamiltonienne et de géométrie symplectique pour le début du <a href="https://c-sarrazin.github.io/cs-0001/">M½</a>. À cette occasion, dans <a href="https://c-sarrazin.github.io/AM78/">[AM78]</a>, je trouve l'exercice facile mais sympathique suivant.</p>
         <section>
           <header>
-            <h2>Système intégrable</h2>
+            <h2>Symplectomorphismes et graphe lagrangien</h2>
           </header>
-          <p>Soit <code>(M, \omega , f_1)</code> un système hamiltonien. On dit qu'il est intégrable quand il existe <code>n-1</code> intégrales premières (en plus du hamiltonien) <code>(f_2, \dots , f_n)</code> telles que :</p>
-          <ul><li>La famille <code>(\mathrm {d}f_1, \mathrm {d}f_2, \dots , \mathrm {d}f_n)</code> est libre presque partout;</li>
-  <li>Pour tout <code>i\neq  j</code>, le crochet de Poisson <code>\{f_i, f_j\}</code> est nul.</li></ul>
-        </section>
-        <p>Les systèmes intégrables s'appellent ainsi car il est en principe à peu près possible de les intégrer, c'est à dire d'écrire des solutions explicites au système (dans de bonnes coordonnées.) Cela est précisé par le théorème suivant.</p>
-        <section>
-          <header>
-            <h2>Théorème de Liouville-Arnold</h2>
-          </header>
-          <p>Soit <code>(M, \omega )</code> un système hamiltonien intégrable d'application moment <code>F = (f_1, \dots , f_n) : M \to  \mathbb {R}^n</code>. Soit <code>c\in  \mathbb {R}^n</code> une valeur régulière du système. Alors la surface d'énergie <code>F^{-1}(c)</code> est une sous-variété lagrangienne invariante par le flot.</p>
-          <p>Supposons de plus que <code>F^{-1}(c)</code> soit compact et connexe. Alors <code>F^{-1}(c)</code> est un <code>n</code>-tore. Plus globalement, il existe <code>\varepsilon  &gt; 0</code> tel qu'on ait un symplectomorphisme entre <code>F^{-1}(\mathscr {B}(c, \varepsilon ))</code> (voisinage tubulaire de <code>F^{-1}(c)</code>) et un voisinage de la section nulle dans <code>T^* \mathbb {T}^n</code> muni de la forme de Liouville.</p>
-          <p>On calcule de plus que sur ces tores invariants, le flot est linéaire. Cela montre qu'un tel système intégrable est résoluble par quadratures.</p>
+          <p>Soit <code>f: (M, \omega _1) \to  (N, \omega _2)</code> un difféomorphisme entre variétés symplectiques. Les enoncés suivants sont équivalents : <ol><li><code>f</code> est un symplectomorphisme,</li>
+  <li>son graphe <code>\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}</code>est une sous-variété lagrangienne de <code>M \times  N</code> muni de la forme symplectique <code>\omega _1 \ominus  \omega _2 = \pi _1^* \omega _1 - \pi _2^* \omega _2</code>,</li>
+  <li>son graphe <code>\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}</code>est une sous-variété symplectique de <code>M \times  N</code> muni de la forme symplectique <code>\omega _1 \oplus  \omega _2 = \pi _1^* \omega _1 + \pi _2^* \omega _2</code>.</li></ol></p>
         </section>
       </div>
     </content>

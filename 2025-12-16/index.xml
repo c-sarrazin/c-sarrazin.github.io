@@ -7,24 +7,24 @@
         <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
       </fr:author>
     </fr:authors>
-    <fr:uri>https://c-sarrazin.github.io/2025-12-14/</fr:uri>
-    <fr:display-uri>2025-12-14</fr:display-uri>
-    <fr:route>/2025-12-14/</fr:route>
-    <fr:title text="14 décembre">14 décembre</fr:title>
+    <fr:uri>https://c-sarrazin.github.io/2025-12-16/</fr:uri>
+    <fr:display-uri>2025-12-16</fr:display-uri>
+    <fr:route>/2025-12-16/</fr:route>
+    <fr:title text="16 décembre">16 décembre</fr:title>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:div style="display:flex;padding:5px; background:#d2d2e3;margin-bottom:10px">
     <html:div style="flex:auto;position: relative;">
-      <html:div>Take This Waltz - Paris Version</html:div>
-      <html:div>Leonard Cohen</html:div>
-      <html:div>I'm Your Man</html:div>
+      <html:div>So Easy</html:div>
+      <html:div>Röyksopp</html:div>
+      <html:div>Melody A.M.</html:div>
       <html:div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</html:div>
     </html:div>
     <html:div style="width:80px;position:relative;">
-      <html:img src="https://i.scdn.co/image/ab67616d0000b2738fc857633a3804cd2786f923" style="height:100%;position:absolute;right:0" />
+      <html:img src="https://i.scdn.co/image/ab67616d0000b2731e5655cd8db911dc48ea57df" style="height:100%;position:absolute;right:0" />
     </html:div>
 </html:div>
-    <html:p>Aujourd'hui je tente d'abord de rattraper un peu de mon cours sur l'équation de Schrödinger.</html:p>
+    <html:p>Aujourd'hui, j'ai écrit des notes de mécanique hamiltonienne et de géométrie symplectique pour le début du <fr:link href="/cs-0001/" title="M½ : édition 2026" uri="https://c-sarrazin.github.io/cs-0001/" display-uri="cs-0001" type="local">M½</fr:link>. À cette occasion, dans <fr:link href="/AM78/" title="Foundations of mechanics" uri="https://c-sarrazin.github.io/AM78/" display-uri="AM78" type="local">[AM78]</fr:link>, je trouve l'exercice facile mais sympathique suivant.</html:p>
     <fr:tree show-metadata="false">
       <fr:frontmatter>
         <fr:authors>
@@ -32,101 +32,22 @@
             <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
           </fr:author>
         </fr:authors>
-        <fr:title text="Équation de Schrödinger linéaire">Équation de Schrödinger linéaire</fr:title>
+        <fr:date href="/2025-12-16/">
+          <fr:year>2025</fr:year>
+          <fr:month>12</fr:month>
+          <fr:day>16</fr:day>
+        </fr:date>
+        <fr:uri>https://c-sarrazin.github.io/cs-000A/</fr:uri>
+        <fr:display-uri>cs-000A</fr:display-uri>
+        <fr:route>/cs-000A/</fr:route>
+        <fr:title text="Symplectomorphismes et graphe lagrangien">Symplectomorphismes et graphe lagrangien</fr:title>
+        <fr:taxon>Proposition</fr:taxon>
       </fr:frontmatter>
       <fr:mainmatter>
-        <html:p>On considère le problème de Cauchy : <fr:tex display="block"><![CDATA[\begin {cases}
-        i\partial _t u + \Delta  u = 0 \\
-        u|_{t=0} = u_0
-    \end {cases}]]></fr:tex>
-    Prenons <fr:tex display="inline"><![CDATA[u_0 \in  \mathscr {S}']]></fr:tex>. Alors la solution est définie en Fourier par <fr:tex display="block"><![CDATA[\hat {u}_t(\xi ) = e^{-it\xi ^2} \hat {u}_0(\xi ).]]></fr:tex>
-    On obtient ainsi que <fr:tex display="inline"><![CDATA[u \in  \mathscr {C}(\mathbb {R}, \mathscr {S}')]]></fr:tex>. Comme on multiplie ar une phase en Fourier, on a conservation de la norme <fr:tex display="inline"><![CDATA[H^s]]></fr:tex>, et en particulier <fr:tex display="inline"><![CDATA[L^2]]></fr:tex>. Par les calculs usuels on montre que le problème est bien posé dans <fr:tex display="inline"><![CDATA[H^s]]></fr:tex>, au sens où si <fr:tex display="inline"><![CDATA[u_0\in  H^s]]></fr:tex>, alors <fr:tex display="block"><![CDATA[u\in  \mathscr {C}^0(\mathbb {R}, H^s) \cap  \mathscr {C}^1(\mathbb {R}, H^{s-2})]]></fr:tex></html:p>
-        <fr:tree show-metadata="false">
-          <fr:frontmatter>
-            <fr:authors />
-            <fr:date href="/2025-12-14/">
-              <fr:year>2025</fr:year>
-              <fr:month>12</fr:month>
-              <fr:day>14</fr:day>
-            </fr:date>
-            <fr:uri>https://c-sarrazin.github.io/cs-0006/</fr:uri>
-            <fr:display-uri>cs-0006</fr:display-uri>
-            <fr:route>/cs-0006/</fr:route>
-            <fr:title text="Noyau de convolution et estimée de dispersion">Noyau de convolution et estimée de dispersion</fr:title>
-            <fr:taxon>Proposition</fr:taxon>
-          </fr:frontmatter>
-          <fr:mainmatter>
-            <html:p>Pour <fr:tex display="inline"><![CDATA[u_0 \in  L^1]]></fr:tex>, on peut écrire la solution comme un noyau de convolution : <fr:tex display="block"><![CDATA[u(t,x) = \frac {1}{(4\pi  i t)^{d/2}} \int  e^{i \frac {\lvert  x-y\rvert ^2}{4t}} u_0(y) \mathrm {d}y.]]></fr:tex>
-On a en particulier <fr:tex display="block"><![CDATA[\lVert  u_t \rVert _{L^\infty } \leqslant  \frac {\lVert  u_0 \rVert _{L^1}}{(4\pi  t)^{d/2}},]]></fr:tex>ce qui décrit un "étalement spatial" de <fr:tex display="inline"><![CDATA[u]]></fr:tex>.</html:p>
-          </fr:mainmatter>
-        </fr:tree>
-        <html:p>Par interpolation entre estimée de dispersion et conservation de la norme <fr:tex display="inline"><![CDATA[L^2]]></fr:tex>, on obtient à peu de frais :</html:p>
-        <fr:tree show-metadata="false">
-          <fr:frontmatter>
-            <fr:authors />
-            <fr:date href="/2025-12-14/">
-              <fr:year>2025</fr:year>
-              <fr:month>12</fr:month>
-              <fr:day>14</fr:day>
-            </fr:date>
-            <fr:uri>https://c-sarrazin.github.io/cs-0007/</fr:uri>
-            <fr:display-uri>cs-0007</fr:display-uri>
-            <fr:route>/cs-0007/</fr:route>
-            <fr:title text="Estimée de dispersion">Estimée de dispersion</fr:title>
-            <fr:taxon>Proposition</fr:taxon>
-          </fr:frontmatter>
-          <fr:mainmatter>
-            <html:p>Soit <fr:tex display="inline"><![CDATA[p \in  [1, 2]]]></fr:tex>. Si <fr:tex display="inline"><![CDATA[u_0 \in  L^p]]></fr:tex>, alors pour <fr:tex display="inline"><![CDATA[t\neq  0]]></fr:tex>, <fr:tex display="inline"><![CDATA[u_t \in  L^{p'}]]></fr:tex> et <fr:tex display="block"><![CDATA[\lVert  u_t \rVert _{L^{p'}} \leqslant  \frac {\lVert  u_0 \rVert _{L^p}}{(4\pi  t)^{d/p - d/2}}.]]></fr:tex></html:p>
-          </fr:mainmatter>
-        </fr:tree>
-        <html:p>Via la méthode <fr:tex display="inline"><![CDATA[TT^*]]></fr:tex>, on obtient les estimées de Strichartz.</html:p>
-        <fr:tree show-metadata="false">
-          <fr:frontmatter>
-            <fr:authors />
-            <fr:date href="/2025-12-14/">
-              <fr:year>2025</fr:year>
-              <fr:month>12</fr:month>
-              <fr:day>14</fr:day>
-            </fr:date>
-            <fr:uri>https://c-sarrazin.github.io/cs-0008/</fr:uri>
-            <fr:display-uri>cs-0008</fr:display-uri>
-            <fr:route>/cs-0008/</fr:route>
-            <fr:title text="Estimée de Strichartz">Estimée de Strichartz</fr:title>
-            <fr:taxon>Théorème</fr:taxon>
-          </fr:frontmatter>
-          <fr:mainmatter><html:p>Soit <fr:tex display="inline"><![CDATA[p\in (2, \infty )]]></fr:tex> et <fr:tex display="inline"><![CDATA[q\in   [ 2, \infty )]]></fr:tex>. On dit que <fr:tex display="inline"><![CDATA[(p,q)]]></fr:tex> est un couple admissible si <fr:tex display="block"><![CDATA[\frac {2}{p} + \frac {d}{q} = \frac {d}{2}.]]></fr:tex>
-Pour un tel couple, on a <fr:tex display="block"><![CDATA[\lVert  u \rVert _{L^p(\mathbb {R}, L^q(\mathbb {R}^d))} \leqslant  C_{p,q,d} \lVert  u_0 \rVert _{L^2(\mathbb {R}^d)}.]]></fr:tex></html:p>
- 
-   
-   
-   <fr:tree show-metadata="false" expanded="false" toc="false"><fr:frontmatter><fr:authors /><fr:date href="/2025-12-14/"><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:taxon>Preuve</fr:taxon></fr:frontmatter><fr:mainmatter>
-  <html:p>On prend <fr:tex display="inline"><![CDATA[f\in  \mathscr {S}(\mathbb {R}^d)]]></fr:tex> et <fr:tex display="inline"><![CDATA[\phi  \in  \mathscr {C}^{\infty }_{c}(\mathbb {R}, \mathscr {S}(\mathbb {R}^d))]]></fr:tex>. On pose <fr:tex display="block"><![CDATA[Tf = (t \mapsto  S(t)f) \in  \mathscr {C}(\mathbb {R}, \mathscr {S}(\mathbb {R}^d)) \qquad  T^*\phi   = \int _{\mathbb {R}} S(-s)\phi (s) \, \mathrm {d}s \in  \mathscr {S}(\mathbb {R}^d).]]></fr:tex>
-  On a ainsi <fr:tex display="block"><![CDATA[TT^*\phi  = \int _\mathbb {R} S(t-s)\phi (s)\, \mathrm {d}s.]]></fr:tex>
-  La notation est justfiée par le fait que <fr:tex display="block"><![CDATA[
-\langle  Tf,\phi \rangle _{t,x}=\int _{\mathbb  R}\langle  U(t)f,\phi (t)\rangle _x\, \mathrm {d}t
-=\Big \langle  f,\int _{\mathbb  R}U(-t)\phi (t)\,\mathrm {d}t\Big \rangle _x
-=\langle  f,T^*\phi \rangle _{x}.
-]]></fr:tex>
-Il suffit ainsi de contrôler la norme de <fr:tex display="inline"><![CDATA[TT^*]]></fr:tex>... on fait apparaître la convolution avec <fr:tex display="inline"><![CDATA[I_\alpha ]]></fr:tex> et on applique Hardy-Littlewood-Sobolev...
-</html:p>
-</fr:mainmatter></fr:tree>
- 
-</fr:mainmatter>
-        </fr:tree>
+        <html:p>Soit <fr:tex display="inline"><![CDATA[f: (M, \omega _1) \to  (N, \omega _2)]]></fr:tex> un difféomorphisme entre variétés symplectiques. Les enoncés suivants sont équivalents : <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> est un symplectomorphisme,</html:li>
+  <html:li>son graphe <fr:tex display="block"><![CDATA[\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}]]></fr:tex>est une sous-variété lagrangienne de <fr:tex display="inline"><![CDATA[M \times  N]]></fr:tex> muni de la forme symplectique <fr:tex display="inline"><![CDATA[\omega _1 \ominus  \omega _2 = \pi _1^* \omega _1 - \pi _2^* \omega _2]]></fr:tex>,</html:li>
+  <html:li>son graphe <fr:tex display="block"><![CDATA[\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}]]></fr:tex>est une sous-variété symplectique de <fr:tex display="inline"><![CDATA[M \times  N]]></fr:tex> muni de la forme symplectique <fr:tex display="inline"><![CDATA[\omega _1 \oplus  \omega _2 = \pi _1^* \omega _1 + \pi _2^* \omega _2]]></fr:tex>.</html:li></html:ol></html:p>
       </fr:mainmatter>
-    </fr:tree>
-    <fr:tree show-metadata="false">
-      <fr:frontmatter>
-        <fr:authors>
-          <fr:author>
-            <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
-          </fr:author>
-        </fr:authors>
-        <fr:title text="Entendre des systèmes toriques">Entendre des systèmes toriques</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter><html:p>Sinon, je lis <fr:link href="/Cha+13/" title="Isospectrality for quantum toric integrable systems" uri="https://c-sarrazin.github.io/Cha+13/" display-uri="Cha+13" type="local">[Cha+13]</fr:link> et j'essaie de comprendre en même temps des trucs sur la quantification de Toeplitz.</html:p>
-<html:figure><html:img src="/bafkrmidfar36lxxa2ib4oswlhsjydczdvdex5w7lo35gxzfyfwfsvxfgvq.png" />
-<html:figcaption>Extrait de <fr:link href="/Cha+13/" title="Isospectrality for quantum toric integrable systems" uri="https://c-sarrazin.github.io/Cha+13/" display-uri="Cha+13" type="local">[Cha+13]</fr:link>.</html:figcaption></html:figure><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link></fr:author></fr:authors><fr:date href="/2025-12-14/"><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:uri>https://c-sarrazin.github.io/cs-0009/</fr:uri><fr:display-uri>cs-0009</fr:display-uri><fr:route>/cs-0009/</fr:route><fr:title text="Commutation automatique dans le cas torique">Commutation automatique dans le cas torique</fr:title><fr:taxon>Proposition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Soit <fr:tex display="inline"><![CDATA[(M, \omega , \mu )]]></fr:tex> une variété torique avec une préquantification <fr:tex display="inline"><![CDATA[(\mathscr {L}, j)]]></fr:tex>. Il existe des opérateurs de Toeplitz <fr:tex display="inline"><![CDATA[T_1, \dots , T_n]]></fr:tex> qui commutent deux à deux et dont les symboles principaux sont les composantes de <fr:tex display="inline"><![CDATA[\mu ]]></fr:tex>.</html:p></fr:mainmatter></fr:tree></fr:mainmatter>
     </fr:tree>
   </fr:mainmatter>
   <fr:backmatter>
@@ -139,20 +60,18 @@ Il suffit ainsi de contrôler la norme de <fr:tex display="inline"><![CDATA[TT^*
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
-              <fr:author>Charles, L.</fr:author>
-              <fr:author>Pelayo, A.</fr:author>
-              <fr:author>Vũ Ngọc, S.</fr:author>
+              <fr:author>Abraham, R.</fr:author>
+              <fr:author>Marsden, J. E.</fr:author>
             </fr:authors>
             <fr:date>
-              <fr:year>2013</fr:year>
+              <fr:year>1978</fr:year>
             </fr:date>
-            <fr:uri>https://c-sarrazin.github.io/Cha+13/</fr:uri>
-            <fr:display-uri>Cha+13</fr:display-uri>
-            <fr:route>/Cha+13/</fr:route>
-            <fr:title text="Isospectrality for quantum toric integrable systems">Isospectrality for quantum toric integrable systems</fr:title>
+            <fr:uri>https://c-sarrazin.github.io/AM78/</fr:uri>
+            <fr:display-uri>AM78</fr:display-uri>
+            <fr:route>/AM78/</fr:route>
+            <fr:title text="Foundations of mechanics">Foundations of mechanics</fr:title>
             <fr:taxon>Reference</fr:taxon>
-            <fr:meta name="doi">10.24033/asens.2202</fr:meta>
-            <fr:meta name="venue">Ann. Sci. Éc. Norm. Supér.</fr:meta>
+            <fr:meta name="venue">Benjamin/Cummings Pub. Co.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter />
         </fr:tree>
@@ -452,7 +371,97 @@ Il suffit ainsi de contrôler la norme de <fr:tex display="inline"><![CDATA[TT^*
         <fr:authors />
         <fr:title text="Related">Related</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date href="/2025-12-12/">
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>https://c-sarrazin.github.io/cs-0001/</fr:uri>
+            <fr:display-uri>cs-0001</fr:display-uri>
+            <fr:route>/cs-0001/</fr:route>
+            <fr:title text="M½ : édition 2026">M½ : édition 2026</fr:title>
+            <fr:taxon>Programme</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date href="/2025-12-12/">
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:uri>https://c-sarrazin.github.io/cs-0002/</fr:uri>
+                <fr:display-uri>cs-0002</fr:display-uri>
+                <fr:route>/cs-0002/</fr:route>
+                <fr:title text="Le spectre des opérateurs de Schrödinger">Le spectre des opérateurs de Schrödinger</fr:title>
+                <fr:taxon>Sujet</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>En mécanique quantique, les énergies possibles d'un sytème quantique sont les valeurs propres d'un hamiltonien, qui est un opérateur non borné auto-adjoint <fr:tex display="inline"><![CDATA[H]]></fr:tex> sur <fr:tex display="inline"><![CDATA[L^2(\mathbb {R}^d)]]></fr:tex>. Souvent, cet opérateur est de la forme <fr:tex display="block"><![CDATA[(H\psi )(x) = -\Delta  \psi (x) + V(x)\psi (x)]]></fr:tex> avec <fr:tex display="inline"><![CDATA[V: \mathbb {R}^d \to  \mathbb {R}]]></fr:tex> un potentiel. Ces opérateurs s'appellent opérateurs de Schrödinger.</html:p>
+                <html:p>J'ai besoin de quelques rappels d'analyse fonctionnelle et de théorie spectrale, et après je veux m'intéresser d'abord au spectre du laplacien (autrement dit, le cas d'une particule libre). Sur un domaine borné de <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex>, ou sur une variété riemannienne compacte, ce spectre est discret, et son comportement encode des informations géométriques. On peut citer comme premier exemple la loi de Weyl : <fr:tex display="block"><![CDATA[N(\lambda ) := \#\{ j \in  \mathbb {N} \mid  \lambda _{j} \leqslant  \lambda \} \sim  \frac {\omega _{d}}{(2\pi )^d} \mathrm {vol}(M) \lambda ^{n/2}]]></fr:tex>qui relie volume et croissance asymptotique des valeurs propres. Il existe une démonstration "élémentaire" de ce théorème pour des domaines bornés, suivant <fr:link href="/Cha84/" title="Eigenvalues in Riemannian geometry" uri="https://c-sarrazin.github.io/Cha84/" display-uri="Cha84" type="local">[Cha84]</fr:link>.</html:p>
+                <html:p>On peut parler aussi du "trou spectral" <fr:tex display="inline"><![CDATA[\lambda _{1}]]></fr:tex>, la première valeur propre après avoir exclu la valeur propre triviale <fr:tex display="inline"><![CDATA[\lambda _{0} = 0]]></fr:tex>. L'inégalité de Faber-Krahn, conséquence de l'inégalité isopérimétrique, dit que <fr:tex display="inline"><![CDATA[\lambda _{1}(\Omega )]]></fr:tex> est maximal quand, et uniquement quand, <fr:tex display="inline"><![CDATA[\Omega  \subset  \mathbb {R}^n]]></fr:tex> est une boule. On peut la démontrer par des méthodes variationnelles, suivant <fr:link href="/BF17/" title="A free boundary approach to the Faber-Krahn inequality" uri="https://c-sarrazin.github.io/BF17/" display-uri="BF17" type="local">[BF17]</fr:link>.</html:p>
+                <html:p>La valeur de <fr:tex display="inline"><![CDATA[\lambda _{1}]]></fr:tex> peut se comprendre comme quantifiant la connexité de <fr:tex display="inline"><![CDATA[\Omega ]]></fr:tex>. Cette intuition est justifiée par la comparaison avec la constante de Cheeger <fr:tex display="block"><![CDATA[h(\Omega ) := \inf _{A} \frac {\mathrm {vol}_{n-1}(A)}{\min (\mathrm {vol}_{n}(\Omega _{1}), \mathrm {vol}_{n}(\Omega _{2}))}]]></fr:tex> où la borne inférieure est prise sur les hypersurfaces lisses <fr:tex display="inline"><![CDATA[A]]></fr:tex> qui partagent <fr:tex display="inline"><![CDATA[\Omega ]]></fr:tex> en deux parties disjointes <fr:tex display="inline"><![CDATA[\Omega _{1}]]></fr:tex> et <fr:tex display="inline"><![CDATA[\Omega _{2}]]></fr:tex>. Cette comparaison se fait par l'inégalité de Cheeger d'une part <fr:tex display="block"><![CDATA[\frac {h(\Omega )^2}{4} \leqslant  \lambda _{1}(\Omega )]]></fr:tex> et d'autre part pour une variété riemannienne compacte sans bord <fr:tex display="inline"><![CDATA[M]]></fr:tex> de dimension <fr:tex display="inline"><![CDATA[n]]></fr:tex>, l'inégalité de Buser <fr:tex display="block"><![CDATA[\lambda _{1}(M) \leqslant  2a(n-1)h(M) + 10h(M)^2]]></fr:tex>Des versions de l'inégalité de Buser, classique pour des variétés fermées, sont aussi vraies pour des (bonnes) régions de <fr:tex display="inline"><![CDATA[\mathbb {R}^n]]></fr:tex>, et sont démontrées par exemple dans <fr:link href="/Boz25/" title="Topological and capacitary methods for Poincaré-Sobolev inequalities" uri="https://c-sarrazin.github.io/Boz25/" display-uri="Boz25" type="local">[Boz25]</fr:link> <fr:link href="/BB24/" title="The role of topology and capacity in some bounds for principal frequencies" uri="https://c-sarrazin.github.io/BB24/" display-uri="BB24" type="local">[BB24]</fr:link>.</html:p>
+                <html:p>Passons aux opérateurs de Schrödinger. La théorie spectrale pour ces opérateurs est rendue possible par le théorème de Kato-Rellich <fr:link href="/HS96/" title="Introduction to spectral theory : with applications to Schrödinger operators" uri="https://c-sarrazin.github.io/HS96/" display-uri="HS96" type="local">[HS96]</fr:link> On se concentrera sur des études de cas :</html:p>
+                <html:ul><html:li>le cas de l'oscillateur harmonique, et plus généralement d'un potentiel coercif, qui fait apparaître un spectre discret,</html:li>
+  <html:li>le cas d'un potentiel de Coulomb, ou plus généralement d'un potentiel qui tend vers 0 en l'infini, qui fait apparaître un spectre continu,</html:li>
+  <html:li>le cas de potentiels 'puits double' symétriques, qui mettent en évidence l'effet tunnel,</html:li>
+  <html:li>le cas de potentiels aléatoires (modèle d'Anderson).</html:li></html:ul>
+                <html:span style="display: none;">
+                  <fr:link href="/Kir08/" title="An invitation to random Schrödinger operators" uri="https://c-sarrazin.github.io/Kir08/" display-uri="Kir08" type="local">An invitation to random Schrödinger operators</fr:link>
+                </html:span>
+                <html:span style="display: none;">
+                  <fr:link href="/Cyc+87/" title="Schrödinger operators, with application to quantum mechanics and global geometry" uri="https://c-sarrazin.github.io/Cyc+87/" display-uri="Cyc+87" type="local">Schrödinger operators, with application to quantum mechanics and global geometry</fr:link>
+                </html:span>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date href="/2025-12-12/">
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:uri>https://c-sarrazin.github.io/cs-0003/</fr:uri>
+                <fr:display-uri>cs-0003</fr:display-uri>
+                <fr:route>/cs-0003/</fr:route>
+                <fr:title text="Systèmes intégrables, toriques, semi-toriques">Systèmes intégrables, toriques, semi-toriques</fr:title>
+                <fr:taxon>Sujet</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>En mécanique classique, un système physique est décrit par un hamiltonien, qui est l'énergie totale du système : c'est une fonction réelle définie sur l'espace de phases, qui est (localement) décrit par les coordonnées position et moment. Ce hamiltonien détermine les équations d'évolution du système.</html:p>
+                <html:p>En mathématiques, un espace de phase est une variété symplectique <fr:tex display="inline"><![CDATA[M]]></fr:tex> de dimension <fr:tex display="inline"><![CDATA[2n]]></fr:tex>, sur laquelle on peut considérer un champ de vecteurs hamiltonien, dont le flot modélise l'évolution du système <fr:link href="/AM78/" title="Foundations of mechanics" uri="https://c-sarrazin.github.io/AM78/" display-uri="AM78" type="local">[AM78]</fr:link> <fr:link href="/MR99/" title="Introduction to Mechanics and Symmetry : A Basic Exposition of Classical Mechanical Systems" uri="https://c-sarrazin.github.io/MR99/" display-uri="MR99" type="local">[MR99]</fr:link>. Le hamiltonien <fr:tex display="inline"><![CDATA[H = f_{1}]]></fr:tex> est constant le long d'orbites du flot (autrement dit, l'énergie totale est conservée). On dit que le hamiltonien est une intégrale première du mouvement. Quand il existe <fr:tex display="inline"><![CDATA[n-1]]></fr:tex> autres intégrales premières <fr:tex display="inline"><![CDATA[(f_2, \dots , f_n)]]></fr:tex> "indépendantes", on dit que le système est <fr:link href="/cs-0005/" title="Système intégrable" uri="https://c-sarrazin.github.io/cs-0005/" display-uri="cs-0005" type="local">intégrable</fr:link>. On appelle <fr:tex display="block"><![CDATA[F = (f_{1}, \dots , f_{n}) : M \to  \mathbb {R}^n]]></fr:tex>l'application moment du système, et on dit que ses points singuliers (ceux où la différentielle n'est pas inversible) sont les points singuliers du système.</html:p>
+                <html:p>Les systèmes intégrables ont de bonnes propriétés, ils sont en quelque sorte à l'antipode des systèmes chaotiques. En particulier, on peut décrire à l'aide du <fr:link href="/cs-0004/" title="Théorème de Liouville-Arnold" uri="https://c-sarrazin.github.io/cs-0004/" display-uri="cs-0004" type="local">théprème d'Arnold-Liouville</fr:link> <fr:link href="/Aud01/" title="Les systèmes hamiltoniens et leur intégrabilité" uri="https://c-sarrazin.github.io/Aud01/" display-uri="Aud01" type="local">[Aud01]</fr:link> les surfaces d'énergie, les fibres de l'application moment : si <fr:tex display="inline"><![CDATA[F^{-1}(c)]]></fr:tex> ne contient aucun point singulier, alors il s'agit d'une sous variété lagrangienne invariante par le flot. Si elle est de plus compacte et connexe, elle est difféomorphe à un <fr:tex display="inline"><![CDATA[n]]></fr:tex>-tore. En fait, un voisinage tubulaire de <fr:tex display="inline"><![CDATA[F^{-1}(c)]]></fr:tex> est alors symplectomorphe à <fr:tex display="inline"><![CDATA[T^{*}\mathbb {T}^n]]></fr:tex> muni de la forme de Liouville. En particulier, comme <fr:tex display="inline"><![CDATA[T^{*}\mathbb {T}^n \cong  \mathbb {R}^n \times  \mathbb {T}^n]]></fr:tex>, il existe des coordonnées lisses dites "action-angle" <fr:tex display="inline"><![CDATA[(\alpha _{1}, \dots , \alpha _{n}, \theta _{1}, ..., \theta _{n})]]></fr:tex> qui paramètrent ce voisinage de <fr:tex display="inline"><![CDATA[F^{-1}(c)]]></fr:tex>. Enfin, dans ces coordonnées action angle, <fr:tex display="inline"><![CDATA[\frac {\mathrm {d}\theta }{\mathrm {d}t}]]></fr:tex> ne dépend que de <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex>. Au final, on a dit que <fr:tex display="inline"><![CDATA[M]]></fr:tex> était feuilletée par des tores invariants sur lesquels le mouvement est un flot linéaire. On comprend donc complétement la dynamique au voisinage d'un niveau régulier.</html:p>
+                <html:p>Un cas particulier très intéressant de système intégrable est le cas des variétés toriques <fr:link href="/Can08/" title="Lectures on symplectic geometry" uri="https://c-sarrazin.github.io/Can08/" display-uri="Can08" type="local">[Can08]</fr:link>. C'est le cas si <fr:tex display="inline"><![CDATA[M]]></fr:tex> est compacte (pour simplifier) et si toutes les intégrales premières qu'on s'est données sont <fr:tex display="inline"><![CDATA[2\pi ]]></fr:tex>-périodiques : cela revient à dire que le système a une symétrie circulaire dans chaque degré de liberté. Le système est ainsi muni d'une action hamiltonienne du tore <fr:tex display="inline"><![CDATA[\mathbb {T}^n]]></fr:tex>. Dans ces cas-là, le théorème d'Atiyah-Guillemin-Sternberg affirme que :</html:p>
+                <html:ul><html:li>Les fibres de <fr:tex display="inline"><![CDATA[F]]></fr:tex> sont connexes, de telle sorte que le théorème précédent s'applique : ces fibres sont des tores ;</html:li>
+  <html:li>L'image de <fr:tex display="inline"><![CDATA[F]]></fr:tex> est l'enveloppe convexe de l'image des points fixes pour l'action de <fr:tex display="inline"><![CDATA[\mathbb {T}^n]]></fr:tex>.</html:li></html:ul>
+                <html:p>Ce théorème est valable quand on a une action hamiltonienne d'un tore de toute dimension. Ici, en utilisant le fait que ce tore est de dimension maximale, on peut dire encore plus sur l'image de l'application moment : il s'agit d'un polytope <fr:tex display="inline"><![CDATA[\Delta  \subset  \mathbb {R}^n]]></fr:tex>, qui vérifie les propriétés suivantes :</html:p>
+                <html:ul><html:li><fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> est simple : en tout sommet se rencontrent exactement <fr:tex display="inline"><![CDATA[n]]></fr:tex> arêtes ;</html:li>
+  <html:li><fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> est rationnel : pour tout sommet <fr:tex display="inline"><![CDATA[p\in  \mathbb {R}^n]]></fr:tex>, les arêtes partant de <fr:tex display="inline"><![CDATA[p]]></fr:tex> sont de la forme <fr:tex display="inline"><![CDATA[p+tu_i]]></fr:tex> avec <fr:tex display="inline"><![CDATA[u_i \in  \mathbb {Z}^n]]></fr:tex>.</html:li>
+  <html:li><fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> est non dégénéré : en tout somment, on peut choisir comme <fr:tex display="inline"><![CDATA[(u_1, \dots , u_n)]]></fr:tex> une <fr:tex display="inline"><![CDATA[\mathbb {Z}]]></fr:tex>-base de <fr:tex display="inline"><![CDATA[\mathbb {Z}^d]]></fr:tex>.</html:li></html:ul>
+                <html:p>Un tel polytope est dit polytope de Deleuze (ou quelque chose comme ça). En fait, la donnée de ce polytope est assez pour reconstruire la variété torique avec son application moment ! C'est le théorème de Danza-Kuduro. Les variétés toriques sont donc extrêmement rigides : cela permet d'en faire une étude très complète. Mais la plupart des systèmes intégrables qui apparaissent réellement ne sont pas toriques. Dans le cas d'un système à deux degrés de liberté, c'est à dire une variété symplectique de dimension 4, une direction naturelle dans laquelle généraliser la situation précédente est de ne demander plus qu'une direction d'invariance circulaire. On arrive ainsi aux variétés semi-toriques <fr:link href="/Pal25/" title="Integrable Systems with Symmetries : Toric, Semitoric, and Beyond" uri="https://c-sarrazin.github.io/Pal25/" display-uri="Pal25" type="local">[Pal25]</fr:link>, qu'il est aussi possible de classifier, mais avec une liste d'invariants plus compliquée. Les variétés semi-toriques incluent certains exemples physiquement intéressants, comme le système des moments angulaires couplés.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>

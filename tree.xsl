@@ -31,7 +31,7 @@
             <nav class="nav">
               <div class="logo">
                 <a href="{/f:tree/@base-url}index.html" title="Home">
-                  <xsl:text>« Home</xsl:text>
+                  <xsl:text>« Accueil</xsl:text>
                 </a>
               </div>
             </nav>
@@ -44,7 +44,7 @@
           <xsl:if test="f:tree/f:mainmatter/f:tree[not(@toc='false')] and not(/f:tree/f:frontmatter/f:meta[@name = 'toc']/.='false')">
             <nav id="toc">
               <div class="block">
-                <h1>Table of contents</h1>
+                <h1>Sommaire</h1>
                 <xsl:apply-templates select="f:tree/f:mainmatter" mode="toc" />
               </div>
             </nav>
@@ -156,7 +156,7 @@
               </xsl:attribute>
             </xsl:otherwise>
           </xsl:choose>
-          <xsl:text>■</xsl:text>
+          <xsl:text>♥</xsl:text>
         </a>
         <span class="link local" data-target="#{generate-id(..)}">
           <span class="taxon">

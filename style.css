@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
 
 .katex {
- font-size: 1.15em !important;
+  font-size: 1.15em !important;
 }
 
 /* inria-sans-300 - latin_latin-ext */
@@ -27,7 +27,7 @@
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-/* inria-sans-regular - latin_latin-ext */
+/* inria-sans-regular - lat4mALAKgEHcazUqLXZivl1Pin_latin-ext */
 @font-face {
   font-display: swap;
   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -136,11 +136,11 @@ body {
 }
 
 math {
- font-size: 1.12em;
+  font-size: 1.12em;
 }
 
 mrow:hover {
- background-color: rgba(242, 0, 255, 0);
+  background-color: rgba(242, 0, 255, 0);
 }
 
 .logo {
@@ -303,17 +303,17 @@ nav#toc a {
 }
 
 nav#toc .link {
- box-shadow: none;
- text-decoration: none;
+  box-shadow: none;
+  text-decoration: none;
 }
 
 nav#toc a.bullet {
- opacity: 0.7;
- margin-left: 0.4em;
- margin-right: 0.3em;
- padding-left: 0.2em;
- padding-right: 0.2em;
- text-decoration: none;
+  opacity: 0.7;
+  margin-left: 0.4em;
+  margin-right: 0.3em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  text-decoration: none;
 }
 
 nav#toc h2 {
@@ -324,12 +324,12 @@ nav#toc ul {
   list-style-type: none;
 }
 
-nav#toc li > ul {
- padding-left: 1em;
+nav#toc li>ul {
+  padding-left: 1em;
 }
 
 nav#toc li {
- list-style-position: inside;
+  list-style-position: inside;
 }
 
 .block {
@@ -384,7 +384,7 @@ a.slug {
   box-shadow: none;
   text-decoration-line: underline;
   text-decoration-style: dotted;
- }
+}
 
 ninja-keys::part(ninja-action) {
   white-space: nowrap;
@@ -520,7 +520,7 @@ a.bullet:hover,
 }
 
 .link {
- cursor: pointer;
+  cursor: pointer;
 }
 
 a {
@@ -591,23 +591,25 @@ hr {
   height: 2px;
 }
 
-ul, ol {
- padding-bottom: .5em;
+ul,
+ol {
+  padding-bottom: .5em;
 }
 
 ol {
- list-style-type: decimal;
+  list-style-type: decimal;
 }
 
 ol li ol {
- list-style-type: lower-alpha;
+  list-style-type: lower-alpha;
 }
 
 ol li ol li ol {
- list-style-type: lower-roman;
+  list-style-type: lower-roman;
 }
 
-.error, .info {
+.error,
+.info {
   border-radius: 4pt;
   padding-left: 3pt;
   padding-right: 3pt;
@@ -617,51 +619,58 @@ ol li ol li ol {
 }
 
 .error {
- background-color: red;
- color: white;
+  background-color: red;
+  color: white;
 }
 
 
 .info {
- background-color: #bbb;
- color: white;
+  background-color: #bbb;
+  color: white;
 }
 
-.block[data-taxon="Théorème"], .block[data-taxon="Theorem"] {
+.block[data-taxon="Théorème"],
+.block[data-taxon="Theorem"] {
   background: linear-gradient(90deg, #de76ba54, #9198e555);
   padding-left: 5px;
   padding-right: 5px;
   margin: 8px 0;
 }
 
-.block[data-taxon="Proposition"] {
+.block[data-taxon="Proposition"],
+.block[data-taxon="Lemme"],
+.block[data-taxon="Corollaire"],
+.block[data-taxon="Propriété"] {
   background: #e34cae38;
   padding-left: 5px;
   padding-right: 5px;
   margin: 8px 0;
 }
 
-.block[data-taxon="Théorème"] summary::after, .block[data-taxon="Theorem"] summary::after, .block[data-taxon="Proposition"] summary::after {
-  content: " ";
-  background: transparent;
-  width: 100%;
-  display: block;
-  height: 0px;
-  box-shadow: 0px -35px 0px 36px #44444425;
-}
-
-.block[data-taxon="Définition"], .block[data-taxon="Definition"] {
-  background: linear-gradient(-90deg, #e664b954, #9198e555);
+.block[data-taxon="Avertissement"] {
+  background: #ffb25350;
   padding-left: 5px;
   padding-right: 5px;
   margin: 8px 0;
 }
 
-.block[data-taxon="Définition"]>details[open], .block[data-taxon="Definition"]>details[open], .block[data-taxon="Théorème"]>details[open], .block[data-taxon="Theorem"]>details[open], .block[data-taxon="Proposition"]>details[open]  {
-  margin-bottom: 0em;
+.block[data-taxon="Question"],
+.block[data-taxon="Exercice"] {
+  background: #ff675350;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 8px 0;
 }
 
-.block[data-taxon="Définition"] summary::after, .block[data-taxon="Definition"] summary::after {
+.block[data-taxon="Théorème"] summary::after,
+.block[data-taxon="Theorem"] summary::after,
+.block[data-taxon="Proposition"] summary::after,
+[data-taxon="Lemme"] summary::after,
+[data-taxon="Corollaire"] summary::after,
+[data-taxon="Propriété"] summary::after,
+[data-taxon="Avertissement"] summary::after,
+[data-taxon="Question"] summary::after,
+[data-taxon="Exercice"] summary::after {
   content: " ";
   background: transparent;
   width: 100%;
@@ -670,39 +679,64 @@ ol li ol li ol {
   box-shadow: 0px -35px 0px 36px #44444425;
 }
 
-nav#toc a.bullet {
-  background-image: url(https://images.emojiterra.com/google/noto-emoji/unicode-16.0/bw/512px/2665.png);
-  background-size: contain;
-  background-position-y: center;
-  color: transparent;
-  background-repeat: no-repeat;
-  font-size: 12px;
+.block[data-taxon="Définition"],
+.block[data-taxon="Definition"] {
+  background: linear-gradient(-90deg, #e664b954, #e5ad9155);
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 8px 0;
 }
 
-#grid-wrapper > article > .block {
+.block[data-taxon="Définition"]>details[open],
+.block[data-taxon="Definition"]>details[open],
+.block[data-taxon="Théorème"]>details[open],
+.block[data-taxon="Theorem"]>details[open],
+.block[data-taxon="Proposition"]>details[open],
+.block[data-taxon="Lemme"]>details[open],
+.block[data-taxon="Propriété"]>details[open],
+.block[data-taxon="Corollaire"]>details[open],
+.block[data-taxon="Avertissement"]>details[open],
+.block[data-taxon="Question"]>details[open],
+.block[data-taxon="Exercice"]>details[open] {
+  margin-bottom: 0em;
+}
+
+.block[data-taxon="Définition"] summary::after,
+.block[data-taxon="Definition"] summary::after {
+  content: " ";
+  background: transparent;
+  width: 100%;
+  display: block;
+  height: 0px;
+  box-shadow: 0px -35px 0px 36px #44444425;
+}
+
+#grid-wrapper>article>.block {
   background: transparent;
 }
-#grid-wrapper > article > .block > details > summary::after {
+
+#grid-wrapper>article>.block>details>summary::after {
   display: none;
 }
 
-article > section > details > summary > header > h1 > .taxon {
-	display: block;
-	font-size: .9em;
-	color: #888;
-	padding-bottom: 0;
-	font-weight: 500;
-	font-family: 'Alegreya Sans';
+article>section>details>summary>header>h1>.taxon {
+  display: block;
+  font-size: .9em;
+  color: #888;
+  padding-bottom: 0;
+  font-weight: 500;
+  font-family: 'Alegreya Sans';
 }
 
-article > section > details > summary > header > h1 {
-	font-weight: 600;
-	font-family: 'Alegreya';
+article>section>details>summary>header>h1 {
+  font-weight: 600;
+  font-family: 'Alegreya';
 }
 
 p:last-child {
   margin-bottom: 0;
 }
+
 ul:last-child {
   margin-bottom: 0;
 }
@@ -712,38 +746,67 @@ a.slug {
   font-weight: 300;
   text-decoration: none;
 }
-details > summary {
+
+details>summary {
   position: relative;
 }
-#grid-wrapper > article {
+
+#grid-wrapper>article {
   margin: 0 auto;
 }
 
-.block[data-taxon="Proof"], .block[data-taxon="Preuve"] {
+.block[data-taxon="Proof"],
+.block[data-taxon="Preuve"],
+.block[data-taxon="Solution"] {
   box-shadow: 0em -0em 0px 0.5em #fdf6e3;
   border-radius: 0;
   background: #fdf6e3;
 }
-.block[data-taxon="Proof"] > details[open] > *:last-child::after, .block[data-taxon="Preuve"] > details[open] > *:last-child::after {
+
+.block[data-taxon="Proof"]>details[open]>*:last-child::after,
+.block[data-taxon="Preuve"]>details[open]>*:last-child::after {
   content: '♥';
   padding-left: 5px;
   color: #f3c7d6;
 }
 
-.block[data-taxon="Proof"] > details>summary, .block[data-taxon="Preuve"] > details>summary {
+.block[data-taxon="Proof"]>details>summary,
+.block[data-taxon="Solution"]>details>summary,
+.block[data-taxon="Preuve"]>details>summary {
   list-style-type: revert;
 }
 
 
-.block[data-taxon="Proof"] summary::after, .block[data-taxon="Preuve"] summary::after {
+.block[data-taxon="Proof"] summary::after,
+.block[data-taxon="Preuve"] summary::after,
+.block[data-taxon="Solution"] summary::after {
   display: none;
 }
 
-footer .block[data-taxon="Définition"], footer .block[data-taxon="Definition"], footer .block[data-taxon="Théorème"], footer .block[data-taxon="Theorem"] {
+footer .block[data-taxon="Définition"],
+footer .block[data-taxon="Definition"],
+footer .block[data-taxon="Théorème"],
+footer .block[data-taxon="Theorem"] {
   background: none;
   padding: 0;
 }
 
-footer .block[data-taxon="Définition"] summary::after, footer .block[data-taxon="Definition"] summary::after, footer .block[data-taxon="Theorem"] summary::after, footer .block[data-taxon="Théorème"] summary::after {
+footer .block[data-taxon="Définition"] summary::after,
+footer .block[data-taxon="Definition"] summary::after,
+footer .block[data-taxon="Theorem"] summary::after,
+footer .block[data-taxon="Théorème"] summary::after {
   display: none;
+}
+
+.block:has(a[href="/aja/"]) > details > .block > details > summary {
+  background: #b4b4cc;
+  padding-left: 5px;
+}
+
+footer .block summary {
+  background: none !important;
+}
+
+.block:has(a[href="/aja/"]) > details > .block > details > summary .taxon {
+  display: none
 }

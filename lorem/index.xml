@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:uri>https://c-sarrazin.github.io/lorem/</fr:uri>
+    <fr:display-uri>lorem</fr:display-uri>
+    <fr:route>/lorem/</fr:route>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:div style="display:flex;padding:5px; background:#33333333">
+    <html:div style="flex:auto;position: relative;">
+      <html:div>tarif groupé</html:div>
+      <html:div>Hologram Lo', Huntrill, Tedax Max</html:div>
+      <html:div>REPLICA 2</html:div>
+      <html:div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</html:div>
+    </html:div>
+    <html:div style="width:80px;position:relative;">
+      <html:img src="https://i.scdn.co/image/ab67616d0000b27354218ffa0e861407ea0f0abe" style="height:100%;position:absolute;right:0" />
+    </html:div>
+</html:div>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Aenean id tincidunt lorem">Aenean id tincidunt lorem</fr:title>
+        <fr:taxon>Proposition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter><html:p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum dolor pulvinar urna ultrices, a dictum sapien vehicula. Proin in urna magna.  Phasellus convallis rutrum erat. Vestibulum risus nibh, pretium ac mattis non, elementum sed mauris. </html:p>
+ 
+   
+   
+   <fr:tree show-metadata="false" expanded="false" toc="false"><fr:frontmatter><fr:authors /><fr:taxon>Preuve</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p> Duis tincidunt mi sit amet viverra volutpat. Integer maximus, lacus a dignissim dictum, ante nunc malesuada velit, sed venenatis nibh sem vel erat. Ut fermentum augue enim, sed imperdiet velit pharetra vel. Suspendisse vitae ligula bibendum, gravida massa sed, finibus diam. Phasellus eu neque at elit mattis elementum sed a nisi. Donec viverra lacus ut odio venenatis vulputate. Donec ullamcorper ex non est varius, id lacinia risus rhoncus. Ut blandit justo pretium lectus mattis, at egestas lorem vehicula. Praesent quis nisi aliquam quam efficitur pulvinar. Phasellus id erat ac magna tempus sodales sed vitae mauris. Ut porta augue tellus, a ullamcorper augue dignissim fermentum. In a orci condimentum, finibus ipsum vel, rutrum purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut non purus turpis. Fusce ornare condimentum orci, ut posuere velit vestibulum in. </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Nam tempor tristique rhoncus">Nam tempor tristique rhoncus</fr:title>
+        <fr:taxon>Théorème</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p> Aenean id tincidunt lorem. In eleifend odio consectetur orci congue maximus. Praesent lobortis eros quis ligula sollicitudin volutpat. Cras cursus molestie justo id fermentum. Nunc fermentum accumsan luctus. Sed vitae faucibus urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam tellus lorem, elementum sed metus a, pulvinar faucibus nibh. Cras placerat lorem non arcu vehicula pellentesque. Aenean orci tellus, faucibus quis efficitur sed, commodo interdum nulla. Integer non ultrices nulla. Curabitur sit amet lacus elementum, sollicitudin lacus vel, dapibus leo. </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Integer ultrices ante">Integer ultrices ante</fr:title>
+        <fr:taxon>Définition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p> Morbi fermentum id ipsum sodales porttitor. Aenean risus turpis, iaculis nec ex sit amet, sodales vulputate nisl. Nullam sed molestie turpis, eget rutrum purus. Nam tempor tristique rhoncus. Nam malesuada neque ac eros vestibulum, vitae euismod diam faucibus. Vivamus malesuada orci ut nisl scelerisque, sed sodales ligula tempor. Nulla luctus urna vel mi condimentum faucibus. </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Ut egestas ultricies congue.">Ut egestas ultricies congue.</fr:title>
+        <fr:taxon>Exercice</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter><html:p> Ut ac congue sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent et lacus vitae quam interdum venenatis. In euismod lobortis justo, a convallis risus accumsan in. Vestibulum vulputate orci ac diam fermentum suscipit. Nunc ut lacinia nibh, sit amet laoreet sem. Suspendisse dui est, fringilla consectetur libero non, maximus tempor urna. Nunc vitae nulla vitae nisl tempus tincidunt. </html:p><html:ol><html:li>Maecenas sed mollis lacus, sit amet vulputate velit ?</html:li>
+    <html:li>Gehn mer in d'Winstub?</html:li>
+    <html:li>Suspendisse sodales sollicitudin sem vel viverra ?</html:li></html:ol>
+ 
+   
+   
+   <fr:tree show-metadata="false" expanded="false" toc="false"><fr:frontmatter><fr:authors /><fr:taxon>Solution</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p> Vivamus id odio fringilla, suscipit tellus vitae, tempus neque. Ut porta dictum pellentesque. Aliquam at placerat urna, luctus volutpat dui. Donec nec lectus eleifend, viverra nisi efficitur, interdum elit. Mauris fringilla rutrum pellentesque. Suspendisse potenti. Donec quam nulla, semper sed felis eget, scelerisque varius arcu. Quisque posuere arcu leo, eget convallis risus dignissim molestie. Ut lacus tellus, tristique quis mauris et, tincidunt facilisis nulla. In efficitur nunc turpis, id mattis dui fermentum et. Nam at sem non mauris aliquam ultricies. Nullam ac eros in turpis mattis congue. Aliquam porttitor mi vitae felis semper posuere. Cras venenatis diam et tellus iaculis varius. Suspendisse sodales sollicitudin sem vel viverra. Suspendisse tempor metus ante, ac consequat velit blandit vel. </html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:taxon>Question</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p> Pellentesque eget rutrum mi, tincidunt tristique metus. Quisque vehicula diam rhoncus purus cursus condimentum. </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Itz ìsch àlles güet!">Itz ìsch àlles güet!</fr:title>
+        <fr:taxon>Corollaire</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>Vestibulum nec malesuada purus, in varius libero. Etiam finibus convallis turpis quis aliquam. Donec imperdiet, felis nec semper aliquam, ante ante semper libero, eu viverra purus ipsum ullamcorper purus. Nulla tincidunt massa augue, sed semper odio facilisis sed. Ut interdum placerat nisl a ultricies. Duis diam enim, sodales sed ultrices at, pretium vel erat.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:taxon>Lemme</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin lobortis felis libero, convallis euismod orci rhoncus at.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Pass güet uff!">Pass güet uff!</fr:title>
+        <fr:taxon>Avertissement</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p> Proin non tortor sed nibh accumsan fringilla. Pellentesque neque turpis, porttitor quis vehicula nec, elementum in est. Sed quis urna pulvinar, tempus mi nec, suscipit justo. Fusce nibh nisl, viverra et imperdiet sit amet, maximus vel odio. Donec urna justo, pulvinar at ultrices eget, laoreet vel ipsum. Maecenas et leo est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin condimentum neque urna. </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
