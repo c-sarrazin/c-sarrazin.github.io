@@ -51,7 +51,7 @@
       <html:div>Raid (feat. MED)</html:div>
       <html:div>Madvillain, Madlib, MF DOOM, MED</html:div>
       <html:div>Madvillainy</html:div>
-      <html:div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</html:div>
+      <html:div class="sotd">song of the day</html:div>
     </html:div>
     <html:div style="width:80px;position:relative;">
       <html:img src="https://i.scdn.co/image/ab67616d0000b2733e3bb917af94bd82074c5d47" style="height:100%;position:absolute;right:0" />

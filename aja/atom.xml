@@ -24,7 +24,7 @@
       <div>Raid (feat. MED)</div>
       <div>Madvillain, Madlib, MF DOOM, MED</div>
       <div>Madvillainy</div>
-      <div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</div>
+      <div class="sotd">song of the day</div>
     </div>
     <div style="width:80px;position:relative;">
       <img src="https://i.scdn.co/image/ab67616d0000b2733e3bb917af94bd82074c5d47" style="height:100%;position:absolute;right:0" />
@@ -66,7 +66,7 @@
       <div>Take This Waltz - Paris Version</div>
       <div>Leonard Cohen</div>
       <div>I'm Your Man</div>
-      <div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</div>
+      <div class="sotd">song of the day</div>
     </div>
     <div style="width:80px;position:relative;">
       <img src="https://i.scdn.co/image/ab67616d0000b2738fc857633a3804cd2786f923" style="height:100%;position:absolute;right:0" />
@@ -146,7 +146,7 @@ Il suffit ainsi de contrôler la norme de <code>TT^*</code>... on fait apparaît
       <div>So Easy</div>
       <div>Röyksopp</div>
       <div>Melody A.M.</div>
-      <div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</div>
+      <div class="sotd">song of the day</div>
     </div>
     <div style="width:80px;position:relative;">
       <img src="https://i.scdn.co/image/ab67616d0000b2731e5655cd8db911dc48ea57df" style="height:100%;position:absolute;right:0" />

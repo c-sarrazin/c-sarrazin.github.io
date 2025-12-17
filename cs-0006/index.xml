@@ -50,7 +50,7 @@ On a en particulier <fr:tex display="block"><![CDATA[\lVert  u_t \rVert _{L^\inf
       <html:div>Take This Waltz - Paris Version</html:div>
       <html:div>Leonard Cohen</html:div>
       <html:div>I'm Your Man</html:div>
-      <html:div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</html:div>
+      <html:div class="sotd">song of the day</html:div>
     </html:div>
     <html:div style="width:80px;position:relative;">
       <html:img src="https://i.scdn.co/image/ab67616d0000b2738fc857633a3804cd2786f923" style="height:100%;position:absolute;right:0" />

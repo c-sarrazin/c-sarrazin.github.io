@@ -738,7 +738,7 @@ article>section>details>summary>header>h1>.taxon {
 
 article>section>details>summary>header>h1 {
   font-weight: 600;
-  font-family: 'Alegreya';
+  font-family: 'Playwrite RO';
 }
 
 p:last-child {
@@ -753,6 +753,7 @@ a.slug {
   color: black;
   font-weight: 300;
   text-decoration: none;
+  font-family: 'Alegreya Sans'
 }
 
 details>summary {
@@ -837,4 +838,14 @@ footer .block summary {
 	background: linear-gradient(90deg, #de76ba88, #9198e566);
 	height: 30px;
 	align-content: center;
+}
+
+.sotd {
+  position: absolute;
+  right: 0;
+  bottom: -6px;
+  font-size: 18px;
+  font-weight: 600;
+  color:grey;
+  font-family:'Playwrite RO'
 }

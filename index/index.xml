@@ -10,12 +10,11 @@
     <fr:uri>https://c-sarrazin.github.io/index/</fr:uri>
     <fr:display-uri>index</fr:display-uri>
     <fr:route>/index/</fr:route>
-    <fr:title text="Bonjour :-)">Bonjour :-<![CDATA[)]]></fr:title>
+    <fr:title text="Bonjour !">Bonjour !</fr:title>
     <fr:meta name="author">false</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter>
-    <html:p>Se trouvent ici toutes les notes de mathématiques que j'ai prises depuis quatre ans, y compris <fr:link href="/aja/" title="Aujourd'hui j'ai appris..." uri="https://c-sarrazin.github.io/aja/" display-uri="aja" type="local">mon journal mathématique</fr:link> (anciennement "thread AJA") et les <fr:link href="/cs-0001/" title="M½ : édition 2026" uri="https://c-sarrazin.github.io/cs-0001/" display-uri="cs-0001" type="local">notes du M½</fr:link>. Ce site est généré par <fr:link href="https://www.forester-notes.org/" type="external">Forester</fr:link>.</html:p>
-    <html:button id="search" onclick="const ninja = document.querySelector('ninja-keys'); ninja.open();" />
+    <html:p>Se trouvent ici mes notes de maths, y compris <fr:link href="/aja/" title="Aujourd'hui j'ai appris..." uri="https://c-sarrazin.github.io/aja/" display-uri="aja" type="local">mon journal mathématique</fr:link> (anciennement "thread AJA") et les <fr:link href="/cs-0001/" title="Mdemi : édition 2026" uri="https://c-sarrazin.github.io/cs-0001/" display-uri="cs-0001" type="local">notes du M½</fr:link>. Ce site est généré par <fr:link href="https://www.forester-notes.org/" type="external">Forester</fr:link>.</html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -82,13 +81,13 @@
       <html:div>So Easy</html:div>
       <html:div>Röyksopp</html:div>
       <html:div>Melody A.M.</html:div>
-      <html:div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</html:div>
+      <html:div class="sotd">song of the day</html:div>
     </html:div>
     <html:div style="width:80px;position:relative;">
       <html:img src="https://i.scdn.co/image/ab67616d0000b2731e5655cd8db911dc48ea57df" style="height:100%;position:absolute;right:0" />
     </html:div>
 </html:div>
-                <html:p>Aujourd'hui, j'ai écrit des notes de mécanique hamiltonienne et de géométrie symplectique pour le début du <fr:link href="/cs-0001/" title="M½ : édition 2026" uri="https://c-sarrazin.github.io/cs-0001/" display-uri="cs-0001" type="local">M½</fr:link>. À cette occasion, dans <fr:link href="/AM78/" title="Foundations of mechanics" uri="https://c-sarrazin.github.io/AM78/" display-uri="AM78" type="local">[AM78]</fr:link>, je trouve l'exercice facile mais sympathique suivant.</html:p>
+                <html:p>Aujourd'hui, j'ai écrit des notes de mécanique hamiltonienne et de géométrie symplectique pour le début du <fr:link href="/cs-0001/" title="Mdemi : édition 2026" uri="https://c-sarrazin.github.io/cs-0001/" display-uri="cs-0001" type="local">M½</fr:link>. À cette occasion, dans <fr:link href="/AM78/" title="Foundations of mechanics" uri="https://c-sarrazin.github.io/AM78/" display-uri="AM78" type="local">[AM78]</fr:link>, je trouve l'exercice facile mais sympathique suivant.</html:p>
                 <fr:tree show-metadata="false">
                   <fr:frontmatter>
                     <fr:authors>
@@ -133,7 +132,7 @@
       <html:div>Take This Waltz - Paris Version</html:div>
       <html:div>Leonard Cohen</html:div>
       <html:div>I'm Your Man</html:div>
-      <html:div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</html:div>
+      <html:div class="sotd">song of the day</html:div>
     </html:div>
     <html:div style="width:80px;position:relative;">
       <html:img src="https://i.scdn.co/image/ab67616d0000b2738fc857633a3804cd2786f923" style="height:100%;position:absolute;right:0" />
@@ -263,7 +262,7 @@ Il suffit ainsi de contrôler la norme de <fr:tex display="inline"><![CDATA[TT^*
       <html:div>Raid (feat. MED)</html:div>
       <html:div>Madvillain, Madlib, MF DOOM, MED</html:div>
       <html:div>Madvillainy</html:div>
-      <html:div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</html:div>
+      <html:div class="sotd">song of the day</html:div>
     </html:div>
     <html:div style="width:80px;position:relative;">
       <html:img src="https://i.scdn.co/image/ab67616d0000b2733e3bb917af94bd82074c5d47" style="height:100%;position:absolute;right:0" />
@@ -334,7 +333,7 @@ Il suffit ainsi de contrôler la norme de <fr:tex display="inline"><![CDATA[TT^*
             <fr:uri>https://c-sarrazin.github.io/cs-0001/</fr:uri>
             <fr:display-uri>cs-0001</fr:display-uri>
             <fr:route>/cs-0001/</fr:route>
-            <fr:title text="M½ : édition 2026">M½ : édition 2026</fr:title>
+            <fr:title text="Mdemi : édition 2026">Mdemi : édition 2026</fr:title>
             <fr:taxon>Programme</fr:taxon>
           </fr:frontmatter>
           <fr:mainmatter>

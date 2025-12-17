@@ -18,7 +18,7 @@
       <html:div>Raid (feat. MED)</html:div>
       <html:div>Madvillain, Madlib, MF DOOM, MED</html:div>
       <html:div>Madvillainy</html:div>
-      <html:div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</html:div>
+      <html:div class="sotd">song of the day</html:div>
     </html:div>
     <html:div style="width:80px;position:relative;">
       <html:img src="https://i.scdn.co/image/ab67616d0000b2733e3bb917af94bd82074c5d47" style="height:100%;position:absolute;right:0" />
@@ -122,13 +122,13 @@
       <html:div>So Easy</html:div>
       <html:div>Röyksopp</html:div>
       <html:div>Melody A.M.</html:div>
-      <html:div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</html:div>
+      <html:div class="sotd">song of the day</html:div>
     </html:div>
     <html:div style="width:80px;position:relative;">
       <html:img src="https://i.scdn.co/image/ab67616d0000b2731e5655cd8db911dc48ea57df" style="height:100%;position:absolute;right:0" />
     </html:div>
 </html:div>
-                <html:p>Aujourd'hui, j'ai écrit des notes de mécanique hamiltonienne et de géométrie symplectique pour le début du <fr:link href="/cs-0001/" title="M½ : édition 2026" uri="https://c-sarrazin.github.io/cs-0001/" display-uri="cs-0001" type="local">M½</fr:link>. À cette occasion, dans <fr:link href="/AM78/" title="Foundations of mechanics" uri="https://c-sarrazin.github.io/AM78/" display-uri="AM78" type="local">[AM78]</fr:link>, je trouve l'exercice facile mais sympathique suivant.</html:p>
+                <html:p>Aujourd'hui, j'ai écrit des notes de mécanique hamiltonienne et de géométrie symplectique pour le début du <fr:link href="/cs-0001/" title="Mdemi : édition 2026" uri="https://c-sarrazin.github.io/cs-0001/" display-uri="cs-0001" type="local">M½</fr:link>. À cette occasion, dans <fr:link href="/AM78/" title="Foundations of mechanics" uri="https://c-sarrazin.github.io/AM78/" display-uri="AM78" type="local">[AM78]</fr:link>, je trouve l'exercice facile mais sympathique suivant.</html:p>
                 <fr:tree show-metadata="false">
                   <fr:frontmatter>
                     <fr:authors>
@@ -173,7 +173,7 @@
       <html:div>Take This Waltz - Paris Version</html:div>
       <html:div>Leonard Cohen</html:div>
       <html:div>I'm Your Man</html:div>
-      <html:div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</html:div>
+      <html:div class="sotd">song of the day</html:div>
     </html:div>
     <html:div style="width:80px;position:relative;">
       <html:img src="https://i.scdn.co/image/ab67616d0000b2738fc857633a3804cd2786f923" style="height:100%;position:absolute;right:0" />
@@ -303,7 +303,7 @@ Il suffit ainsi de contrôler la norme de <fr:tex display="inline"><![CDATA[TT^*
       <html:div>Raid (feat. MED)</html:div>
       <html:div>Madvillain, Madlib, MF DOOM, MED</html:div>
       <html:div>Madvillainy</html:div>
-      <html:div style="position: absolute; right: 0; bottom: -12px; font-size: 28px; font-weight: 600; opacity:50%; font-family:'Alegreya'">song of the day</html:div>
+      <html:div class="sotd">song of the day</html:div>
     </html:div>
     <html:div style="width:80px;position:relative;">
       <html:img src="https://i.scdn.co/image/ab67616d0000b2733e3bb917af94bd82074c5d47" style="height:100%;position:absolute;right:0" />
