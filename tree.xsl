@@ -30,7 +30,7 @@
             <nav class="nav">
               <div class="logo">
                 <a href="{/f:tree/@base-url}index.html" title="Home">
-                  <xsl:text>c-sarrazin.github.io</xsl:text>
+                  <xsl:text>Mon coin de forêt</xsl:text>
                 </a>
               </div>
               <button id="search" onclick="const ninja = document.querySelector('ninja-keys'); ninja.open();"></button>
