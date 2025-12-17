@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date href="/2025-12-17/">
+      <fr:year>2025</fr:year>
+      <fr:month>12</fr:month>
+      <fr:day>17</fr:day>
+    </fr:date>
+    <fr:uri>https://c-sarrazin.github.io/cs-000E/</fr:uri>
+    <fr:display-uri>cs-000E</fr:display-uri>
+    <fr:route>/cs-000E/</fr:route>
+    <fr:title text="Équivalence symplectique faible">Équivalence symplectique faible</fr:title>
+    <fr:taxon>Définition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>Soient <fr:tex display="inline"><![CDATA[(M_1, \omega _1, F_1)]]></fr:tex> et <fr:tex display="inline"><![CDATA[(M_2, \omega _2, F_2)]]></fr:tex> deux systèmes intégrables. On dit qu'ils sont faiblement symplectiquement équivalents quand il existe un symplectomorphisme <fr:tex display="inline"><![CDATA[\phi  : M_1 \to  M_2]]></fr:tex> tel que <fr:tex display="inline"><![CDATA[\mathcal {C}_{F_1}(M_1) = \mathcal {C}_{F_2 \circ  \phi }(M_1)]]></fr:tex>.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

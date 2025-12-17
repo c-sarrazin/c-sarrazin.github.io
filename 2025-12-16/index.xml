@@ -109,6 +109,129 @@
                     <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
                   </fr:author>
                 </fr:authors>
+                <fr:uri>https://c-sarrazin.github.io/2025-12-17/</fr:uri>
+                <fr:display-uri>2025-12-17</fr:display-uri>
+                <fr:route>/2025-12-17/</fr:route>
+                <fr:title text="17 décembre">17 décembre</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:div style="display:flex;padding:5px; background:#d2d2e3;margin-bottom:10px">
+    <html:div style="flex:auto;position: relative;">
+      <html:div>Quantum Leap</html:div>
+      <html:div>Roc Marciano, The Alchemist</html:div>
+      <html:div>The Elephant Man's Bones</html:div>
+      <html:div class="sotd">song of the day</html:div>
+    </html:div>
+    <html:div style="width:80px;position:relative;">
+      <html:img src="https://i.scdn.co/image/ab67616d0000b2733768eb8e45753e145aefb437" style="height:100%;position:absolute;right:0" />
+    </html:div>
+</html:div>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date href="/2025-12-17/">
+                      <fr:year>2025</fr:year>
+                      <fr:month>12</fr:month>
+                      <fr:day>17</fr:day>
+                    </fr:date>
+                    <fr:uri>https://c-sarrazin.github.io/cs-000G/</fr:uri>
+                    <fr:display-uri>cs-000G</fr:display-uri>
+                    <fr:route>/cs-000G/</fr:route>
+                    <fr:title text="Équivalence symplectique forte">Équivalence symplectique forte</fr:title>
+                    <fr:taxon>Définition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>Soient <fr:tex display="inline"><![CDATA[(M_1, \omega _1, F_1)]]></fr:tex> et <fr:tex display="inline"><![CDATA[(M_2, \omega _2, F_2)]]></fr:tex> deux systèmes intégrables. On dit qu'ils sont (fortement) symplectiquement équivalents quand il existe un symplectomorphisme <fr:tex display="inline"><![CDATA[\phi  : M_1 \to  M_2]]></fr:tex> et un difféomorphisme <fr:tex display="inline"><![CDATA[g: F_1(M_1) \to  F_2(M_2)]]></fr:tex> tel que <fr:tex display="inline"><![CDATA[F_2 \circ  \phi  = g \circ  F_1]]></fr:tex>.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date href="/2025-12-17/">
+                      <fr:year>2025</fr:year>
+                      <fr:month>12</fr:month>
+                      <fr:day>17</fr:day>
+                    </fr:date>
+                    <fr:uri>https://c-sarrazin.github.io/cs-000I/</fr:uri>
+                    <fr:display-uri>cs-000I</fr:display-uri>
+                    <fr:route>/cs-000I/</fr:route>
+                    <fr:title text="Théorème de Darboux-Carathéodory">Théorème de Darboux-Carathéodory</fr:title>
+                    <fr:taxon>Théorème</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>Soit <fr:tex display="inline"><![CDATA[(M^{2n}, \omega , F)]]></fr:tex> un système intégrable. Soit <fr:tex display="inline"><![CDATA[m\in  M]]></fr:tex> un point régulier. Il existe un voisinage <fr:tex display="inline"><![CDATA[U\ni  m]]></fr:tex> et un voisinage de l'origine <fr:tex display="inline"><![CDATA[V \subset  \mathbb {R}^{2n}]]></fr:tex> tel que <fr:tex display="inline"><![CDATA[(U, \omega |_U, F|_U)]]></fr:tex> soit symplectiquement équivalent à <fr:tex display="inline"><![CDATA[(V, \omega _{\mathrm {can}}, (q_1, \dots , q_n))]]></fr:tex>.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:p>Autrement dit: le seul invariant local d'un système intégrable est le nombre de degrés de libertés. </html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date href="/2025-12-17/">
+                      <fr:year>2025</fr:year>
+                      <fr:month>12</fr:month>
+                      <fr:day>17</fr:day>
+                    </fr:date>
+                    <fr:uri>https://c-sarrazin.github.io/cs-000C/</fr:uri>
+                    <fr:display-uri>cs-000C</fr:display-uri>
+                    <fr:route>/cs-000C/</fr:route>
+                    <fr:title text="Commutant de l'application moment">Commutant de l'application moment</fr:title>
+                    <fr:taxon>Définition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>Soit <fr:tex display="inline"><![CDATA[(M, \omega , F)]]></fr:tex> un <fr:link href="/cs-0005/" title="Système intégrable" uri="https://c-sarrazin.github.io/cs-0005/" display-uri="cs-0005" type="local">système intégrable</fr:link>. Soit <fr:tex display="inline"><![CDATA[U \subset  M]]></fr:tex> un ouvert. Le commutant de <fr:tex display="inline"><![CDATA[(M, \omega , F)]]></fr:tex> sur <fr:tex display="inline"><![CDATA[U]]></fr:tex> est l'ensemble <fr:tex display="block"><![CDATA[\mathcal {C}_F(U) := \{g\in  \mathscr {C}^\infty (U) \mid  \forall  i, \{f_i, g\} = 0\}.]]></fr:tex></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:uri>https://c-sarrazin.github.io/cs-000D/</fr:uri>
+                    <fr:display-uri>cs-000D</fr:display-uri>
+                    <fr:route>/cs-000D/</fr:route>
+                    <fr:title text="Le commutant est une sous-algèbre abélienne">Le commutant est une sous-algèbre abélienne</fr:title>
+                    <fr:taxon>Propriété</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter><html:p>Le commutant <fr:link href="/cs-000C/" title="Commutant de l'application moment" uri="https://c-sarrazin.github.io/cs-000C/" display-uri="cs-000C" type="local"><fr:tex display="inline"><![CDATA[\mathcal {C}_F(U)]]></fr:tex></fr:link> est une sous-algèbre abélienne de l'algèbre de Poisson <fr:tex display="inline"><![CDATA[\mathscr {C}^\infty (U)]]></fr:tex>.</html:p>
+ 
+   
+   
+   <fr:tree show-metadata="false" expanded="false" toc="false"><fr:frontmatter><fr:authors /><fr:taxon>Preuve</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Si <fr:tex display="inline"><![CDATA[U]]></fr:tex> ne contienne pas de points singuliers de <fr:tex display="inline"><![CDATA[F]]></fr:tex>, alors on peut utiliser le théorème de Darboux-Carathéodory pour se ramener au cas d'un voisinage de l'origine dans <fr:tex display="inline"><![CDATA[\mathbb {R}^{2n}]]></fr:tex>. On se ramène à ce cas depuis le cas général en remarquant que par définition d'un système intégrable, il existe un ouvert dense <fr:tex display="inline"><![CDATA[U']]></fr:tex> constitué uniquement de points réguliers.</html:p></fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:taxon>Remarque.</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>Le commutant <fr:tex display="inline"><![CDATA[\mathcal {C}_F(M)]]></fr:tex> s'identifie à l'ensemble des fonctions lisses sur <fr:tex display="inline"><![CDATA[M]]></fr:tex> qui sont constantes sur les composantes connexes des fibres de <fr:tex display="inline"><![CDATA[F]]></fr:tex>.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+                  </fr:author>
+                </fr:authors>
                 <fr:uri>https://c-sarrazin.github.io/2025-12-16/</fr:uri>
                 <fr:display-uri>2025-12-16</fr:display-uri>
                 <fr:route>/2025-12-16/</fr:route>

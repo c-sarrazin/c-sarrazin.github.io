@@ -124,6 +124,28 @@
                 <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
               </fr:author>
             </fr:authors>
+            <fr:date href="/2025-12-17/">
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://c-sarrazin.github.io/cs-000C/</fr:uri>
+            <fr:display-uri>cs-000C</fr:display-uri>
+            <fr:route>/cs-000C/</fr:route>
+            <fr:title text="Commutant de l'application moment">Commutant de l'application moment</fr:title>
+            <fr:taxon>Définition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Soit <fr:tex display="inline"><![CDATA[(M, \omega , F)]]></fr:tex> un <fr:link href="/cs-0005/" title="Système intégrable" uri="https://c-sarrazin.github.io/cs-0005/" display-uri="cs-0005" type="local">système intégrable</fr:link>. Soit <fr:tex display="inline"><![CDATA[U \subset  M]]></fr:tex> un ouvert. Le commutant de <fr:tex display="inline"><![CDATA[(M, \omega , F)]]></fr:tex> sur <fr:tex display="inline"><![CDATA[U]]></fr:tex> est l'ensemble <fr:tex display="block"><![CDATA[\mathcal {C}_F(U) := \{g\in  \mathscr {C}^\infty (U) \mid  \forall  i, \{f_i, g\} = 0\}.]]></fr:tex></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+              </fr:author>
+            </fr:authors>
             <fr:date href="/2025-12-12/">
               <fr:year>2025</fr:year>
               <fr:month>12</fr:month>

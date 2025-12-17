@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>Bolsinov, A.V.</fr:author>
+      <fr:author>Fomenko, A. T.</fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2004</fr:year>
+    </fr:date>
+    <fr:uri>https://c-sarrazin.github.io/BF04/</fr:uri>
+    <fr:display-uri>BF04</fr:display-uri>
+    <fr:route>/BF04/</fr:route>
+    <fr:title text="Integrable hamiltonian systems">Integrable hamiltonian systems</fr:title>
+    <fr:taxon>Reference</fr:taxon>
+    <fr:meta name="venue">Chapman&amp;Hall/CRC</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date href="/2025-12-17/">
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://c-sarrazin.github.io/cs-000B/</fr:uri>
+            <fr:display-uri>cs-000B</fr:display-uri>
+            <fr:route>/cs-000B/</fr:route>
+            <fr:title text="Autour du théorème d'Eliasson">Autour du théorème d'Eliasson</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Je veux comprendre la classification des singularités non-dégénérées d'un système intégrable. Je découvre à l'occasion <fr:link href="/BF04/" title="Integrable hamiltonian systems" uri="https://c-sarrazin.github.io/BF04/" display-uri="BF04" type="local">[BF04]</fr:link> et ses dessins incroyables!</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date href="/2025-12-17/">
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:title text="Théorie de Morse-Bott">Théorie de Morse-Bott</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Plaçons nous momentanément dans le cas d'un système à deux degrés de liberté, c'est à dire que <fr:tex display="inline"><![CDATA[M]]></fr:tex> est une variété symplectique compacte de dimension 4 muni d'un hamiltonien <fr:tex display="inline"><![CDATA[H]]></fr:tex> et d'une (autre) intégrale première <fr:tex display="inline"><![CDATA[f]]></fr:tex>.</html:p>
+                <html:p>On se place sur une surface d'énergie <fr:tex display="inline"><![CDATA[E = H^{-1}(c)]]></fr:tex>, avec <fr:tex display="inline"><![CDATA[c]]></fr:tex> une valeur régulière de <fr:tex display="inline"><![CDATA[H]]></fr:tex>.C'est une sous-variété de dimension 3 qui est <html:em>compacte</html:em> : <fr:tex display="inline"><![CDATA[f]]></fr:tex> doit donc avoir des points singuliers en restriction à <fr:tex display="inline"><![CDATA[E]]></fr:tex>. Ce sont les points singuliers de l'application moment <fr:tex display="inline"><![CDATA[(H, f)]]></fr:tex> qui appartiennent à <fr:tex display="inline"><![CDATA[E]]></fr:tex>. </html:p>
+                <html:p>Ces points singuliers ne peuvent être isolés : le long d'une courbe intégrale du flot hamiltonien, on ne peut trouver que des points singuliers. Donc l'application moment ne peut jamais être une fonction de Morse.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date href="/2025-12-17/">
+                  <fr:year>2025</fr:year>
+                  <fr:month>12</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:title text="Sous-algèbres de Cartan">Sous-algèbres de Cartan</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter />
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
