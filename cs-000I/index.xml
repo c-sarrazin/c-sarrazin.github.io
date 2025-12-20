@@ -150,7 +150,7 @@
                     <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
                   </fr:author>
                 </fr:authors>
-                <fr:taxon>Remarque.</fr:taxon>
+                <fr:taxon>Remarque</fr:taxon>
               </fr:frontmatter>
               <fr:mainmatter>
                 <html:p>Le commutant <fr:tex display="inline"><![CDATA[\mathcal {C}_F(M)]]></fr:tex> s'identifie à l'ensemble des fonctions lisses sur <fr:tex display="inline"><![CDATA[M]]></fr:tex> qui sont constantes sur les composantes connexes des fibres de <fr:tex display="inline"><![CDATA[F]]></fr:tex>.</html:p>

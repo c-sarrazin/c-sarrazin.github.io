@@ -221,4 +221,77 @@ Il suffit ainsi de contrôler la norme de <code>TT^*</code>... on fait apparaît
       </div>
     </content>
   </entry>
+  <entry>
+    <title>20 décembre</title>
+    <author>
+      <name>Constance</name>
+      <uri>https://c-sarrazin.github.io/cs/</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="https://c-sarrazin.github.io/2025-12-20/" />
+    <id>https://c-sarrazin.github.io/2025-12-20/</id>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <div style="display:flex;padding:5px; background:#d2d2e3;margin-bottom:10px">
+    <div style="flex:auto;position: relative;">
+      <div>CAMP D'ENTRAÎNEMENT</div>
+      <div>Jungle Jack, Mairo</div>
+      <div>JUNGLE DES ILLUSIONS VOL 2</div>
+      <div class="sotd">song of the day</div>
+    </div>
+    <div style="width:80px;position:relative;">
+      <img src="https://i.scdn.co/image/ab67616d0000b273af73f776b92d4614152fb141" style="height:100%;position:absolute;right:0" />
+    </div>
+</div>
+        <p>Aujourd'hui j'ai lu des choses dans <a href="https://c-sarrazin.github.io/MS17/">[MS17]</a> sur le théorème de Darboux et plein de généralisations. La base de tout est la proposition suivante.</p>
+        <section>
+          <header>
+            <h2>Isotopie de Moser</h2>
+          </header>
+          <p>Soit <code>M^{2n}</code> une variété lisse équipée de deux formes fermées <code>\omega _1, \omega _2 \in  \Omega ^2(M)</code>. Soit <code>Q \subset  M</code> une sous-variété compacte. Supposons qu'en tout point <code>q\in  Q</code>, <code>\omega _1</code> et <code>\omega _2</code> induisent <em>la même</em> forme bilinéaire alternée <em>non dégénérée</em> sur <code>T_qM</code>. Alors il existe deux ouverts <code>U_1, U_2</code> de <code>Q</code> et un difféomorphisme <code>\psi : U_1 \to  U_2</code> tel que <code>\psi |_Q = \mathrm {Id} \qquad  \psi ^* \omega _2 = \omega _1.</code></p>
+        </section>
+        <p>Une première conséquence fameuse, dont j'avais appris une autre preuve dans <a href="https://c-sarrazin.github.io/Arn89/">[Arn89]</a>.</p>
+        <section>
+          <header>
+            <h2>Théorème de Darboux</h2>
+          </header>
+<p>Soit <code>(M^{2n}, \omega )</code> une variété symplectique et <code>p\in  M</code>. Il existe un ouvert <code>U \ni  p</code>, un ouvert <code>V \ni  0 \in  \mathbb {R}^2n</code> et un difféomorphisme <code>\psi  : U \to  V</code> tel que <code>\omega  = \psi ^* \omega _0.</code></p>
+ 
+   
+   
+   <section>
+  <p>Soit <code>\psi  : (M, p) \to  \mathbb {R}^{2n}</code> une carte autour de <code>p</code> qui, en <code>p</code>, envoie <code>\omega </code> sur la forme symplectique standard : elle existe en prenant une carte quelconque et en la composant avec un isorphisme linéaire (par algèbre linéaire symplectique). On applique alors <a href="https://c-sarrazin.github.io/cs-000N/">l'isotopie de Moser</a> à <code>\omega </code> et <code>\psi ^*\omega _0</code>.</p>
+</section>
+ 
+        </section>
+        <p>Mais ce lemme permet d'obtenir de nombreux autres théorèmes dans le style "unicité/forme normale locale", ici au voisinage d'une sous-variété lagrangienne ou symplectique.</p>
+        <section>
+          <header>
+            <h2>Théorème du voisinage symplectique</h2>
+          </header>
+<p>Soient <code>(M_1, \omega _1)</code> et <code>(M_2, \omega _2)</code> deux variétés symplectiques. Soient <code>Q_1, Q_2</code> deux sous-variétés <em>symplectiques</em> compactes (respectivement de <code>M_1</code> et de <code>M_2</code>). Supposons qu'il existe un syplectomorphisme <code>\phi  : Q_1 \to  Q_2</code> et un isomorphisme compatible <code>\Phi </code> entre leurs fibrés normaux :</p>
+ 
+  
+  <figure><img src="https://c-sarrazin.github.io/d573552344732648a75441613c85fc5f.svg" /></figure>
+ 
+<p>Alors on peut étendre <code>\phi </code> en un symplectomorphisme <code>\tilde {\phi }</code> d'un voisinage de <code>Q_0</code> vers un voisinage de <code>Q_1</code>, tel que <code>\mathrm {d}\tilde {\phi }</code> induise <code>\Phi </code>.</p>        </section>
+        <section>
+          <header>
+            <h2>Théorème du voisinage lagrangien</h2>
+          </header>
+          <p>Soit <code>(M, \omega )</code> une variété symplectique et soit <code>L \subset  M</code> une sous-variété lagrangienne. Il existe un vosinage <code>U</code> de la section nulle dans <code>T^* L</code> et un voisinage <code>V</code> de <code>L</code> tel qu'on ait un symplectomorphisme entre <code>V</code> et <code>U</code> muni de la forme de Liouville.</p>
+        </section>
+        <p>Dans le même genre, j'ai fait l'exercice suivant qui est intéressant.</p>
+        <section>
+          <header>
+            <h2>Exercise 3.4.17 <a href="https://c-sarrazin.github.io/MS17/">[MS17]</a></h2>
+          </header>
+          <p>Soient <code>\omega _0</code> et <code>\omega _1</code> deux formes symplectiques sur <code>M</code> qui coincident sur une hypersurface <code>S</code> compacte orientable. Alors il existe un plongement <code>\phi </code> d'un voisinage <code>U</code> de <code>S</code> dans <code>M</code> tel que <code>\phi |_S = \mathrm {id}</code> et que <code>\phi ^* \omega _1 = \omega _0</code>.
+<br />
+Comme <code>S</code> est orientable, le fibré en droites <code>L \subset  TS</code> dont les fibres sont <code>L_p = (T_pS)^{\omega _0} = (T_pS)^{\omega _1}</code>, isomorphe au fibré normal, est trivial. Soit donc <code>\alpha </code> une 1-forme tel que <code>\alpha  : M \to  L^*</code> ne s'annule jamais.
+<br />
+Sur <code>S \times  <![CDATA[]]]> -\varepsilon , \varepsilon   <![CDATA[[]]></code> on pose le forme symplectique <code>\omega  = \iota ^*\omega _0 + \mathrm {d}(t\alpha ).</code> Il existe un voisinage de <code>S</code> symplectomorphe à <code>(S \times  <![CDATA[]]]> -\varepsilon , \varepsilon   <![CDATA[[]]>, \omega )</code>.</p>
+        </section>
+      </div>
+    </content>
+  </entry>
 </feed>

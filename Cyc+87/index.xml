@@ -55,8 +55,7 @@
             <fr:uri>https://c-sarrazin.github.io/cs-0002/</fr:uri>
             <fr:display-uri>cs-0002</fr:display-uri>
             <fr:route>/cs-0002/</fr:route>
-            <fr:title text="Le spectre des opérateurs de Schrödinger">Le spectre des opérateurs de Schrödinger</fr:title>
-            <fr:taxon>Sujet</fr:taxon>
+            <fr:taxon>Résumé</fr:taxon>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>En mécanique quantique, les énergies possibles d'un sytème quantique sont les valeurs propres d'un hamiltonien, qui est un opérateur non borné auto-adjoint <fr:tex display="inline"><![CDATA[H]]></fr:tex> sur <fr:tex display="inline"><![CDATA[L^2(\mathbb {R}^d)]]></fr:tex>. Souvent, cet opérateur est de la forme <fr:tex display="block"><![CDATA[(H\psi )(x) = -\Delta  \psi (x) + V(x)\psi (x)]]></fr:tex> avec <fr:tex display="inline"><![CDATA[V: \mathbb {R}^d \to  \mathbb {R}]]></fr:tex> un potentiel. Ces opérateurs s'appellent opérateurs de Schrödinger.</html:p>
@@ -73,6 +72,9 @@
             </html:span>
             <html:span style="display: none;">
               <fr:link href="/Cyc+87/" title="Schrödinger operators, with application to quantum mechanics and global geometry" uri="https://c-sarrazin.github.io/Cyc+87/" display-uri="Cyc+87" type="local">Schrödinger operators, with application to quantum mechanics and global geometry</fr:link>
+            </html:span>
+            <html:span style="display: none;">
+              <fr:link href="/CL90/" title="Spectral theory of random Schrödinger operators" uri="https://c-sarrazin.github.io/CL90/" display-uri="CL90" type="local">Spectral theory of random Schrödinger operators</fr:link>
             </html:span>
           </fr:mainmatter>
         </fr:tree>

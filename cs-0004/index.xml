@@ -128,8 +128,7 @@
             <fr:uri>https://c-sarrazin.github.io/cs-0003/</fr:uri>
             <fr:display-uri>cs-0003</fr:display-uri>
             <fr:route>/cs-0003/</fr:route>
-            <fr:title text="Systèmes intégrables, toriques, semi-toriques">Systèmes intégrables, toriques, semi-toriques</fr:title>
-            <fr:taxon>Sujet</fr:taxon>
+            <fr:taxon>Résumé</fr:taxon>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>En mécanique classique, un système physique est décrit par un hamiltonien, qui est l'énergie totale du système : c'est une fonction réelle définie sur l'espace de phases, qui est (localement) décrit par les coordonnées position et moment. Ce hamiltonien détermine les équations d'évolution du système.</html:p>
