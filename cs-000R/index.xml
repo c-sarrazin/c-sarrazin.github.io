@@ -7,20 +7,19 @@
         <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
       </fr:author>
     </fr:authors>
-    <fr:date href="/2025-12-16/">
+    <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>12</fr:month>
-      <fr:day>16</fr:day>
+      <fr:day>21</fr:day>
     </fr:date>
-    <fr:uri>https://c-sarrazin.github.io/cs-000A/</fr:uri>
-    <fr:display-uri>cs-000A</fr:display-uri>
-    <fr:route>/cs-000A/</fr:route>
-    <fr:title text="Symplectomorphismes et graphe lagrangien">Symplectomorphismes et graphe lagrangien</fr:title>
-    <fr:taxon>Proposition</fr:taxon>
+    <fr:uri>https://c-sarrazin.github.io/cs-000R/</fr:uri>
+    <fr:display-uri>cs-000R</fr:display-uri>
+    <fr:route>/cs-000R/</fr:route>
+    <fr:title text="Relation canonique">Relation canonique</fr:title>
+    <fr:taxon>Définition</fr:taxon>
   </fr:frontmatter>
   <fr:mainmatter>
-    <html:p>Soit <fr:tex display="inline"><![CDATA[f: (M, \omega _1) \to  (N, \omega _2)]]></fr:tex> un difféomorphisme entre variétés symplectiques. Les enoncés suivants sont équivalents : <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> est un symplectomorphisme,</html:li>
-  <html:li>son graphe <fr:tex display="block"><![CDATA[\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}]]></fr:tex>est une sous-variété lagrangienne de <fr:tex display="inline"><![CDATA[M \times  N]]></fr:tex> muni de la forme symplectique <fr:tex display="inline"><![CDATA[\omega _1 \ominus  \omega _2 = \pi _1^* \omega _1 - \pi _2^* \omega _2]]></fr:tex>.</html:li></html:ol></html:p>
+    <html:p>Soient <fr:tex display="inline"><![CDATA[(M, \omega _1)]]></fr:tex> et <fr:tex display="inline"><![CDATA[(N, \omega _2)]]></fr:tex> deux variétés symplectiques. Une relation canonique entre <fr:tex display="inline"><![CDATA[M]]></fr:tex> et <fr:tex display="inline"><![CDATA[N]]></fr:tex> est une sous-variété lagrangienne de <fr:tex display="inline"><![CDATA[(M \times  N, \pi _1^* \omega _1 - \pi _2^* \omega _2)]]></fr:tex>.</html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">

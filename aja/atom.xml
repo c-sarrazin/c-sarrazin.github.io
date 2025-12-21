@@ -158,9 +158,16 @@ Il suffit ainsi de contrôler la norme de <code>TT^*</code>... on fait apparaît
             <h2>Symplectomorphismes et graphe lagrangien</h2>
           </header>
           <p>Soit <code>f: (M, \omega _1) \to  (N, \omega _2)</code> un difféomorphisme entre variétés symplectiques. Les enoncés suivants sont équivalents : <ol><li><code>f</code> est un symplectomorphisme,</li>
-  <li>son graphe <code>\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}</code>est une sous-variété lagrangienne de <code>M \times  N</code> muni de la forme symplectique <code>\omega _1 \ominus  \omega _2 = \pi _1^* \omega _1 - \pi _2^* \omega _2</code>,</li>
-  <li>son graphe <code>\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}</code>est une sous-variété symplectique de <code>M \times  N</code> muni de la forme symplectique <code>\omega _1 \oplus  \omega _2 = \pi _1^* \omega _1 + \pi _2^* \omega _2</code>.</li></ol></p>
+  <li>son graphe <code>\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}</code>est une sous-variété lagrangienne de <code>M \times  N</code> muni de la forme symplectique <code>\omega _1 \ominus  \omega _2 = \pi _1^* \omega _1 - \pi _2^* \omega _2</code>.</li></ol></p>
         </section>
+        <p>Cette observation est à la base de l'idée de Weinstein d'élargir la catégorie symplectique en prenant comme morphisme plus uniquement les symplectomorphisme, mais les relations canoniques.</p>
+        <section>
+          <header>
+            <h2>Relation canonique</h2>
+          </header>
+          <p>Soient <code>(M, \omega _1)</code> et <code>(N, \omega _2)</code> deux variétés symplectiques. Une relation canonique entre <code>M</code> et <code>N</code> est une sous-variété lagrangienne de <code>(M \times  N, \pi _1^* \omega _1 - \pi _2^* \omega _2)</code>.</p>
+        </section>
+        <p>Malheureusement, ce n'est pas une vraie catégorie car la composition de deux relations canoniques n'est pas une relation canonique sans une hypothèse supplémentaire de transversalité.</p>
       </div>
     </content>
   </entry>
@@ -254,7 +261,7 @@ Il suffit ainsi de contrôler la norme de <code>TT^*</code>... on fait apparaît
           <header>
             <h2>Théorème de Darboux</h2>
           </header>
-<p>Soit <code>(M^{2n}, \omega )</code> une variété symplectique et <code>p\in  M</code>. Il existe un ouvert <code>U \ni  p</code>, un ouvert <code>V \ni  0 \in  \mathbb {R}^2n</code> et un difféomorphisme <code>\psi  : U \to  V</code> tel que <code>\omega  = \psi ^* \omega _0.</code></p>
+<p>Soit <code>(M^{2n}, \omega )</code> une variété symplectique et <code>p\in  M</code>. Il existe un ouvert <code>U \ni  p</code>, un ouvert <code>V \ni  0 \in  \mathbb {R}^{2n}</code> et un difféomorphisme <code>\psi  : U \to  V</code> tel que <code>\omega  = \psi ^* \omega _0.</code></p>
  
    
    

@@ -45,10 +45,33 @@
       </fr:frontmatter>
       <fr:mainmatter>
         <html:p>Soit <fr:tex display="inline"><![CDATA[f: (M, \omega _1) \to  (N, \omega _2)]]></fr:tex> un difféomorphisme entre variétés symplectiques. Les enoncés suivants sont équivalents : <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> est un symplectomorphisme,</html:li>
-  <html:li>son graphe <fr:tex display="block"><![CDATA[\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}]]></fr:tex>est une sous-variété lagrangienne de <fr:tex display="inline"><![CDATA[M \times  N]]></fr:tex> muni de la forme symplectique <fr:tex display="inline"><![CDATA[\omega _1 \ominus  \omega _2 = \pi _1^* \omega _1 - \pi _2^* \omega _2]]></fr:tex>,</html:li>
-  <html:li>son graphe <fr:tex display="block"><![CDATA[\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}]]></fr:tex>est une sous-variété symplectique de <fr:tex display="inline"><![CDATA[M \times  N]]></fr:tex> muni de la forme symplectique <fr:tex display="inline"><![CDATA[\omega _1 \oplus  \omega _2 = \pi _1^* \omega _1 + \pi _2^* \omega _2]]></fr:tex>.</html:li></html:ol></html:p>
+  <html:li>son graphe <fr:tex display="block"><![CDATA[\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}]]></fr:tex>est une sous-variété lagrangienne de <fr:tex display="inline"><![CDATA[M \times  N]]></fr:tex> muni de la forme symplectique <fr:tex display="inline"><![CDATA[\omega _1 \ominus  \omega _2 = \pi _1^* \omega _1 - \pi _2^* \omega _2]]></fr:tex>.</html:li></html:ol></html:p>
       </fr:mainmatter>
     </fr:tree>
+    <html:p>Cette observation est à la base de l'idée de Weinstein d'élargir la catégorie symplectique en prenant comme morphisme plus uniquement les symplectomorphisme, mais les relations canoniques.</html:p>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>12</fr:month>
+          <fr:day>21</fr:day>
+        </fr:date>
+        <fr:uri>https://c-sarrazin.github.io/cs-000R/</fr:uri>
+        <fr:display-uri>cs-000R</fr:display-uri>
+        <fr:route>/cs-000R/</fr:route>
+        <fr:title text="Relation canonique">Relation canonique</fr:title>
+        <fr:taxon>Définition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>Soient <fr:tex display="inline"><![CDATA[(M, \omega _1)]]></fr:tex> et <fr:tex display="inline"><![CDATA[(N, \omega _2)]]></fr:tex> deux variétés symplectiques. Une relation canonique entre <fr:tex display="inline"><![CDATA[M]]></fr:tex> et <fr:tex display="inline"><![CDATA[N]]></fr:tex> est une sous-variété lagrangienne de <fr:tex display="inline"><![CDATA[(M \times  N, \pi _1^* \omega _1 - \pi _2^* \omega _2)]]></fr:tex>.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <html:p>Malheureusement, ce n'est pas une vraie catégorie car la composition de deux relations canoniques n'est pas une relation canonique sans une hypothèse supplémentaire de transversalité.</html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -168,7 +191,7 @@
                     <fr:title text="Théorème de Darboux">Théorème de Darboux</fr:title>
                     <fr:taxon>Théorème</fr:taxon>
                   </fr:frontmatter>
-                  <fr:mainmatter><html:p>Soit <fr:tex display="inline"><![CDATA[(M^{2n}, \omega )]]></fr:tex> une variété symplectique et <fr:tex display="inline"><![CDATA[p\in  M]]></fr:tex>. Il existe un ouvert <fr:tex display="inline"><![CDATA[U \ni  p]]></fr:tex>, un ouvert <fr:tex display="inline"><![CDATA[V \ni  0 \in  \mathbb {R}^2n]]></fr:tex> et un difféomorphisme <fr:tex display="inline"><![CDATA[\psi  : U \to  V]]></fr:tex> tel que <fr:tex display="inline"><![CDATA[\omega  = \psi ^* \omega _0.]]></fr:tex></html:p>
+                  <fr:mainmatter><html:p>Soit <fr:tex display="inline"><![CDATA[(M^{2n}, \omega )]]></fr:tex> une variété symplectique et <fr:tex display="inline"><![CDATA[p\in  M]]></fr:tex>. Il existe un ouvert <fr:tex display="inline"><![CDATA[U \ni  p]]></fr:tex>, un ouvert <fr:tex display="inline"><![CDATA[V \ni  0 \in  \mathbb {R}^{2n}]]></fr:tex> et un difféomorphisme <fr:tex display="inline"><![CDATA[\psi  : U \to  V]]></fr:tex> tel que <fr:tex display="inline"><![CDATA[\omega  = \psi ^* \omega _0.]]></fr:tex></html:p>
  
    
    
@@ -673,10 +696,33 @@ Sur <fr:tex display="inline"><![CDATA[S \times  ] -\varepsilon , \varepsilon   [
                   </fr:frontmatter>
                   <fr:mainmatter>
                     <html:p>Soit <fr:tex display="inline"><![CDATA[f: (M, \omega _1) \to  (N, \omega _2)]]></fr:tex> un difféomorphisme entre variétés symplectiques. Les enoncés suivants sont équivalents : <html:ol><html:li><fr:tex display="inline"><![CDATA[f]]></fr:tex> est un symplectomorphisme,</html:li>
-  <html:li>son graphe <fr:tex display="block"><![CDATA[\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}]]></fr:tex>est une sous-variété lagrangienne de <fr:tex display="inline"><![CDATA[M \times  N]]></fr:tex> muni de la forme symplectique <fr:tex display="inline"><![CDATA[\omega _1 \ominus  \omega _2 = \pi _1^* \omega _1 - \pi _2^* \omega _2]]></fr:tex>,</html:li>
-  <html:li>son graphe <fr:tex display="block"><![CDATA[\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}]]></fr:tex>est une sous-variété symplectique de <fr:tex display="inline"><![CDATA[M \times  N]]></fr:tex> muni de la forme symplectique <fr:tex display="inline"><![CDATA[\omega _1 \oplus  \omega _2 = \pi _1^* \omega _1 + \pi _2^* \omega _2]]></fr:tex>.</html:li></html:ol></html:p>
+  <html:li>son graphe <fr:tex display="block"><![CDATA[\Gamma  := \{(x, f(x)) \in  M \times  N \mid  x \in  M\}]]></fr:tex>est une sous-variété lagrangienne de <fr:tex display="inline"><![CDATA[M \times  N]]></fr:tex> muni de la forme symplectique <fr:tex display="inline"><![CDATA[\omega _1 \ominus  \omega _2 = \pi _1^* \omega _1 - \pi _2^* \omega _2]]></fr:tex>.</html:li></html:ol></html:p>
                   </fr:mainmatter>
                 </fr:tree>
+                <html:p>Cette observation est à la base de l'idée de Weinstein d'élargir la catégorie symplectique en prenant comme morphisme plus uniquement les symplectomorphisme, mais les relations canoniques.</html:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>12</fr:month>
+                      <fr:day>21</fr:day>
+                    </fr:date>
+                    <fr:uri>https://c-sarrazin.github.io/cs-000R/</fr:uri>
+                    <fr:display-uri>cs-000R</fr:display-uri>
+                    <fr:route>/cs-000R/</fr:route>
+                    <fr:title text="Relation canonique">Relation canonique</fr:title>
+                    <fr:taxon>Définition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>Soient <fr:tex display="inline"><![CDATA[(M, \omega _1)]]></fr:tex> et <fr:tex display="inline"><![CDATA[(N, \omega _2)]]></fr:tex> deux variétés symplectiques. Une relation canonique entre <fr:tex display="inline"><![CDATA[M]]></fr:tex> et <fr:tex display="inline"><![CDATA[N]]></fr:tex> est une sous-variété lagrangienne de <fr:tex display="inline"><![CDATA[(M \times  N, \pi _1^* \omega _1 - \pi _2^* \omega _2)]]></fr:tex>.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:p>Malheureusement, ce n'est pas une vraie catégorie car la composition de deux relations canoniques n'est pas une relation canonique sans une hypothèse supplémentaire de transversalité.</html:p>
               </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">

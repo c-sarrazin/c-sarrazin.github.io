@@ -795,19 +795,33 @@ details>summary {
 footer .block[data-taxon="Définition"],
 footer .block[data-taxon="Definition"],
 footer .block[data-taxon="Théorème"],
-footer .block[data-taxon="Theorem"] {
+footer .block[data-taxon="Theorem"],
+footer .block[data-taxon="Lemme"],
+footer .block[data-taxon="Proposition"],
+footer .block[data-taxon="Exercice"],
+footer .block[data-taxon="Question"],
+footer .block[data-taxon="Corollaire"],
+footer .block[data-taxon="Avertissement"],
+footer .block[data-taxon="Propriété"] {
   background: none;
   padding: 0;
 }
 
 footer .block[data-taxon="Définition"] summary::after,
 footer .block[data-taxon="Definition"] summary::after,
+footer .block[data-taxon="Théorème"] summary::after,
 footer .block[data-taxon="Theorem"] summary::after,
-footer .block[data-taxon="Théorème"] summary::after {
+footer .block[data-taxon="Lemme"] summary::after,
+footer .block[data-taxon="Proposition"] summary::after,
+footer .block[data-taxon="Exercice"] summary::after,
+footer .block[data-taxon="Question"] summary::after,
+footer .block[data-taxon="Corollaire"] summary::after,
+footer .block[data-taxon="Avertissement"] summary::after,
+footer .block[data-taxon="Propriété"] summary::after {
   display: none;
 }
 
-.block:has(a[href="/aja/"])>details>.block>details>summary {
+.block:has(a.slug[href="/aja/"])>details>.block>details>summary {
   background: #b4b4cc;
   padding-left: 5px;
 }
@@ -816,7 +830,7 @@ footer .block summary {
   background: none !important;
 }
 
-.block:has(a[href="/aja/"])>details>.block>details>summary .taxon {
+.block:has(a.slug[href="/aja/"])>details>.block>details>summary .taxon {
   display: none
 }
 

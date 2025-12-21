@@ -101,7 +101,7 @@
                 <fr:title text="Théorème de Darboux">Théorème de Darboux</fr:title>
                 <fr:taxon>Théorème</fr:taxon>
               </fr:frontmatter>
-              <fr:mainmatter><html:p>Soit <fr:tex display="inline"><![CDATA[(M^{2n}, \omega )]]></fr:tex> une variété symplectique et <fr:tex display="inline"><![CDATA[p\in  M]]></fr:tex>. Il existe un ouvert <fr:tex display="inline"><![CDATA[U \ni  p]]></fr:tex>, un ouvert <fr:tex display="inline"><![CDATA[V \ni  0 \in  \mathbb {R}^2n]]></fr:tex> et un difféomorphisme <fr:tex display="inline"><![CDATA[\psi  : U \to  V]]></fr:tex> tel que <fr:tex display="inline"><![CDATA[\omega  = \psi ^* \omega _0.]]></fr:tex></html:p>
+              <fr:mainmatter><html:p>Soit <fr:tex display="inline"><![CDATA[(M^{2n}, \omega )]]></fr:tex> une variété symplectique et <fr:tex display="inline"><![CDATA[p\in  M]]></fr:tex>. Il existe un ouvert <fr:tex display="inline"><![CDATA[U \ni  p]]></fr:tex>, un ouvert <fr:tex display="inline"><![CDATA[V \ni  0 \in  \mathbb {R}^{2n}]]></fr:tex> et un difféomorphisme <fr:tex display="inline"><![CDATA[\psi  : U \to  V]]></fr:tex> tel que <fr:tex display="inline"><![CDATA[\omega  = \psi ^* \omega _0.]]></fr:tex></html:p>
  
    
    
