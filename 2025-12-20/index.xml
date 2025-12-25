@@ -1282,7 +1282,41 @@ Il suffit ainsi de contrôler la norme de <fr:tex display="inline"><![CDATA[TT^*
         <fr:authors />
         <fr:title text="Backlinks">Backlinks</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://c-sarrazin.github.io/iwtl/</fr:uri>
+            <fr:display-uri>iwtl</fr:display-uri>
+            <fr:route>/iwtl/</fr:route>
+            <fr:title text="Wishlist">Wishlist</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:ul class="todo">
+  <html:li><html:label>
+  <html:input type="checkbox" class="doing" />
+  géométrie symplectique
+    <html:ul class="todo">
+      <html:li><html:label>
+  <html:input type="checkbox" class="doing" />
+  <fr:link href="/cs-000O/" title="Théorème de Darboux" uri="https://c-sarrazin.github.io/cs-000O/" display-uri="cs-000O" type="local">théorème de Darboux</fr:link>
+</html:label></html:li>
+      <html:li><html:label>
+  <html:input type="checkbox" class="note" />
+  commencé <fr:link href="/2025-12-20/" title="20 décembre" uri="https://c-sarrazin.github.io/2025-12-20/" display-uri="2025-12-20" type="local">ici</fr:link>
+</html:label></html:li>
+      <html:li><html:label>
+  <html:input type="checkbox" />
+  le fibré cotangent comme variété symplectique
+</html:label></html:li>
+    </html:ul>
+  
+</html:label></html:li>
+
+</html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>

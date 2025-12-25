@@ -2,31 +2,36 @@
 <?xml-stylesheet type="text/xsl" href="/default.xsl"?>
 <fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
-    <fr:authors>
-      <fr:author>
-        <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
-      </fr:author>
-    </fr:authors>
-    <fr:date href="/2025-12-20/">
-      <fr:year>2025</fr:year>
-      <fr:month>12</fr:month>
-      <fr:day>20</fr:day>
-    </fr:date>
-    <fr:uri>https://c-sarrazin.github.io/cs-000O/</fr:uri>
-    <fr:display-uri>cs-000O</fr:display-uri>
-    <fr:route>/cs-000O/</fr:route>
-    <fr:title text="Théorème de Darboux">Théorème de Darboux</fr:title>
-    <fr:taxon>Théorème</fr:taxon>
+    <fr:authors />
+    <fr:uri>https://c-sarrazin.github.io/iwtl/</fr:uri>
+    <fr:display-uri>iwtl</fr:display-uri>
+    <fr:route>/iwtl/</fr:route>
+    <fr:title text="Wishlist">Wishlist</fr:title>
   </fr:frontmatter>
-  <fr:mainmatter><html:p>Soit <fr:tex display="inline"><![CDATA[(M^{2n}, \omega )]]></fr:tex> une variété symplectique et <fr:tex display="inline"><![CDATA[p\in  M]]></fr:tex>. Il existe un ouvert <fr:tex display="inline"><![CDATA[U \ni  p]]></fr:tex>, un ouvert <fr:tex display="inline"><![CDATA[V \ni  0 \in  \mathbb {R}^{2n}]]></fr:tex> et un difféomorphisme <fr:tex display="inline"><![CDATA[\psi  : U \to  V]]></fr:tex> tel que <fr:tex display="inline"><![CDATA[\omega  = \psi ^* \omega _0.]]></fr:tex></html:p>
- 
-   
-   
-   <fr:tree show-metadata="false" expanded="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link></fr:author></fr:authors><fr:date href="/2025-12-20/"><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>Preuve</fr:taxon></fr:frontmatter><fr:mainmatter>
-  <html:p>Soit <fr:tex display="inline"><![CDATA[\psi  : (M, p) \to  \mathbb {R}^{2n}]]></fr:tex> une carte autour de <fr:tex display="inline"><![CDATA[p]]></fr:tex> qui, en <fr:tex display="inline"><![CDATA[p]]></fr:tex>, envoie <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> sur la forme symplectique standard : elle existe en prenant une carte quelconque et en la composant avec un isorphisme linéaire (par algèbre linéaire symplectique). On applique alors <fr:link href="/cs-000N/" title="Isotopie de Moser" uri="https://c-sarrazin.github.io/cs-000N/" display-uri="cs-000N" type="local">l'isotopie de Moser</fr:link> à <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> et <fr:tex display="inline"><![CDATA[\psi ^*\omega _0]]></fr:tex>.</html:p>
-</fr:mainmatter></fr:tree>
- 
-</fr:mainmatter>
+  <fr:mainmatter>
+    <html:ul class="todo">
+  <html:li><html:label>
+  <html:input type="checkbox" class="doing" />
+  géométrie symplectique
+    <html:ul class="todo">
+      <html:li><html:label>
+  <html:input type="checkbox" class="doing" />
+  <fr:link href="/cs-000O/" title="Théorème de Darboux" uri="https://c-sarrazin.github.io/cs-000O/" display-uri="cs-000O" type="local">théorème de Darboux</fr:link>
+</html:label></html:li>
+      <html:li><html:label>
+  <html:input type="checkbox" class="note" />
+  commencé <fr:link href="/2025-12-20/" title="20 décembre" uri="https://c-sarrazin.github.io/2025-12-20/" display-uri="2025-12-20" type="local">ici</fr:link>
+</html:label></html:li>
+      <html:li><html:label>
+  <html:input type="checkbox" />
+  le fibré cotangent comme variété symplectique
+</html:label></html:li>
+    </html:ul>
+  
+</html:label></html:li>
+
+</html:ul>
+  </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
@@ -40,7 +45,49 @@
         <fr:authors />
         <fr:title text="Context">Context</fr:title>
       </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
       <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date href="/2025-12-20/">
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>https://c-sarrazin.github.io/cs-000O/</fr:uri>
+            <fr:display-uri>cs-000O</fr:display-uri>
+            <fr:route>/cs-000O/</fr:route>
+            <fr:title text="Théorème de Darboux">Théorème de Darboux</fr:title>
+            <fr:taxon>Théorème</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>Soit <fr:tex display="inline"><![CDATA[(M^{2n}, \omega )]]></fr:tex> une variété symplectique et <fr:tex display="inline"><![CDATA[p\in  M]]></fr:tex>. Il existe un ouvert <fr:tex display="inline"><![CDATA[U \ni  p]]></fr:tex>, un ouvert <fr:tex display="inline"><![CDATA[V \ni  0 \in  \mathbb {R}^{2n}]]></fr:tex> et un difféomorphisme <fr:tex display="inline"><![CDATA[\psi  : U \to  V]]></fr:tex> tel que <fr:tex display="inline"><![CDATA[\omega  = \psi ^* \omega _0.]]></fr:tex></html:p>
+ 
+   
+   
+   <fr:tree show-metadata="false" expanded="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link></fr:author></fr:authors><fr:date href="/2025-12-20/"><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>Preuve</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>Soit <fr:tex display="inline"><![CDATA[\psi  : (M, p) \to  \mathbb {R}^{2n}]]></fr:tex> une carte autour de <fr:tex display="inline"><![CDATA[p]]></fr:tex> qui, en <fr:tex display="inline"><![CDATA[p]]></fr:tex>, envoie <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> sur la forme symplectique standard : elle existe en prenant une carte quelconque et en la composant avec un isorphisme linéaire (par algèbre linéaire symplectique). On applique alors <fr:link href="/cs-000N/" title="Isotopie de Moser" uri="https://c-sarrazin.github.io/cs-000N/" display-uri="cs-000N" type="local">l'isotopie de Moser</fr:link> à <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> et <fr:tex display="inline"><![CDATA[\psi ^*\omega _0]]></fr:tex>.</html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
+        </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
@@ -442,77 +489,6 @@ Comme <fr:tex display="inline"><![CDATA[S]]></fr:tex> est orientable, le fibré 
 Sur <fr:tex display="inline"><![CDATA[S \times  ] -\varepsilon , \varepsilon   []]></fr:tex> on pose le forme symplectique <fr:tex display="block"><![CDATA[\omega  = \iota ^*\omega _0 + \mathrm {d}(t\alpha ).]]></fr:tex> Il existe un voisinage de <fr:tex display="inline"><![CDATA[S]]></fr:tex> symplectomorphe à <fr:tex display="inline"><![CDATA[(S \times  ] -\varepsilon , \varepsilon   [, \omega )]]></fr:tex>.</html:p>
               </fr:mainmatter>
             </fr:tree>
-          </fr:mainmatter>
-        </fr:tree>
-      </fr:mainmatter>
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:authors />
-        <fr:title text="Backlinks">Backlinks</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
-          <fr:frontmatter>
-            <fr:authors />
-            <fr:uri>https://c-sarrazin.github.io/iwtl/</fr:uri>
-            <fr:display-uri>iwtl</fr:display-uri>
-            <fr:route>/iwtl/</fr:route>
-            <fr:title text="Wishlist">Wishlist</fr:title>
-          </fr:frontmatter>
-          <fr:mainmatter>
-            <html:ul class="todo">
-  <html:li><html:label>
-  <html:input type="checkbox" class="doing" />
-  géométrie symplectique
-    <html:ul class="todo">
-      <html:li><html:label>
-  <html:input type="checkbox" class="doing" />
-  <fr:link href="/cs-000O/" title="Théorème de Darboux" uri="https://c-sarrazin.github.io/cs-000O/" display-uri="cs-000O" type="local">théorème de Darboux</fr:link>
-</html:label></html:li>
-      <html:li><html:label>
-  <html:input type="checkbox" class="note" />
-  commencé <fr:link href="/2025-12-20/" title="20 décembre" uri="https://c-sarrazin.github.io/2025-12-20/" display-uri="2025-12-20" type="local">ici</fr:link>
-</html:label></html:li>
-      <html:li><html:label>
-  <html:input type="checkbox" />
-  le fibré cotangent comme variété symplectique
-</html:label></html:li>
-    </html:ul>
-  
-</html:label></html:li>
-
-</html:ul>
-          </fr:mainmatter>
-        </fr:tree>
-      </fr:mainmatter>
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:authors />
-        <fr:title text="Related">Related</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
-          <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
-              </fr:author>
-            </fr:authors>
-            <fr:date href="/2025-12-20/">
-              <fr:year>2025</fr:year>
-              <fr:month>12</fr:month>
-              <fr:day>20</fr:day>
-            </fr:date>
-            <fr:uri>https://c-sarrazin.github.io/cs-000N/</fr:uri>
-            <fr:display-uri>cs-000N</fr:display-uri>
-            <fr:route>/cs-000N/</fr:route>
-            <fr:title text="Isotopie de Moser">Isotopie de Moser</fr:title>
-            <fr:taxon>Lemme</fr:taxon>
-          </fr:frontmatter>
-          <fr:mainmatter>
-            <html:p>Soit <fr:tex display="inline"><![CDATA[M^{2n}]]></fr:tex> une variété lisse équipée de deux formes fermées <fr:tex display="inline"><![CDATA[\omega _1, \omega _2 \in  \Omega ^2(M)]]></fr:tex>. Soit <fr:tex display="inline"><![CDATA[Q \subset  M]]></fr:tex> une sous-variété compacte. Supposons qu'en tout point <fr:tex display="inline"><![CDATA[q\in  Q]]></fr:tex>, <fr:tex display="inline"><![CDATA[\omega _1]]></fr:tex> et <fr:tex display="inline"><![CDATA[\omega _2]]></fr:tex> induisent <html:em>la même</html:em> forme bilinéaire alternée <html:em>non dégénérée</html:em> sur <fr:tex display="inline"><![CDATA[T_qM]]></fr:tex>. Alors il existe deux ouverts <fr:tex display="inline"><![CDATA[U_1, U_2]]></fr:tex> de <fr:tex display="inline"><![CDATA[Q]]></fr:tex> et un difféomorphisme <fr:tex display="inline"><![CDATA[\psi : U_1 \to  U_2]]></fr:tex> tel que <fr:tex display="block"><![CDATA[\psi |_Q = \mathrm {Id} \qquad  \psi ^* \omega _2 = \omega _1.]]></fr:tex></html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>
