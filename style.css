@@ -959,3 +959,29 @@ ol {
 .katex-display {
   overflow-y: visible;
 }
+
+.block .block h1 {
+  font-size: 14pt;
+  text-decoration: underline 3px thistle;
+  font-family: 'Playwrite RO';
+}
+
+.block .block .block h1 {
+  font-size: 12pt;
+  text-decoration: underline 3px pink;
+  font-family: 'Playwrite RO';
+}
+
+section .block[data-taxon] details > summary > header > h1 {
+	font-size: 12pt !important;
+  font-style: normal !important;
+	text-decoration: none !important;
+	font-family: revert !important;
+}
+
+footer h1 {
+  font-size: 12pt !important;
+  font-style: normal !important;
+	text-decoration: none !important;
+	font-family: revert !important;
+}
