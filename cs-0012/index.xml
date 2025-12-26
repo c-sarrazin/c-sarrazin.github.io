@@ -10,17 +10,27 @@
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>12</fr:month>
-      <fr:day>24</fr:day>
+      <fr:day>25</fr:day>
     </fr:date>
-    <fr:uri>https://c-sarrazin.github.io/cs-000S/</fr:uri>
-    <fr:display-uri>cs-000S</fr:display-uri>
-    <fr:route>/cs-000S/</fr:route>
-    <fr:title text="Équation de Newton">Équation de Newton</fr:title>
-    <fr:taxon>Définition</fr:taxon>
+    <fr:uri>https://c-sarrazin.github.io/cs-0012/</fr:uri>
+    <fr:display-uri>cs-0012</fr:display-uri>
+    <fr:route>/cs-0012/</fr:route>
+    <fr:title text="L'algèbre de Lie \mathscr {C}^\infty (T^*M)">L'algèbre de Lie <fr:tex display="inline"><![CDATA[\mathscr {C}^\infty (T^*M)]]></fr:tex></fr:title>
+    <fr:taxon>Propriété</fr:taxon>
   </fr:frontmatter>
-  <fr:mainmatter>
-    <html:p>Soit <fr:tex display="inline"><![CDATA[(M, g)]]></fr:tex> une variété riemannienne munie d'un potentiel, i.e. une fonction lisse <fr:tex display="inline"><![CDATA[V : M \to  \mathbb {R}]]></fr:tex>. L'équation de Newton sur <fr:tex display="inline"><![CDATA[M]]></fr:tex> s'écrit : <fr:tex display="block"><![CDATA[m\nabla _{\dot {x}}\dot {x} = -\mathrm {grad}_g \, V(x)]]></fr:tex></html:p>
-  </fr:mainmatter>
+  <fr:mainmatter><html:p>Soient <fr:tex display="inline"><![CDATA[f,g,h]]></fr:tex> trois fonctions lisses sur <fr:tex display="inline"><![CDATA[T^*M]]></fr:tex>. On a :</html:p><html:ol><html:li>(linéarité)  <fr:tex display="inline"><![CDATA[\{f, g + \lambda  h\} = \{f,g\} + \lambda \{f,h\} ;]]></fr:tex></html:li>
+  <html:li>(antisymétrie) <fr:tex display="inline"><![CDATA[\{f,g\}= -\{g,h\} ;]]></fr:tex></html:li>
+  <html:li>(identité de Jacobi) <fr:tex display="inline"><![CDATA[ \{f, \{g,h\} \} + \{g, \{h,f\} \} + \{h, \{f,g\} \} = 0;]]></fr:tex></html:li>
+  <html:li>(identité de Leibniz) <fr:tex display="inline"><![CDATA[ \{f, gh\} = \{f,g\}h + \{f,h\}g;]]></fr:tex></html:li>
+  <html:li><fr:tex display="inline"><![CDATA[\partial _t \{f,g\} = \{\partial _t f, g\} + \{f, \partial _t g\}.]]></fr:tex></html:li></html:ol><html:p>En particulier, le crochet de Poisson fait de l'algèbre <fr:tex display="inline"><![CDATA[\mathscr {C}^\infty (M)]]></fr:tex> une algèbre de Lie.</html:p>
+ 
+   
+   
+   <fr:tree show-metadata="false" expanded="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>25</fr:day></fr:date><fr:taxon>Preuve</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>Simples vérifications.</html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
@@ -148,36 +158,7 @@ On pose <fr:tex display="inline"><![CDATA[\omega  = - \mathrm {d}\lambda ]]></fr
         <fr:authors />
         <fr:title text="Backlinks">Backlinks</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
-          <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
-              </fr:author>
-            </fr:authors>
-            <fr:date>
-              <fr:year>2025</fr:year>
-              <fr:month>12</fr:month>
-              <fr:day>24</fr:day>
-            </fr:date>
-            <fr:uri>https://c-sarrazin.github.io/cs-000T/</fr:uri>
-            <fr:display-uri>cs-000T</fr:display-uri>
-            <fr:route>/cs-000T/</fr:route>
-            <fr:title text="Équation d'Hamilton">Équation d'Hamilton</fr:title>
-            <fr:taxon>Théorème</fr:taxon>
-          </fr:frontmatter>
-          <fr:mainmatter><html:p><fr:tex display="inline"><![CDATA[\gamma (t)]]></fr:tex> est une solution à l'<fr:link href="/cs-000S/" title="Équation de Newton" uri="https://c-sarrazin.github.io/cs-000S/" display-uri="cs-000S" type="local">équation de Newton</fr:link> si et seulement si <fr:tex display="inline"><![CDATA[(\gamma (t), m\dot {\gamma }(t)^\flat )]]></fr:tex> est une courbe intégrale de <fr:tex display="inline"><![CDATA[X_H]]></fr:tex>.</html:p>
- 
-   
-   
-   <fr:tree show-metadata="false" expanded="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>24</fr:day></fr:date><fr:taxon>Preuve</fr:taxon></fr:frontmatter><fr:mainmatter>
-  <html:p>T'as cru</html:p>
-</fr:mainmatter></fr:tree>
- 
-</fr:mainmatter>
-        </fr:tree>
-      </fr:mainmatter>
+      <fr:mainmatter />
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
