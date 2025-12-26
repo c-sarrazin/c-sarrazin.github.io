@@ -931,7 +931,7 @@ Il suffit ainsi de contrôler la norme de <fr:tex display="inline"><![CDATA[TT^*
             <fr:meta name="author">false</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
-            <html:p>Se trouvent ici mes notes de maths, y compris <fr:link href="/aja/" title="Aujourd'hui j'ai appris..." uri="https://c-sarrazin.github.io/aja/" display-uri="aja" type="local">mon journal mathématique</fr:link> (anciennement "thread AJA") et les <fr:link href="/cs-0001/" title="Mdemi : édition 2026" uri="https://c-sarrazin.github.io/cs-0001/" display-uri="cs-0001" type="local">notes du M½</fr:link>. Ce site est généré par <fr:link href="https://www.forester-notes.org/" type="external">Forester</fr:link>.</html:p>
+            <html:p>Se trouvent ici mes notes de maths, y compris <fr:link href="/aja/" title="Aujourd'hui j'ai appris..." uri="https://c-sarrazin.github.io/aja/" display-uri="aja" type="local">mon journal mathématique</fr:link> (anciennement "thread AJA") et les notes du M½ (<fr:link href="/cs-0001/" title="Mdemi : édition 2026" uri="https://c-sarrazin.github.io/cs-0001/" display-uri="cs-0001" type="local">programme</fr:link>, <fr:link href="/cs-000L/" title="Systèmes intégrables, toriques, semi-toriques" uri="https://c-sarrazin.github.io/cs-000L/" display-uri="cs-000L" type="local">notes symplectiques</fr:link>). Ce site est généré par <fr:link href="https://www.forester-notes.org/" type="external">Forester</fr:link>.</html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>
