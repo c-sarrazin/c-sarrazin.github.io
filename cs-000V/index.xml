@@ -163,22 +163,37 @@ autrement dit <fr:tex display="inline"><![CDATA[f \mapsto  X_f]]></fr:tex> est u
                 <fr:date>
                   <fr:year>2025</fr:year>
                   <fr:month>12</fr:month>
-                  <fr:day>26</fr:day>
+                  <fr:day>18</fr:day>
                 </fr:date>
-                <fr:uri>https://c-sarrazin.github.io/cs-0016/</fr:uri>
-                <fr:display-uri>cs-0016</fr:display-uri>
-                <fr:route>/cs-0016/</fr:route>
-                <fr:title text="L'exemple du pendule sphérique">L'exemple du pendule sphérique</fr:title>
+                <fr:title text="Quelques exemples physiques">Quelques exemples physiques</fr:title>
               </fr:frontmatter>
               <fr:mainmatter>
-                <html:p>Un pendule sphérique est constitué d'un point de masse <fr:tex display="inline"><![CDATA[m]]></fr:tex> fixé à une tige de longueur 1. La position de la masse est décrite par un point <fr:tex display="inline"><![CDATA[x = (x_1, x_2, x_3) \in  S^2]]></fr:tex> la sphère unité. Sa vitesse est décrite par <fr:tex display="inline"><![CDATA[v \in  T_xS^2]]></fr:tex>, c'est à dire <fr:tex display="inline"><![CDATA[(v_1, v_2, v_3) \in  \mathbb {R}^3]]></fr:tex> tel que <fr:tex display="inline"><![CDATA[v\cdot  x = 0]]></fr:tex>.</html:p>
-                <html:p>En tant que sous-variété de <fr:tex display="inline"><![CDATA[\mathbb {R}^3]]></fr:tex>, <fr:tex display="inline"><![CDATA[S^2]]></fr:tex> est munie d'une métrique riemannienne induite. On peut donc dire que le moment de la masse est décrit par <fr:tex display="inline"><![CDATA[p = mv^\flat  \in  T^*S^2]]></fr:tex>.</html:p>
-                <html:p>La seule force à laquelle est soumise la masse est la gravité. Cela donne le hamiltonien <fr:tex display="block"><![CDATA[H(x, p) = \frac {1}{2m}\lvert  p^{\sharp }\rvert _g^2 + mg x_3 = \frac {1}{2m}\left (p_{\theta }^2 + \frac {p_\phi ^2}{\sin ^2 \theta }\right ) + mg \cos  \theta ]]></fr:tex>en réécrivant le hamiltonien en coordonnées sphériques sur <fr:tex display="inline"><![CDATA[S^2 \setminus  \{S, N\} \cong  ] 0, \pi   [ \times  ] 0, 2\pi   []]></fr:tex>.</html:p>
-                <html:p>Les équations de Hamilton sont donc <fr:tex display="block"><![CDATA[\begin {align*}
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2025</fr:year>
+                      <fr:month>12</fr:month>
+                      <fr:day>26</fr:day>
+                    </fr:date>
+                    <fr:uri>https://c-sarrazin.github.io/cs-0016/</fr:uri>
+                    <fr:display-uri>cs-0016</fr:display-uri>
+                    <fr:route>/cs-0016/</fr:route>
+                    <fr:title text="L'exemple du pendule sphérique">L'exemple du pendule sphérique</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>Un pendule sphérique est constitué d'un point de masse <fr:tex display="inline"><![CDATA[m]]></fr:tex> fixé à une tige de longueur 1. La position de la masse est décrite par un point <fr:tex display="inline"><![CDATA[x = (x_1, x_2, x_3) \in  S^2]]></fr:tex> la sphère unité. Sa vitesse est décrite par <fr:tex display="inline"><![CDATA[v \in  T_xS^2]]></fr:tex>, c'est à dire <fr:tex display="inline"><![CDATA[(v_1, v_2, v_3) \in  \mathbb {R}^3]]></fr:tex> tel que <fr:tex display="inline"><![CDATA[v\cdot  x = 0]]></fr:tex>.</html:p>
+                    <html:p>En tant que sous-variété de <fr:tex display="inline"><![CDATA[\mathbb {R}^3]]></fr:tex>, <fr:tex display="inline"><![CDATA[S^2]]></fr:tex> est munie d'une métrique riemannienne induite. On peut donc dire que le moment de la masse est décrit par <fr:tex display="inline"><![CDATA[p = mv^\flat  \in  T^*S^2]]></fr:tex>.</html:p>
+                    <html:p>La seule force à laquelle est soumise la masse est la gravité. Cela donne le hamiltonien <fr:tex display="block"><![CDATA[H(x, p) = \frac {1}{2m}\lvert  p^{\sharp }\rvert _g^2 + mg x_3 = \frac {1}{2m}\left (p_{\theta }^2 + \frac {p_\phi ^2}{\sin ^2 \theta }\right ) + mg \cos  \theta ]]></fr:tex>en réécrivant le hamiltonien en coordonnées sphériques sur <fr:tex display="inline"><![CDATA[S^2 \setminus  \{S, N\} \cong  ] 0, \pi   [ \times  ] 0, 2\pi   []]></fr:tex>.</html:p>
+                    <html:p>Les équations de Hamilton sont donc <fr:tex display="block"><![CDATA[\begin {align*}
     \dot \theta  = \frac {p_\theta }{m} \qquad  \dot \phi  = \frac {p_\phi }{m\sin ^2 \theta } \\
     \dot {p}_\theta  = \frac {p_\phi  ^2 \cos  \theta }{m\sin ^3 \theta } + mg \sin  \theta  \qquad  \dot {p}_\phi  = 0
     \end {align*}]]></fr:tex></html:p>
-                <html:p>De ces équations, un physicien peut tirer des équations du second ordre en <fr:tex display="inline"><![CDATA[\theta ]]></fr:tex> et <fr:tex display="inline"><![CDATA[\phi ]]></fr:tex>. On remarque aussi qu'une quantité est conservée : <fr:tex display="block"><![CDATA[p_\phi  = m \sin ^2 \theta  \dot {\phi } = (x \times  mv)_3.]]></fr:tex>
+                    <html:p>De ces équations, un physicien peut tirer des équations du second ordre en <fr:tex display="inline"><![CDATA[\theta ]]></fr:tex> et <fr:tex display="inline"><![CDATA[\phi ]]></fr:tex>. On remarque aussi qu'une quantité est conservée : <fr:tex display="block"><![CDATA[p_\phi  = m \sin ^2 \theta  \dot {\phi } = (x \times  mv)_3.]]></fr:tex>
     Il s'agit du moment angulaire autour de l'axe vertical. Il est conservé car le système est invariant par rotation autour de l'axe vertical. C'est une illustration du principe de Noether : à une symétrie correspond une quantité conservée. Appelons-la :<fr:tex display="block"><![CDATA[\begin {align*}J : T^*S^2 &\to  \mathbb {R} \\
     (x,p) &\mapsto  (x \times  mv)_3\end {align*}]]></fr:tex>
     <fr:tex display="inline"><![CDATA[J]]></fr:tex> a une valeur singulière en <fr:tex display="inline"><![CDATA[\mu  = 0]]></fr:tex> venant des singularités aux pôles. Pour <fr:tex display="inline"><![CDATA[\mu  \neq  0]]></fr:tex>, <fr:tex display="inline"><![CDATA[J^{-1}(\mu )]]></fr:tex> est une sous-variété de codimension 1 de <fr:tex display="inline"><![CDATA[T^*S^2]]></fr:tex> qui est invariante par le flot. En coordonnées sphériques, il s'agit simplement de <fr:tex display="inline"><![CDATA[ \{(\theta , \phi , p_\theta , p_\phi  = \mu )\} \cong  ] 0, \pi   [ \times  S^1 \times  \mathbb {R}]]></fr:tex>
@@ -442,9 +457,11 @@ J^{-1}(\mu )/S^1                                                  &
 
     On cherche à obtenir une forme symplectique induite sur <fr:tex display="inline"><![CDATA[M_\mu ]]></fr:tex>, c'est à dire une 2-forme <fr:tex display="inline"><![CDATA[\omega _{\text {red}}]]></fr:tex> fermée non dégénérée telle que <fr:tex display="inline"><![CDATA[\pi ^*\omega _{\text {red}} = \iota ^*\omega ]]></fr:tex>. Ici, on voit que <fr:tex display="inline"><![CDATA[\mathrm {d}\theta  \wedge  \mathrm {d} p_\theta ]]></fr:tex> convient.
 </html:p>
-                <html:p>Cela suffit pour définir le crochet de Poisson et les champs hamiltoniens comme auparavant! Ici, comme le hamiltonien est invariant sous l'action de <fr:tex display="inline"><![CDATA[S^1]]></fr:tex> (en clair, ne dépend pas de <fr:tex display="inline"><![CDATA[\phi ]]></fr:tex>), il induit sur <fr:tex display="inline"><![CDATA[M_\mu ]]></fr:tex> le hamiltonien <fr:tex display="block"><![CDATA[H_\mu (\theta , p_\theta ) = \frac {1}{2m}\left (p_{\theta }^2 + \frac {\mu ^2}{\sin ^2 \theta }\right ) + mg \cos  \theta ]]></fr:tex>
+                    <html:p>Cela suffit pour définir le crochet de Poisson et les champs hamiltoniens comme auparavant! Ici, comme le hamiltonien est invariant sous l'action de <fr:tex display="inline"><![CDATA[S^1]]></fr:tex> (en clair, ne dépend pas de <fr:tex display="inline"><![CDATA[\phi ]]></fr:tex>), il induit sur <fr:tex display="inline"><![CDATA[M_\mu ]]></fr:tex> le hamiltonien <fr:tex display="block"><![CDATA[H_\mu (\theta , p_\theta ) = \frac {1}{2m}\left (p_{\theta }^2 + \frac {\mu ^2}{\sin ^2 \theta }\right ) + mg \cos  \theta ]]></fr:tex>
 et les équations d'Hamilton associées à <fr:tex display="inline"><![CDATA[H_\mu ]]></fr:tex> décrivent la dynamique sur l'espace de phases réduit. (Dans ce cas très spécial, on retrouve simplement les équations déjà connues.)</html:p>
-                <html:p>On a ainsi exploité la symétrie pour se ramener d'un système en deux (quatre) dimensions à un système à une (deux) dimensions. C'est la réduction symplectique, qu'on rencontrera en toute généralité plus tard. De plus, la réduction symplectique d'un espace de phases complet <fr:tex display="inline"><![CDATA[T^*M]]></fr:tex> peut donner une variété qui n'est plus naturellement un espace cotangent, mais qui est quand même muni d'une 2-forme fermée non dégénérée induite par la forme symplectique canonique : c'est une variété symplectique !</html:p>
+                    <html:p>On a ainsi exploité la symétrie pour se ramener d'un système en deux (quatre) dimensions à un système à une (deux) dimensions. C'est la réduction symplectique, qu'on rencontrera en toute généralité plus tard. De plus, la réduction symplectique d'un espace de phases complet <fr:tex display="inline"><![CDATA[T^*M]]></fr:tex> peut donner une variété qui n'est plus naturellement un espace cotangent, mais qui est quand même muni d'une 2-forme fermée non dégénérée induite par la forme symplectique canonique : c'est une variété symplectique !</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
               </fr:mainmatter>
             </fr:tree>
           </fr:mainmatter>
