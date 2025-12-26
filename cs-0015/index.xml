@@ -10,17 +10,24 @@
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>12</fr:month>
-      <fr:day>24</fr:day>
+      <fr:day>26</fr:day>
     </fr:date>
-    <fr:uri>https://c-sarrazin.github.io/cs-000U/</fr:uri>
-    <fr:display-uri>cs-000U</fr:display-uri>
-    <fr:route>/cs-000U/</fr:route>
-    <fr:title text="Hamiltonien">Hamiltonien</fr:title>
-    <fr:taxon>Définition</fr:taxon>
+    <fr:uri>https://c-sarrazin.github.io/cs-0015/</fr:uri>
+    <fr:display-uri>cs-0015</fr:display-uri>
+    <fr:route>/cs-0015/</fr:route>
+    <fr:title text="Morphisme d'algèbres de Lie">Morphisme d'algèbres de Lie</fr:title>
+    <fr:taxon>Propriété</fr:taxon>
   </fr:frontmatter>
-  <fr:mainmatter>
-    <html:p>Soit <fr:tex display="inline"><![CDATA[(M, g)]]></fr:tex> une variété riemannienne munie d'un potentiel <fr:tex display="inline"><![CDATA[V]]></fr:tex>. Soit <fr:tex display="inline"><![CDATA[(x,p) \in  T^*M]]></fr:tex>. On note le hamiltonien associé à <fr:tex display="inline"><![CDATA[V]]></fr:tex> <fr:tex display="block"><![CDATA[H(x,p) = \frac {1}{2m}\lvert  p^{\sharp }\rvert _g^2 + V(x)]]></fr:tex></html:p>
-  </fr:mainmatter>
+  <fr:mainmatter><html:p>Soient <fr:tex display="inline"><![CDATA[f, g\in  \mathscr {C}^\infty (T^*M)]]></fr:tex>. Alors on a <fr:tex display="block"><![CDATA[X_{ \{f, g\} } = [X_f, X_g],]]></fr:tex>
+autrement dit <fr:tex display="inline"><![CDATA[f \mapsto  X_f]]></fr:tex> est un morphisme d'algèbres de Lie entre <fr:tex display="inline"><![CDATA[\mathscr {C}^\infty (T^*M)]]></fr:tex> et <fr:tex display="inline"><![CDATA[\mathfrak {X}(T^*M)]]></fr:tex>.</html:p>
+ 
+   
+   
+   <fr:tree show-metadata="false" expanded="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/cs/" title="Constance" uri="https://c-sarrazin.github.io/cs/" display-uri="cs" type="local">Constance</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>12</fr:month><fr:day>26</fr:day></fr:date><fr:taxon>Preuve</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>Oui oui...</html:p>
+</fr:mainmatter></fr:tree>
+ 
+</fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
